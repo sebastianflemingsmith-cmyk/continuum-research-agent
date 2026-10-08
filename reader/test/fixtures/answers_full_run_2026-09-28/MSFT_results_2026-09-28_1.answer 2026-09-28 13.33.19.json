@@ -1,0 +1,121 @@
+{
+ "items": [
+  {
+   "item": "F031:MSFT",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": null,
+   "period_type": "said",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million paid seats, reflecting the confidence customers are placing in us to power their AI transformation,"
+    },
+    {
+     "role": "evidence",
+     "text": "Azure and other cloud services revenue increased 43%"
+    },
+    {
+     "role": "evidence",
+     "text": "Microsoft Cloud revenue was $59.3 billion and increased 27%, and commercial remaining performance obligation increased 84% to $678 billion."
+    }
+   ],
+   "comment": "The document does not disclose an AI business annual revenue run rate, $37 billion, or any equivalent AI-business run-rate measure. Closest AI-related metrics are Azure revenue, Copilot paid seats, and Microsoft Cloud revenue."
+  },
+  {
+   "item": "F031:MSFT_growth",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "%",
+   "period_end": null,
+   "period_type": "said",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million paid seats, reflecting the confidence customers are placing in us to power their AI transformation,"
+    },
+    {
+     "role": "evidence",
+     "text": "Azure and other cloud services revenue increased 43%"
+    },
+    {
+     "role": "evidence",
+     "text": "Microsoft Cloud revenue was $59.3 billion and increased 27%, and commercial remaining performance obligation increased 84% to $678 billion."
+    }
+   ],
+   "comment": "No year-on-year growth rate for an AI business annual run rate is disclosed. The document gives growth rates for Azure, Microsoft Cloud, and other products instead."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Commercial remaining performance obligation backlog",
+   "related_rows": [
+    "F031:MSFT"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Microsoft Cloud revenue was $59.3 billion and increased 27%, and commercial remaining performance obligation increased 84% to $678 billion."
+    }
+   ],
+   "why_it_matters": "Shows the contracted future cloud and AI revenue backlog, relevant to assessing durability of AI-related revenue."
+  },
+  {
+   "topic": "AI infrastructure capital expenditure",
+   "related_rows": [
+    "F031:MSFT"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Additions to property and equipment\n(35,802)\n(17,079)\n(115,948)\n(64,551)"
+    }
+   ],
+   "why_it_matters": "Large and rising property and equipment additions indicate heavy AI infrastructure investment."
+  },
+  {
+   "topic": "Azure and Copilot scale",
+   "related_rows": [
+    "F031:MSFT"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million paid seats, reflecting the confidence customers are placing in us to power their AI transformation,"
+    }
+   ],
+   "why_it_matters": "Gives AI-related revenue and adoption scale in lieu of the paper's AI run-rate measure."
+  },
+  {
+   "topic": "Anthropic investment gain",
+   "related_rows": [
+    "F031:MSFT"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "These include a $3.2 billion gain from our investment in Anthropic and lower-than-expected expenses related to the Voluntary Retirement Program which were partially offset by severance expense and impairment charges in XBOX."
+    }
+   ],
+   "why_it_matters": "Highlights non-operating AI investment gains that affect earnings comparability."
+  },
+  {
+   "topic": "OpenAI investment impact",
+   "related_rows": [
+    "F031:MSFT"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In fiscal year 2026, net income and diluted earnings per share were impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted earnings per share of $480 million and $0.07, respectively, in the fourth quarter, and $4,963 million and $0.67, respectively, for the full fiscal year."
+    }
+   ],
+   "why_it_matters": "Shows AI-related investment gains that adjust GAAP results and can complicate comparability with AI run-rate metrics."
+  }
+ ]
+}

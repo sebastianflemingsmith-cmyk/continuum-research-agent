@@ -1,0 +1,92 @@
+{
+ "items": [
+  {
+   "item": "F045:META",
+   "found": true,
+   "value": 75.0,
+   "value_as_printed": "$75 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "annual revenue run-rate",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Our AI-powered Advantage+ end-to-end solutions continued to grow, reaching over $75 billion in annual revenue run-rate this quarter."
+    },
+    {
+     "role": "context",
+     "text": "We’re also leveraging AI to empower businesses to more easily manage their campaigns, develop ad creative, and engage with their customers."
+    }
+   ],
+   "comment": "Stated for Q2 2026; figure is 'over $75 billion'."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "BlackRock data center venture",
+   "related_rows": [
+    "F045"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Yesterday, as part of our Meta Compute effort, we announced a new strategic venture with BlackRock to develop a new 1GW data center in El Paso, Texas."
+    }
+   ],
+   "why_it_matters": "New partnership structure adds external capital to AI data-center buildout."
+  },
+  {
+   "topic": "2026 capex outlook",
+   "related_rows": [
+    "F045"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion."
+    }
+   ],
+   "why_it_matters": "Capex guidance range indicates scale of AI infrastructure investment."
+  },
+  {
+   "topic": "Q2 capital expenditures",
+   "related_rows": [
+    "F045"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Capital expenditures, including principal payments on finance leases, were $31.1 billion, driven by investments in servers, data centers, and network infrastructure."
+    }
+   ],
+   "why_it_matters": "Quarterly capex reflects ongoing AI infrastructure spend."
+  },
+  {
+   "topic": "cash and debt",
+   "related_rows": [
+    "F045"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We ended the quarter with $90.3 billion in cash and marketable securities and $83.7 billion in debt."
+    }
+   ],
+   "why_it_matters": "Balance sheet capacity and debt mix support infrastructure funding."
+  },
+  {
+   "topic": "industry capacity tightness",
+   "related_rows": [
+    "F045"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Finally, we believe that overall industry capacity is going to remain tight for the foreseeable future."
+    }
+   ],
+   "why_it_matters": "Industry capacity tightness supports demand for compute and infrastructure investment."
+  }
+ ]
+}

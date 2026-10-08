@@ -1,0 +1,31 @@
+{
+  "source_revision": "078d9f328b53e4526feeef288224439de79d04d8",
+  "snapshot_date": "2026-10-08",
+  "production_sha256": {
+    "reader/open_proposals.py": "25e28cf2c7cbeec3d9e6b31129d00f1f1e6c0d1a8cb3b4ab02d3e70e820d110b",
+    "reader/reader_text.py": "51b741b5788015fd16ea95044fe006b42724d738e3b0c177d18a78048aab8c54",
+    "reader/claims.py": "1c7c5275ba4da78669783274364fc1bbb026c7cd602c45232b67b7608303446f",
+    "reader/reader_sec.py": "e5f7367433e492e23d02ee35bb210027cc05e0fd487dbef7c9c39884fa89a380",
+    "reader/companies.py": "7bbbe192445cec4907e4cefb5fc8d4fd169198dc538d5f108b80b029a2dd1c57",
+    "reader/lib/openlist.py": "52d171e9f1eadc18194e7b70d42410da67e34993725fdb5a5bc9ffa69fd5160a",
+    "reader/lib/handoff.py": "bec4d0601cfc821f2923d4dfd6e3bccec363c32c8505e5835adad77a96858dd0",
+    "reader/lib/checks.py": "6ee86467c490cd5febf9bb00030bb320fb7838795a8bf8b30a384dd31b6dc340",
+    "reader/lib/documents.py": "1922dde137ffb95489f1553563b59b322506d8b64e244ecea1b6f4edf46700dc",
+    "reader/lib/ai.py": "b8f919f719b708b7d117ae89afdce399becdd16758946a264dbdf85d1ebb3029",
+    "reader/lib/__init__.py": "6e0771589fda0705fd28942d6480c1212a766d95d5ad8e22a5de7a19175cef92",
+    "reader/lib/verdicts.py": "06eb76d9e96b3615c88c9d1a03afdc2498cac34e2f4cb371ca9c9453633bc590",
+    "reader/lib/leads.py": "bfc1e9e85f98454404a6f9944679ca3119f5ee1d452e83afe45d7e4638a560d0",
+    "reader/lib/tables.py": "1067351b4dfc3ab61d18b50224ca1aa025753760dde50691f7f977d269f48a9b",
+    "reader/lib/extract.py": "369ea3d4c9627ad3a9c7e2ca33129fe51a95113c839fe371b35cf83d80a52569",
+    "reader/lib/report.py": "b1a2e5670db3cebc44b19ecc0f2e4c120df65a1548f4f86edc1507b0e6f9f575",
+    "watcher/watcher.py": "04791926e32dd3a22de79efe5955fcd45e4bbec3e0097d40d68e3d5782eeb67a",
+    "runner/probe.py": "1757a1e510a754f2e1eb8ee8e7703e73a0fc1cfc54f2b4e70be30032dc3b7a20",
+    "review/build.py": "658548a457c2b1d9bd101f8d2846f131d8df2a1dd7c6691894b4d4e4dd982cb0",
+    "approvals/suggest.py": "dbeb251267748149027b35a7bdc559482f42edc0e371742920cb8f3223c0f0a1",
+    "approvals/approvals.py": "6b28e170a704c791052d889034257883b78d2833f387d2f63f1b6ebe009ec7ff",
+    "approvals/sheet.py": "a4c4576717afd402a89cb37d49cb6cdd33e82fc843f599e1b6aeb51e79f460a8",
+    "approvals/figures.py": "ec66cd7b0c8fe44c53117f3e3cb21f0f48f0dc3bbf53e7f844eedbb914ea8029",
+    "approvals/gate.py": "16f4d9f28b9a3a7b5682b3a15ac18618fdc3c6cee51d491f510b6b5cf74b8588",
+    "approvals/xlsx.py": "07a37d8e5cc6ccbdedffb3edeac4db63b6fd493ac5381f4d3d50cdd6a71bc554"
+  }
+}

@@ -1,0 +1,244 @@
+{
+ "items": [
+  {
+   "item": "F035:META",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": "absence",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Revenue disaggregated by revenue source and by segment consists of the following (in millions):"
+    },
+    {
+     "role": "evidence",
+     "text": "Advertising | $59,363 | $46,563 | $114,387 | $87,955"
+    },
+    {
+     "role": "evidence",
+     "text": "Other revenue | 1,007 | 583 | 1,891 | 1,093"
+    },
+    {
+     "role": "evidence",
+     "text": "Reality Labs | 431 | 370 | 833 | 782"
+    }
+   ],
+   "comment": "No separately disclosed AI revenue figure. Revenue is disaggregated only by source (advertising, other) and segment (Family of Apps, Reality Labs); AI is discussed as an investment area, not a revenue line."
+  },
+  {
+   "item": "F046:META_total",
+   "found": true,
+   "value": 27,
+   "value_as_printed": "$ 27 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "total estimated development costs",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "Our non-marketable equity method investments include an arrangement, entered into in October 2025, to co-develop a data center campus in Louisiana (the Venture), in which we hold a 20 % membership interest."
+    },
+    {
+     "role": "value",
+     "text": "The parties have committed to fund their respective pro rata share of approximately $ 27 billion in total estimated development costs."
+    }
+   ],
+   "comment": "Meta calls it the Venture (Louisiana data center campus); total estimated development cost is ~$27bn, the parties' committed pro rata funding."
+  },
+  {
+   "item": "F046:META_share",
+   "found": true,
+   "value": 20,
+   "value_as_printed": "20 %",
+   "unit": "%",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "membership interest in the Venture",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Our non-marketable equity method investments include an arrangement, entered into in October 2025, to co-develop a data center campus in Louisiana (the Venture), in which we hold a 20 % membership interest."
+    }
+   ],
+   "comment": "Meta holds a 20% membership interest in the Louisiana Venture; it does not consolidate the VIE."
+  },
+  {
+   "item": "F060:META",
+   "found": true,
+   "value": 278.99,
+   "value_as_printed": "$ 278.99 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "operating and finance leases that have not yet commenced",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "In addition to the lease liabilities that are included on our balance sheet, we have operating and finance leases that have not yet commenced as of June 30, 2026."
+    },
+    {
+     "role": "value",
+     "text": "These lease obligations were approximately $ 278.99 billion, consisting of data centers, colocations, and certain network infrastructure, which will commence during the remainder of 2026 through 2036 with lease terms ranging from greater than one year to 30 years."
+    }
+   ],
+   "comment": "Latest-period figure for leases not yet commenced is $278.99bn at 2026-06-30 (vs the paper's $103.77bn at 2025-12-31)."
+  },
+  {
+   "item": "F078:META_min",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "years",
+   "period_end": null,
+   "period_type": "policy",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "There have been no material changes to our significant accounting policies from our Annual Report on Form 10-K for the year ended December 31, 2025."
+    },
+    {
+     "role": "evidence",
+     "text": "Within property and equipment, our servers and network assets depreciation expense was $ 4.62 billion and $ 3.12 billion for the three months ended June 30, 2026 and 2025, respectively, and $ 9.01 billion and $ 5.74 billion for the six months ended June 30, 2026 and 2025, respectively."
+    }
+   ],
+   "comment": "This 10-Q does not state an estimated useful life for servers and network assets; it says there have been no material changes to significant accounting policies and refers to the 2025 Form 10-K."
+  },
+  {
+   "item": "F078:META_max",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "years",
+   "period_end": null,
+   "period_type": "policy",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "There have been no material changes to our significant accounting policies from our Annual Report on Form 10-K for the year ended December 31, 2025."
+    },
+    {
+     "role": "evidence",
+     "text": "We base our estimates and judgments on historical information and on various other assumptions that we believe are reasonable under the circumstances."
+    }
+   ],
+   "comment": "No upper-end useful life for servers and network assets is disclosed in this 10-Q; depreciation amounts are given but not the lives."
+  },
+  {
+   "item": "F132:META",
+   "found": true,
+   "value": 80.345,
+   "value_as_printed": "80,345",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Construction in progress",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "Property and equipment, net consists of the following (in millions):"
+    },
+    {
+     "role": "column",
+     "text": "June 30, 2026 | December 31, 2025"
+    },
+    {
+     "role": "value",
+     "text": "Construction in progress (1) | 80,345 | 50,521"
+    }
+   ],
+   "comment": "Construction in progress is $80,345 million at June 30, 2026 (prior year-end $50,521 million); mostly data centers, servers and network infrastructure."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "July 2026 additional data center leases",
+   "related_rows": [
+    "F060",
+    "F132"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In July 2026, we entered into additional data center leases with lease obligations of approximately $ 68 billion, which are expected to commence in 2027 and 2028, with lease terms of 18 to 20 years."
+    }
+   ],
+   "why_it_matters": "Post-balance-sheet leases add further off-balance-sheet AI data center obligations on top of the leases not yet commenced."
+  },
+  {
+   "topic": "Non-cancelable contractual commitments and cloud capacity",
+   "related_rows": [
+    "F060",
+    "F132"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, we had $ 349.31 billion of non-cancelable contractual commitments, comprising both short-term and long-term arrangements."
+    },
+    {
+     "role": "value",
+     "text": "In addition, as of June 30, 2026, we have contingent obligations to purchase up to $ 14.72 billion of cloud capacity over a five-year period, which may be reduced if the cloud service provider is able to sell such capacity to other customers."
+    }
+   ],
+   "why_it_matters": "Quantifies committed third-party cloud and infrastructure spend that underpins Meta's AI build-out."
+  },
+  {
+   "topic": "Residual value guarantees and maximum exposure on Louisiana venture",
+   "related_rows": [
+    "F046"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In addition, we have provided residual value guarantees (RVG) with an aggregate threshold of approximately $ 28 billion that decreases over time."
+    },
+    {
+     "role": "value",
+     "text": "our maximum exposure to loss related to the Venture was $ 46.03 billion and $ 45.95 billion, respectively, consisting of the carrying value of our equity investment, the lease commitments, our estimated future funding commitments, and the maximum RVG threshold"
+    }
+   ],
+   "why_it_matters": "Shows guarantees and lease commitments beyond Meta's 20% equity interest in the data center venture."
+  },
+  {
+   "topic": "May 2026 notes issuance and 2026 capital expenditure guidance",
+   "related_rows": [
+    "F132"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In May 2026, we issued an aggregate of $ 25.00 billion of fixed-rate senior unsecured notes in six series."
+    },
+    {
+     "role": "value",
+     "text": "We anticipate making capital expenditures of approximately $ 130 billion to $ 145 billion in 2026 to support our AI efforts and core business."
+    }
+   ],
+   "why_it_matters": "Debt funding and guided capex size the financing need behind Meta's AI infrastructure program."
+  },
+  {
+   "topic": "El Paso data center venture (subsequent event)",
+   "related_rows": [
+    "F046"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In July 2026, we entered into an exclusivity agreement to co-develop a data center campus in El Paso, Texas, through a venture in which we would hold a 20 % membership interest."
+    },
+    {
+     "role": "value",
+     "text": "We will also provide residual value guarantees with a maximum aggregate exposure of approximately $ 13 billion."
+    }
+   ],
+   "why_it_matters": "A second minority-interest data center venture with residual value guarantees repeats the Louisiana financing structure."
+  }
+ ]
+}

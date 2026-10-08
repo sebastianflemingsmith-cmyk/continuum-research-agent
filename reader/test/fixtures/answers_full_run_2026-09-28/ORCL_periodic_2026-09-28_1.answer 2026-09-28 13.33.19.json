@@ -1,0 +1,330 @@
+{
+ "items": [
+  {
+   "item": "F035:ORCL",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": "absence",
+   "line_item": "",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "The following table presents our cloud revenues by offerings:"
+    },
+    {
+     "role": "evidence",
+     "text": "Cloud applications\n$ 4,219\n$ 3,839\nCloud infrastructure\n7,388\n3,347\nTotal cloud revenues\n$ 11,607\n$ 7,186"
+    },
+    {
+     "role": "evidence",
+     "text": "The following table presents a summary of our total revenues by geographic region, which are generally based on the location of our customers:"
+    }
+   ],
+   "comment": "No separately disclosed AI revenue figure. Revenues are disaggregated only by offering (cloud applications, cloud infrastructure, software license, software support), by business and by geography; AI capabilities are described qualitatively as embedded in existing offerings."
+  },
+  {
+   "item": "F059:ORCL",
+   "found": true,
+   "value": 288,
+   "value_as_printed": "$ 288 billion",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "instant",
+   "line_item": "additional lease commitments",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of August 31, 2026 , we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements"
+    },
+    {
+     "role": "context",
+     "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+    },
+    {
+     "role": "context",
+     "text": "6. LEASES AND OTHER COMMITMENTS"
+    }
+   ],
+   "comment": "Latest figure is $288bn as of 2026-08-31, versus the paper's $260bn as of 2026-05-31."
+  },
+  {
+   "item": "F065:ORCL_start",
+   "found": true,
+   "value_text": "second quarter of fiscal 2027",
+   "unit": "text",
+   "period_end": "2026-08-31",
+   "period_type": "instant",
+   "line_item": "additional lease commitments expected to commence",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+    }
+   ],
+   "comment": "Document says the second quarter of fiscal 2027, not the first quarter of fiscal 2027 as in the paper."
+  },
+  {
+   "item": "F065:ORCL_end",
+   "found": true,
+   "value_text": "fiscal 2029",
+   "unit": "text",
+   "period_end": "2026-08-31",
+   "period_type": "instant",
+   "line_item": "additional lease commitments expected to commence",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+    }
+   ],
+   "comment": "Last commencement year unchanged: fiscal 2029."
+  },
+  {
+   "item": "F065:ORCL_term_min",
+   "found": true,
+   "value": 15,
+   "value_as_printed": "fifteen",
+   "unit": "years",
+   "period_end": "2026-08-31",
+   "period_type": "instant",
+   "line_item": "terms of fifteen to nineteen years",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+    }
+   ],
+   "comment": "Shortest term of the additional leases: fifteen years."
+  },
+  {
+   "item": "F065:ORCL_term_max",
+   "found": true,
+   "value": 19,
+   "value_as_printed": "nineteen",
+   "unit": "years",
+   "period_end": "2026-08-31",
+   "period_type": "instant",
+   "line_item": "terms of fifteen to nineteen years",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+    }
+   ],
+   "comment": "Longest term of the additional leases: nineteen years."
+  },
+  {
+   "item": "F150:ORCL_ytd",
+   "found": true,
+   "value": 11.363,
+   "value_as_printed": "11,363",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "ytd",
+   "line_item": "Increase in deferred revenues from customer prepayments with significant financing component",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363\n—"
+    },
+    {
+     "role": "column",
+     "text": "Three Months Ended August 31,"
+    },
+    {
+     "role": "units",
+     "text": "(in millions)"
+    },
+    {
+     "role": "context",
+     "text": "During the first quarter of fiscal 2027, we received $ 11.4 billion of prepayments from customers that included a significant financing component."
+    }
+   ],
+   "comment": "Fiscal 2027 to date (three months ended 2026-08-31): $11,363 million."
+  },
+  {
+   "item": "F150:ORCL_prior_ytd",
+   "found": true,
+   "value": 0,
+   "value_as_printed": "—",
+   "unit": "$bn",
+   "period_end": "2025-08-31",
+   "period_type": "ytd",
+   "line_item": "Increase in deferred revenues from customer prepayments with significant financing component",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363\n—"
+    },
+    {
+     "role": "column",
+     "text": "2026\n2025"
+    },
+    {
+     "role": "context",
+     "text": "No prepayments from customers that included a significant financing component were received during the first quarter of fiscal 2026."
+    }
+   ],
+   "comment": "Prior-year comparative is nil (shown as “—”); the note confirms no such prepayments in the first quarter of fiscal 2026."
+  },
+  {
+   "item": "F152:ORCL",
+   "found": true,
+   "value": 288,
+   "value_as_printed": "$ 288 billion",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "instant",
+   "line_item": "additional lease commitments",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of August 31, 2026 , we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements"
+    },
+    {
+     "role": "context",
+     "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+    }
+   ],
+   "comment": "Lease commitments signed but not commenced: $288bn at 2026-08-31."
+  },
+  {
+   "item": "F154:ORCL_atm",
+   "found": true,
+   "value": 19.9,
+   "value_as_printed": "$ 19.9 billion",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "3m",
+   "line_item": "net proceeds from issuance of common stock via the ATM Program",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "During the first quarter ended August 31, 2026, we fully utilized the ATM Program and issued 141 million shares of common stock under the ATM Program for net proceeds of $ 19.9 billion."
+    },
+    {
+     "role": "context",
+     "text": "pursuant to which we may sell shares of our common stock having aggregate sales proceeds of up to $ 20 billion from time to time through an “at-the-market” offering program (the ATM Program)."
+    },
+    {
+     "role": "value",
+     "text": "Proceeds from issuances of common stock via at-the-market program, net of issuance costs\n19,909\n—"
+    }
+   ],
+   "comment": "ATM net proceeds of $19.9bn ($19,909 million) in the quarter; program fully utilized."
+  },
+  {
+   "item": "F154:ORCL_debt",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": "absence",
+   "line_item": "",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Repayments of senior notes, term loan credit agreements and other borrowings\n( 4,202 )\n( 1,052 )"
+    },
+    {
+     "role": "evidence",
+     "text": "(Repayments of) proceeds from short-term financing related to capital expenditures, net\n( 830 )\n1,958"
+    },
+    {
+     "role": "evidence",
+     "text": "Repayments of commercial paper, net\n—\n( 238 )"
+    }
+   ],
+   "comment": "The financing section of the cash-flow statement shows only repayments (senior notes/term loan/other borrowings, short-term capex financing, commercial paper); there is no 'proceeds from borrowings' or 'issuance of notes' line, and no note reporting new debt issued in the quarter. The only new-debt reference is the $43.0 billion of senior notes issued in fiscal 2026 (prior year), so the paper's 'no debt' assertion is consistent with the document."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Remaining performance obligations jumped to $664bn",
+   "related_rows": [
+    "F059",
+    "F152"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Remaining performance obligations were $ 664 billion as of August 31, 2026 , of which we expect to recognize approximately 13 % as revenues over the next twelve months"
+    }
+   ],
+   "why_it_matters": "Backlog growth is the demand driver behind the off-balance-sheet data-center lease commitments."
+  },
+  {
+   "topic": "Capital expenditures step-up and unpaid capex",
+   "related_rows": [
+    "F154"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Cash used for capital expenditures increased from $8.5 billion in the first quarter of fiscal 2026 to $28.5 billion in the first quarter of fiscal 2027 primarily due to the expansion of our data centers."
+    },
+    {
+     "role": "value",
+     "text": "Unpaid capital expenditures\n$ 6,247\n$ 4,010"
+    }
+   ],
+   "why_it_matters": "Capex is far above operating cash flow, so the ATM equity raise and unpaid capex accruals are what fund the build."
+  },
+  {
+   "topic": "New lease ROU assets recognised in the quarter",
+   "related_rows": [
+    "F059",
+    "F152"
+   ],
+   "fragments": [
+    {
+     "role": "context",
+     "text": "ROU assets obtained in exchange for lease obligations:"
+    },
+    {
+     "role": "value",
+     "text": "Operating leases\n$ 4,903\n$ 3,181"
+    },
+    {
+     "role": "value",
+     "text": "Finance leases\n$ 1,539\n$ 1,122"
+    }
+   ],
+   "why_it_matters": "Leases on top of the $288 billion not yet commenced keep moving onto the balance sheet."
+  },
+  {
+   "topic": "Debt was repaid, not raised, in the quarter",
+   "related_rows": [
+    "F154"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Repayments of senior notes, term loan credit agreements and other borrowings\n( 4,202 )\n( 1,052 )"
+    }
+   ],
+   "why_it_matters": "Financing in the quarter came from equity issuance while borrowings were repaid, consistent with no new debt."
+  },
+  {
+   "topic": "Unconditional purchase obligations for cloud infrastructure components and power",
+   "related_rows": [
+    "F152"
+   ],
+   "fragments": [
+    {
+     "role": "context",
+     "text": "As of August 31, 2026, our unconditional purchase and certain other obligations with terms of one year or greater, which were primarily related to long-term supply arrangements for purchasing components for cloud infrastructure assets and power supply arrangements for data centers, were as follows (in millions):"
+    },
+    {
+     "role": "value",
+     "text": "Total\n$ 34,150"
+    }
+   ],
+   "why_it_matters": "Fixed purchase commitments for AI infrastructure components and power sit alongside the lease commitments."
+  }
+ ]
+}

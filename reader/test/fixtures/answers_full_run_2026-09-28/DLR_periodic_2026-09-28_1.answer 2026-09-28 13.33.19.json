@@ -1,0 +1,112 @@
+{
+ "items": [
+  {
+   "item": "F135:DLR",
+   "found": true,
+   "value": 9.770384,
+   "value_as_printed": "9,770,384",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Construction in progress and space held for development",
+   "fragments": [
+    {
+     "role": "units",
+     "text": "A summary of our Investments in properties, net is below (in thousands):"
+    },
+    {
+     "role": "column",
+     "text": "As of June 30, 2026 | As of December 31, 2025"
+    },
+    {
+     "role": "value",
+     "text": "Construction in progress and space held for development | 9,770,384 | 4,976,785"
+    }
+   ],
+   "comment": "Found the June 30, 2026 balance-sheet carrying amount for construction in progress and space held for development."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "New ATM equity funding capacity",
+   "related_rows": [
+    "F135"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "On May 4, 2026, our Parent and our Operating Partnership entered into a new ATM Equity Offering SM Sales Agreement (the “2026 Sales Agreement”), pursuant to which, Digital Realty Trust, Inc. can issue and sell common stock having an aggregate offering price of up to $ 7.5 billion through various named agents from time to time."
+    },
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, $ 6.3 billion remains available for future sales under the 2026 Sales Agreement."
+    }
+   ],
+   "why_it_matters": "New equity shelf increases funding capacity for development and AI infrastructure."
+  },
+  {
+   "topic": "June 2026 acquisition and assumed construction debt",
+   "related_rows": [
+    "F135"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "On June 30, 2026, the Company completed the acquisition of 64 % blended partnership interests in the Digital Carver Dulles 9 JV, LLC and Digital Carver Brickyard JV, LLC joint ventures (collectively, the “joint ventures”) (the “June 2026 Acquisition”)."
+    },
+    {
+     "role": "value",
+     "text": "As part of the June 2026 Acquisition, we assumed a construction loan in the amount of $ 726 million."
+    }
+   ],
+   "why_it_matters": "Adds developed joint-venture assets and assumed construction debt."
+  },
+  {
+   "topic": "Construction commitments and expected capex",
+   "related_rows": [
+    "F135"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "At June 30, 2026, we had open commitments, including amounts reimbursable by customers of approximately $ 320.1 million, related to construction contracts of approximately $ 4.1 billion."
+    },
+    {
+     "role": "value",
+     "text": "For the remainder of 2026, we currently expect to incur approximately $2.8 billion to $3.3 billion of capital expenditures, which includes our share of joint venture contributions and is net of partner contributions for our development programs."
+    }
+   ],
+   "why_it_matters": "Discloses remaining construction commitments and expected capex, indicating funding needs."
+  },
+  {
+   "topic": "Development pipeline and pre-leasing",
+   "related_rows": [
+    "F135"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, we had 1,402 megawatts of projects underway across multiple metropolitan areas around the world, representing an approximately 82% increase of capacity under development as compared to December 31, 2025."
+    },
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, 54% of the 1,402 megawatts of projects underway was pre-leased."
+    }
+   ],
+   "why_it_matters": "Shows scale of construction pipeline and pre-leasing."
+  },
+  {
+   "topic": "Customer concentration",
+   "related_rows": [
+    "F135"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, our two largest customers accounted for approximately 11 % and 10 %, respectively, of our total revenue. No other individual customer makes up more than 10 % of our total revenue."
+    }
+   ],
+   "why_it_matters": "Highlights customer concentration risk."
+  }
+ ]
+}

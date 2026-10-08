@@ -1,0 +1,7 @@
+{
+  "deepseek_api_key": "",
+  "model": "deepseek-flash",
+  "thinking": "enabled",
+  "reasoning_effort": "high",
+  "_help": "Copy this file to config.json and paste your DeepSeek API key between the quotes. config.json is git-ignored: never commit it, paste it into a chat, or copy it anywhere else."
+}

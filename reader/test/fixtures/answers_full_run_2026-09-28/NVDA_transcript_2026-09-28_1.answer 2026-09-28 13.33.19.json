@@ -1,0 +1,166 @@
+{
+ "items": [
+  {
+   "item": "F019:NVDA",
+   "found": true,
+   "value": 800,
+   "value_as_printed": "nearly $800 billion",
+   "unit": "$bn",
+   "period_end": "2026-08-26",
+   "period_type": "said",
+   "line_item": "CapEx by the top-five hyperscalers",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "With cloud industry backlog now greater than $2 trillion, CapEx by the top-five hyperscalers is expected to reach nearly $800 billion in 2026 and $1.3 trillion in 2027."
+    }
+   ],
+   "comment": "Forecast for calendar 2026; statement date 2026-08-26."
+  },
+  {
+   "item": "F020:NVDA",
+   "found": true,
+   "value": 1300,
+   "value_as_printed": "$1.3 trillion",
+   "unit": "$bn",
+   "period_end": "2026-08-26",
+   "period_type": "said",
+   "line_item": "CapEx by the top-five hyperscalers",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "With cloud industry backlog now greater than $2 trillion, CapEx by the top-five hyperscalers is expected to reach nearly $800 billion in 2026 and $1.3 trillion in 2027."
+    }
+   ],
+   "comment": "Forecast for calendar 2027; statement date 2026-08-26."
+  },
+  {
+   "item": "F098:NVDA_hopper",
+   "found": true,
+   "value": 18,
+   "value_as_printed": "$18 billion",
+   "unit": "$bn per GW",
+   "period_end": "2026-08-26",
+   "period_type": "said",
+   "line_item": "revenue opportunity per gigawatt",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Since Hopper, our revenue opportunity has grown from roughly $18 billion per gigawatt to $25 billion with Blackwell, to $40 billion with Vera Rubin, which now spans Vera CPU, Rubin GPU, NVLink, InfiniBand or Ethernet and Groq LPU announced earlier this week."
+    }
+   ],
+   "comment": "Kress states Hopper revenue opportunity was roughly $18 billion per gigawatt."
+  },
+  {
+   "item": "F098:NVDA_blackwell",
+   "found": true,
+   "value": 25,
+   "value_as_printed": "$25 billion",
+   "unit": "$bn per GW",
+   "period_end": "2026-08-26",
+   "period_type": "said",
+   "line_item": "revenue opportunity per gigawatt",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Since Hopper, our revenue opportunity has grown from roughly $18 billion per gigawatt to $25 billion with Blackwell, to $40 billion with Vera Rubin, which now spans Vera CPU, Rubin GPU, NVLink, InfiniBand or Ethernet and Groq LPU announced earlier this week."
+    }
+   ],
+   "comment": "Kress states Blackwell revenue opportunity was $25 billion per gigawatt."
+  },
+  {
+   "item": "F098:NVDA_rubin",
+   "found": true,
+   "value": 40,
+   "value_as_printed": "$40 billion",
+   "unit": "$bn per GW",
+   "period_end": "2026-08-26",
+   "period_type": "said",
+   "line_item": "revenue opportunity per gigawatt",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Since Hopper, our revenue opportunity has grown from roughly $18 billion per gigawatt to $25 billion with Blackwell, to $40 billion with Vera Rubin, which now spans Vera CPU, Rubin GPU, NVLink, InfiniBand or Ethernet and Groq LPU announced earlier this week."
+    }
+   ],
+   "comment": "Kress states Vera Rubin revenue opportunity was $40 billion per gigawatt."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "AWS GPU deployment commitment",
+   "related_rows": [
+    "F019:NVDA",
+    "F020:NVDA",
+    "F098:NVDA_blackwell"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Today, we are delighted to announce an expansion of our partnership with AWS. Building on its already vast installed base of NVIDIA Compute, AWS is deploying an additional 2 million GPUs starting this quarter"
+    }
+   ],
+   "why_it_matters": "Adds a large multi-year hyperscaler commitment beyond the capex forecasts."
+  },
+  {
+   "topic": "Neocloud revenue-sharing and take-or-pay",
+   "related_rows": [
+    "F019:NVDA",
+    "F020:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "we have introduced a revenue-sharing structure. NVIDIA provides a take-or-pay commitment on a portion of the facility's capacity, a minimum revenue guarantee that gives lenders the confidence to underwrite the project, and in exchange, we share in a portion of the neoclouds revenue earned above that floor."
+    }
+   ],
+   "why_it_matters": "Introduces guarantees and revenue share tied to AI data-center financing."
+  },
+  {
+   "topic": "Frontier lab investments and financing platforms",
+   "related_rows": [
+    "F019:NVDA",
+    "F020:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "First, we've invested nearly $50 billion in the frontier AI labs. This was a meaningful commitment, but it represented a small fraction of our expected free cash flow over the same period. Further, to support the frontier labs infrastructure buildouts, we recently announced partnerships with six of the world's leading infrastructure capital providers; Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, to establish financing platforms that will raise over $500 billion of third-party capital."
+    }
+   ],
+   "why_it_matters": "Shows NVIDIA balance-sheet and third-party capital support for AI infrastructure demand."
+  },
+  {
+   "topic": "SoftBank and OpenAI AI factory commitments",
+   "related_rows": [
+    "F019:NVDA",
+    "F020:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Last week, we announced that we secured land, power, shell capacity through our partnership with SoftBank Energy to exclusively host NVIDIA Compute at their Portsmouth campus. The initial deployment expected to support 4.25 gigawatts of AI factory capacity will be utilized by OpenAI."
+    },
+    {
+     "role": "value",
+     "text": "OpenAI's existing and planned commitments represent approximately 12 gigawatts of NVIDIA Compute."
+    }
+   ],
+   "why_it_matters": "Large dedicated power and compute commitments underpin future AI infrastructure buildout."
+  },
+  {
+   "topic": "Selective credit enhancement for frontier AI lab",
+   "related_rows": [
+    "F019:NVDA",
+    "F020:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "For another frontier AI lab, we will provide selective credit enhancement for nearly 2 gigawatts of compute. This complements the substantial NVIDIA Compute capacity they've secured independently without NVIDIA's credit support."
+    }
+   ],
+   "why_it_matters": "Adds a contingent credit support structure tied to AI compute deployment."
+  }
+ ]
+}

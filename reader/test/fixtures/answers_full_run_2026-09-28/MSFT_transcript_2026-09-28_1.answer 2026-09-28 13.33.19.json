@@ -1,0 +1,379 @@
+{
+ "items": [
+  {
+   "item": "F031:MSFT",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": null,
+   "period_type": "said",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "All up, our annual revenue surpassed $331 billion, up 18%."
+    },
+    {
+     "role": "evidence",
+     "text": "Microsoft Cloud surpassed $214 billion, up 27%."
+    },
+    {
+     "role": "evidence",
+     "text": "And Azure surpassed $100 billion, up 41%."
+    }
+   ],
+   "comment": "Document does not disclose a Microsoft AI business annual revenue run rate; it gives annual revenue, Microsoft Cloud revenue, and Azure revenue instead."
+  },
+  {
+   "item": "F031:MSFT_growth",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "%",
+   "period_end": null,
+   "period_type": "said",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "All up, our annual revenue surpassed $331 billion, up 18%."
+    },
+    {
+     "role": "evidence",
+     "text": "Microsoft Cloud surpassed $214 billion, up 27%."
+    },
+    {
+     "role": "evidence",
+     "text": "And Azure surpassed $100 billion, up 41%."
+    }
+   ],
+   "comment": "Document does not disclose growth of a Microsoft AI business annual revenue run rate."
+  },
+  {
+   "item": "F032:MSFT",
+   "found": true,
+   "value": 30,
+   "value_as_printed": "over 30 million",
+   "unit": "million",
+   "period_end": "2026-07-29",
+   "period_type": "said",
+   "line_item": "paid Microsoft 365 Copilot seats",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "When it comes to knowledge work, we now have over 30 million paid Microsoft 365 Copilot seats, with net seat adds more than doubling quarter-over-quarter."
+    },
+    {
+     "role": "value",
+     "text": "Building on our Copilot momentum from Q3, net paid seat adds more than doubled sequentially, with paid seats now over 30 million."
+    }
+   ],
+   "comment": "Reported as over 30 million paid seats on the FY26 Q4 call."
+  },
+  {
+   "item": "F085:MSFT",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "years",
+   "period_end": null,
+   "period_type": "said",
+   "line_item": null,
+   "fragments": [],
+   "related": [
+    {
+     "fragments": [
+      {
+       "role": "value",
+       "text": "RPO, including OpenAI, has a weighted average duration of 2.3 years."
+      },
+      {
+       "role": "context",
+       "text": "Commercial remaining performance obligation grew 84% to $678 billion."
+      }
+     ],
+     "summary": "July 2026 call: RPO including OpenAI has a weighted average duration of 2.3 years."
+    }
+   ],
+   "comment": "Historical Jan 2026 statement is not repeated; document has a newer RPO duration statement under related."
+  },
+  {
+   "item": "F086:MSFT",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "value_text": null,
+   "unit": "text",
+   "period_end": null,
+   "period_type": "said",
+   "line_item": null,
+   "fragments": [],
+   "related": [
+    {
+     "fragments": [
+      {
+       "role": "value",
+       "text": "you’ve seen our CapEx really pivot toward what I would call and do call short-lived assets, which really, that’s CPUs and GPUs that have relatively shorter lead times."
+      },
+      {
+       "role": "value",
+       "text": "And so, if the demand environment changes, you just slow down what is, in fact, the largest component and the driver of COGS."
+      }
+     ],
+     "summary": "July 2026 call: Amy Hood describes CPUs and GPUs as short-lived assets with shorter lead times and says spending can be slowed if demand changes."
+    }
+   ],
+   "comment": "Historical statement that GPUs are sold for entire useful life is not repeated; newer related capacity-flexibility comment provided."
+  },
+  {
+   "item": "F087:MSFT",
+   "found": true,
+   "value": 678,
+   "value_as_printed": "$678 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Commercial remaining performance obligation",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Commercial remaining performance obligation grew 84% to $678 billion."
+    },
+    {
+     "role": "context",
+     "text": "All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies."
+    }
+   ],
+   "comment": "Commercial RPO at Q4 FY26."
+  },
+  {
+   "item": "F087:MSFT_duration",
+   "found": true,
+   "value": 2.3,
+   "value_as_printed": "2.3 years",
+   "unit": "years",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "RPO, including OpenAI, weighted average duration",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "RPO, including OpenAI, has a weighted average duration of 2.3 years."
+    },
+    {
+     "role": "context",
+     "text": "Commercial remaining performance obligation grew 84% to $678 billion."
+    }
+   ],
+   "comment": "Document gives RPO including OpenAI duration; used in commercial RPO context."
+  },
+  {
+   "item": "F087:MSFT_12m",
+   "found": true,
+   "value": 30,
+   "value_as_printed": "roughly 30%",
+   "unit": "%",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "will be recognized in revenue in the next 12 months",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "And roughly 30% will be recognized in revenue in the next 12 months, up 37% year-over-year."
+    },
+    {
+     "role": "context",
+     "text": "RPO, including OpenAI, has a weighted average duration of 2.3 years."
+    }
+   ],
+   "comment": "Share of RPO recognized within 12 months."
+  },
+  {
+   "item": "F089:MSFT",
+   "found": true,
+   "value": 84,
+   "value_as_printed": "84%",
+   "unit": "%",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Commercial remaining performance obligation growth",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Commercial remaining performance obligation grew 84% to $678 billion."
+    }
+   ],
+   "comment": "Year-on-year commercial RPO growth."
+  },
+  {
+   "item": "F089:MSFT_ex",
+   "found": true,
+   "value": 25,
+   "value_as_printed": "25%",
+   "unit": "%",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "RPO excluding OpenAI growth",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "And RPO increased 25% when excluding OpenAI."
+    },
+    {
+     "role": "context",
+     "text": "Commercial remaining performance obligation grew 84% to $678 billion."
+    }
+   ],
+   "comment": "Growth of RPO excluding OpenAI."
+  },
+  {
+   "item": "F090:MSFT",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "share",
+   "period_end": null,
+   "period_type": "instant",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "And RPO increased 25% when excluding OpenAI."
+    },
+    {
+     "role": "evidence",
+     "text": "All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies."
+    },
+    {
+     "role": "evidence",
+     "text": "And for the full year, our cloud revenue surpassed $214 billion, with nearly 90% from customers outside of frontier model companies."
+    }
+   ],
+   "comment": "Document does not disclose OpenAI's share of commercial RPO or the Dec 2025 balance and growth figures."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Useful life extension and lease reclassification",
+   "related_rows": [
+    "F086"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "effective at the start of FY27, we are extending the estimated useful lives of our datacenters and office buildings, from 15 to 25 years, reflecting our operating history and expected use of these assets."
+    },
+    {
+     "role": "value",
+     "text": "This change affects only the timing of future depreciation and is expected to have a minimal benefit to FY27 operating income."
+    },
+    {
+     "role": "value",
+     "text": "The greater impact is on capital expenditures as more of our future datacenter leases will shift from finance leases to operating leases as a result of this update."
+    },
+    {
+     "role": "value",
+     "text": "However, the shift from finance to operating leases adjusts our expectation to approximately $175 billion."
+    }
+   ],
+   "why_it_matters": "Extending useful lives and shifting datacenter leases from finance to operating leases changes reported CapEx and lease accounting, affecting AI infrastructure financing comparisons."
+  },
+  {
+   "topic": "Q4 capital expenditures and leases",
+   "related_rows": [
+    "F086"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Capital expenditures were $41 billion including the impact from higher component pricing as noted in our guide."
+    },
+    {
+     "role": "value",
+     "text": "Roughly two thirds of our capex was for short-lived assets, primarily CPUs and GPUs as customers increasingly build solutions that leverage both AI and non-AI infrastructure."
+    },
+    {
+     "role": "value",
+     "text": "This quarter, total finance leases were $5.6 billion and were primarily for large datacenter sites."
+    },
+    {
+     "role": "value",
+     "text": "And cash paid for P, P, and E was $35.8 billion."
+    }
+   ],
+   "why_it_matters": "Details the cash and lease components of AI infrastructure spending, showing how much capex is short-lived GPU/CPU assets versus financed datacenter sites."
+  },
+  {
+   "topic": "RPO duration and remaining recognition",
+   "related_rows": [
+    "F087",
+    "F087_duration",
+    "F087_12m"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "RPO, including OpenAI, has a weighted average duration of 2.3 years."
+    },
+    {
+     "role": "value",
+     "text": "And roughly 30% will be recognized in revenue in the next 12 months, up 37% year-over-year."
+    },
+    {
+     "role": "value",
+     "text": "The remaining portion recognized beyond the next 12 months increased 112%."
+    },
+    {
+     "role": "context",
+     "text": "All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies."
+    }
+   ],
+   "why_it_matters": "Shows the long-duration and back-ended recognition profile of commercial RPO and that sequential growth came outside frontier model companies."
+  },
+  {
+   "topic": "Customer concentration outside frontier model companies",
+   "related_rows": [
+    "F089",
+    "F090"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "And RPO increased 25% when excluding OpenAI."
+    },
+    {
+     "role": "value",
+     "text": "All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies."
+    },
+    {
+     "role": "value",
+     "text": "And for the full year, our cloud revenue surpassed $214 billion, with nearly 90% from customers outside of frontier model companies."
+    }
+   ],
+   "why_it_matters": "Indicates the extent to which current RPO and cloud revenue growth depend on customers other than frontier model companies."
+  },
+  {
+   "topic": "AI datacenter capacity expansion",
+   "related_rows": [
+    "F031",
+    "F086"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We added 31 new datacenters across 5 continents this quarter, bringing the total to 88 this year, as we expand our footprint in response to accelerating demand."
+    },
+    {
+     "role": "value",
+     "text": "Over the last fiscal year, we have reduced dock-to-live times for new GPUs in our largest regions by nearly 50%."
+    },
+    {
+     "role": "value",
+     "text": "All up, we added another gigawatt of capacity this quarter and remain on track to roughly double our overall capacity in just two years."
+    }
+   ],
+   "why_it_matters": "Quantifies the pace of datacenter and GPU capacity additions, relevant to the scale and timing of AI infrastructure investment."
+  }
+ ]
+}

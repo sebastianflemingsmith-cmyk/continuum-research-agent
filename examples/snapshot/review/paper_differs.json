@@ -1,0 +1,10 @@
+{
+  "about": "Figures lines Seb has ruled show the paper's own figure stated differently, not a later one, although the finding's period end is later than the paper's date. review/build.py shows an approved newer finding on these lines as 'Paper differs'. Add a line only on Seb's word, with the date. Nothing in this file is published.",
+  "lines": {
+    "F046-1": {
+      "decided": "2026-10-05",
+      "by": "Seb",
+      "why": "Seb's answer to: is F046-1 'Newer' or 'Paper differs'? The paper's date (19 Feb 2026) is a secondary source's publication date; the 10-Q dates the venture to October 2025."
+    }
+  }
+}

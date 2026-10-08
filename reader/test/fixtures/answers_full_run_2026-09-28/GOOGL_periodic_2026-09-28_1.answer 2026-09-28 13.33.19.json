@@ -1,0 +1,177 @@
+{
+ "items": [
+  {
+   "item": "F035:GOOGL",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": "absence",
+   "line_item": "",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Google Cloud Platform primarily generates consumption-based fees and subscriptions for infrastructure, platform, and other services. These services provide access to solutions such as artificial intelligence (AI) offerings including our enterprise AI infrastructure, Vertex AI platform, and Gemini Enterprise; cybersecurity offerings; and data and analytics solutions."
+    },
+    {
+     "role": "evidence",
+     "text": "Google Cloud | 13,624 | 24,768 | 25,884 | 44,796"
+    }
+   ],
+   "comment": "No separate AI revenue figure disclosed; AI is described within Google Cloud, and revenue is disaggregated by Google Search & other, YouTube ads, Google Network, subscriptions/platforms/devices, Google Cloud, and Other Bets."
+  },
+  {
+   "item": "F063:GOOGL",
+   "found": true,
+   "value": 85.2,
+   "value_as_printed": "$85.2 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "leases that have not yet commenced with future lease payments",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, we have entered into leases, primarily related to data centers, that have not yet commenced with future lease payments of $ 85.2 billion that are not yet recorded."
+    },
+    {
+     "role": "context",
+     "text": "Additionally, in June 2026, we entered into a short-term lease agreement with a non-cancelable commitment of approximately $ 5.8 billion, which will commence in the third quarter of 2026."
+    }
+   ],
+   "comment": "Document gives $85.2bn future lease payments for leases not yet commenced and separately discloses ~$5.8bn short-term lease commitment commencing Q3 2026; the $85.2bn figure excludes the short-term commitment."
+  },
+  {
+   "item": "F078:GOOGL",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "years",
+   "period_end": null,
+   "period_type": "policy",
+   "line_item": "",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "There have been no material changes to our significant accounting policies from our Annual Report on Form 10-K for the fiscal year ended December 31, 2025, except for as described below."
+    },
+    {
+     "role": "evidence",
+     "text": "Property and equipment, net, co nsisted of the following (in millions):"
+    }
+   ],
+   "comment": "No estimated useful life of servers is stated in this 10-Q; the policy note refers to no material changes from the 10-K."
+  },
+  {
+   "item": "F131:GOOGL",
+   "found": true,
+   "value": 122.814,
+   "value_as_printed": "122,814",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "assets not yet in service",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Add: assets not yet in service | 78,592 | 122,814"
+    },
+    {
+     "role": "column",
+     "text": "As of December 31, 2025 | As of June 30, 2026"
+    },
+    {
+     "role": "context",
+     "text": "Property and equipment, net, co nsisted of the following (in millions):"
+    }
+   ],
+   "comment": ""
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "AI infrastructure equity raise",
+   "related_rows": [
+    "F131",
+    "F063"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In June 2026, we issued a combination of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute."
+    },
+    {
+     "role": "context",
+     "text": "On June 4, 2026, the company completed an underwritten public offering of 29 million Class A shares at a price of $ 355.1982 per share and 29 million Class C shares at a price of $ 351.8018 per share."
+    }
+   ],
+   "why_it_matters": "Alphabet raised large equity and preferred capital explicitly for AI infrastructure and global compute."
+  },
+  {
+   "topic": "Data center leases not yet commenced",
+   "related_rows": [
+    "F063"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, we have entered into leases, primarily related to data centers, that have not yet commenced with future lease payments of $ 85.2 billion that are not yet recorded."
+    },
+    {
+     "role": "context",
+     "text": "Additionally, in June 2026, we entered into a short-term lease agreement with a non-cancelable commitment of approximately $ 5.8 billion, which will commence in the third quarter of 2026."
+    }
+   ],
+   "why_it_matters": "Discloses large off-balance-sheet data center lease commitments and a separate short-term lease commitment."
+  },
+  {
+   "topic": "Purchase commitments",
+   "related_rows": [
+    "F131"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, we had material purchase commitments and other contractual obligations totaling $ 811.0 billion, of which $ 200.7 billion was short-term."
+    },
+    {
+     "role": "context",
+     "text": "These purchase commitments primarily relate to costs for technical infrastructure and inventory through long-term supply agreements and open purchase orders."
+    }
+   ],
+   "why_it_matters": "Shows massive contracted spend for technical infrastructure and inventory."
+  },
+  {
+   "topic": "Data center and energy backstops",
+   "related_rows": [
+    "F063",
+    "F131"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, we provided backstops in the form of financial guarantees and credit derivatives with maximum potential amount of future payments of $ 7.6 billion and $ 43.8 billion, respectively."
+    },
+    {
+     "role": "context",
+     "text": "We have also entered into an agreement to provide an estimated $ 24.1 billion of future backstops to support the build-out of data center and energy supply infrastructure, subject to finalization of terms with data center providers."
+    }
+   ],
+   "why_it_matters": "Contingent guarantees and credit derivatives support third-party data center and energy build-out."
+  },
+  {
+   "topic": "Future capital funding commitment",
+   "related_rows": [
+    "F131"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Additionally, as of June 30, 2026, we have $ 20.0 billion of future capital funding commitments with a private company contingent upon the achievement of specified operational and financial milestones through 2030, which is accounted for as an equity derivative."
+    }
+   ],
+   "why_it_matters": "Alphabet has a large contingent private-company funding commitment accounted for as an equity derivative."
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "items": [
+  {
+   "item": "F050:NBIS",
+   "found": true,
+   "value": 8.1303,
+   "value_as_printed": "(8,130.3)",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "6m",
+   "line_item": "Purchases of property and equipment and intangible assets",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Purchases of property and equipment and intangible assets | (1,054.5) | (8,130.3)"
+    },
+    {
+     "role": "column",
+     "text": "Six months ended June 30,"
+    },
+    {
+     "role": "units",
+     "text": "(In millions of U.S. dollars (“$”))"
+    },
+    {
+     "role": "context",
+     "text": "CASH FLOWS USED IN INVESTING ACTIVITIES:"
+    }
+   ],
+   "comment": "Cash-flow statement line for the six months ended June 30, 2026 is 8,130.3 million, i.e. $8.1303bn."
+  },
+  {
+   "item": "F135:NBIS",
+   "found": true,
+   "value": 7.8364,
+   "value_as_printed": "7,836.4",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Assets not yet in use",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Assets not yet in use | 2,417.4 | 7,836.4"
+    },
+    {
+     "role": "column",
+     "text": "December 31, | June 30,"
+    },
+    {
+     "role": "units",
+     "text": "(In millions of U.S. dollars (“$”), except share and per share data)"
+    },
+    {
+     "role": "context",
+     "text": "PROPERTY AND EQUIPMENT , NET"
+    }
+   ],
+   "comment": "Property and equipment note reports assets not yet in use of 7,836.4 million at June 30, 2026."
+  },
+  {
+   "item": "F150:NBIS",
+   "found": true,
+   "value": 4.395,
+   "value_as_printed": "4,395.0",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "6m",
+   "line_item": "Deferred revenue",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Deferred revenue | 3.0 | 4,395.0"
+    },
+    {
+     "role": "column",
+     "text": "Six months ended June 30,"
+    },
+    {
+     "role": "units",
+     "text": "(In millions of U.S. dollars (“$”))"
+    },
+    {
+     "role": "context",
+     "text": "Changes in operating assets and liabilities excluding the effect of acquisitions:"
+    }
+   ],
+   "comment": "Cash-flow statement line 'Deferred revenue' for the six months ended June 30, 2026 is 4,395.0 million; reported as printed, not annualised."
+  },
+  {
+   "item": "F152:NBIS",
+   "found": true,
+   "value": 12.0541,
+   "value_as_printed": "$12,054.1",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "aggregate estimated future undiscounted lease payments",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "The aggregate estimated future undiscounted lease payments associated with these agreements amounted to $12,054.1, and the Company had made prepayments of $612.4 as of June 30, 2026."
+    },
+    {
+     "role": "context",
+     "text": "As of June 30, 2026, the Company had executed additional lease agreements, primarily for data center facilities, as well as equipment, that had not yet commenced."
+    },
+    {
+     "role": "units",
+     "text": "(In millions of U.S. dollars (“$”), except share and per share data)"
+    }
+   ],
+   "comment": "Lease note discloses executed but not yet commenced leases with estimated future undiscounted payments of $12,054.1 million."
+  },
+  {
+   "item": "F154:NBIS_facility",
+   "found": true,
+   "value": 0.775,
+   "value_as_printed": "approximately $775",
+   "unit": "$bn",
+   "period_end": "2026-07-10",
+   "period_type": "event",
+   "line_item": "senior secured debt facility",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "On July 10, 2026, the Group entered into its first senior secured debt facility in an aggregate principal amount of approximately $775."
+    },
+    {
+     "role": "context",
+     "text": "Senior secured debt facility"
+    },
+    {
+     "role": "context",
+     "text": "The facility bears interest at SOFR plus 2.50% and matures on October 31, 2030."
+    },
+    {
+     "role": "context",
+     "text": "The facility is collateralized by deployed GPU infrastructure and by contracted cash flows arising under a customer agreement with an investment-grade counterparty."
+    }
+   ],
+   "comment": "Subsequent-event note discloses the July 10, 2026 senior secured facility at approximately $775 million."
+  },
+  {
+   "item": "F154:NBIS_converts",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": null,
+   "period_type": "event",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Convertible notes issued in March 2026"
+    },
+    {
+     "role": "evidence",
+     "text": "The net proceeds to the Company from the sale of March 2026 Notes were $4,293.7."
+    }
+   ],
+   "comment": "Document filed 2026-08-12 predates the August 2026 convertible notes; no August 2026 issuance is disclosed. Latest convertible issuance shown is March 2026."
+  },
+  {
+   "item": "F155:NBIS_none",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": "absence",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "The facility bears interest at SOFR plus 2.50% and matures on October 31, 2030."
+    },
+    {
+     "role": "evidence",
+     "text": "The facility is collateralized by deployed GPU infrastructure and by contracted cash flows arising under a customer agreement with an investment-grade counterparty."
+    }
+   ],
+   "comment": "No financial maintenance covenant or ratio test is disclosed for Nebius debt; debt notes describe interest, maturity, collateral, conversion and repurchase rights only."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Remaining performance obligations",
+   "related_rows": [
+    "F150",
+    "F135",
+    "F152"
+   ],
+   "fragments": [
+    {
+     "role": "context",
+     "text": "Remaining performance obligations (\"RPO\") represent the transaction price allocated to performance obligations that are unsatisfied or partially unsatisfied as of the end of the reporting period."
+    },
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, the amount of unsatisfied RPO was $37,490.6, of which 36% is expected to be recognized as revenue during the 24 months ending June 30, 2028, 40% between months 25 and 48, and the remainder recognized thereafter."
+    }
+   ],
+   "why_it_matters": "Large contracted backlog supports AI infrastructure buildout and financing."
+  },
+  {
+   "topic": "Energy and power commitments",
+   "related_rows": [
+    "F152",
+    "F135"
+   ],
+   "fragments": [
+    {
+     "role": "context",
+     "text": "The Group has contractual obligations arising from contracts with remaining terms greater than one year, primarily consisting of energy and power supply agreements, related to the co-location arrangements and the development of greenfield data center facilities."
+    },
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, expected future fixed or minimum guaranteed commitments under these agreements amounted to $81.7 in 2026, $541.8 in 2027, $542.0 in 2028, $540.5 in 2029, $535.8 in 2030, and $3,082.3 thereafter."
+    }
+   ],
+   "why_it_matters": "Long-term power commitments support AI data centers and add fixed obligations."
+  },
+  {
+   "topic": "Customer concentration",
+   "related_rows": [
+    "F150"
+   ],
+   "fragments": [
+    {
+     "role": "context",
+     "text": "The following customers accounted for 10% or more of the Company’s revenue for the three and six months ended June 30, 2025 and 2026:"
+    },
+    {
+     "role": "value",
+     "text": "Customer C | * | 24% | * | 26%"
+    },
+    {
+     "role": "value",
+     "text": "Customer D | * | 21% | * | 21%"
+    },
+    {
+     "role": "value",
+     "text": "Customer E accounted for 29% of accounts receivable, net as of June 30, 2026."
+    }
+   ],
+   "why_it_matters": "Customer concentration affects revenue predictability and counterparty risk."
+  },
+  {
+   "topic": "At-the-market equity funding",
+   "related_rows": [
+    "F154"
+   ],
+   "fragments": [
+    {
+     "role": "context",
+     "text": "At-the-market equity program"
+    },
+    {
+     "role": "value",
+     "text": "During the three months ended June 30, 2026, the Company sold 12,729,493 Class A shares under the ATM program at a weighted-average price of $223.60 per share before issuance costs. Net proceeds accounted for $2,811.1 after deducting sales agents' commissions and offering costs."
+    },
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, 12,270,507 Class A shares remained available for offer and sale under the ATM program."
+    }
+   ],
+   "why_it_matters": "Equity funding supports AI cloud infrastructure expansion."
+  },
+  {
+   "topic": "March 2026 convertible notes",
+   "related_rows": [
+    "F154:NBIS_converts"
+   ],
+   "fragments": [
+    {
+     "role": "context",
+     "text": "Convertible notes issued in March 2026"
+    },
+    {
+     "role": "value",
+     "text": "The net proceeds to the Company from the sale of March 2026 Notes were $4,293.7."
+    }
+   ],
+   "why_it_matters": "Large convertible issuance adds debt funding for AI cloud infrastructure."
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "items": [
+  {
+   "item": "F056:CRWV",
+   "found": true,
+   "value": 0.98,
+   "value_as_printed": "98 %",
+   "unit": "share",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "Revenue recognized related to customer commitments (committed contracts)",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "The Company primarily generates its revenue through providing cloud computing services, which include both committed contracts and on-demand services."
+    },
+    {
+     "role": "value",
+     "text": "Revenue recognized related to customer commitments, including revenue from delivering capacity prior to commitment start dates, represented 98 % of total revenue for the three months ended June 30, 2026 and 2025, and 98 % of total revenue for the six months ended June 30, 2026 and 2025."
+    },
+    {
+     "role": "context",
+     "text": "For each of the three months ended June 30, 2026 and 2025, committed contracts accounted for 98% of our revenue."
+    }
+   ],
+   "comment": "Both the revenue note and MD&A give 98% of revenue from committed (take-or-pay) contracts for the three months ended June 30, 2026."
+  },
+  {
+   "item": "F078:CRWV",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "years",
+   "period_end": null,
+   "period_type": "policy",
+   "line_item": "useful life of technology equipment",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Significant estimates include the useful lives assigned to property and equipment;"
+    },
+    {
+     "role": "evidence",
+     "text": "There have been no material changes to the Company's significant accounting policies as discussed in \"Note 1—Overview and Summary of Significant Accounting Policies\" in the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2025."
+    }
+   ],
+   "comment": "The 10-Q does not state the useful life of technology equipment; it only refers to the 10-K for accounting policies and lists useful lives for intangibles and lease terms."
+  },
+  {
+   "item": "F135:CRWV",
+   "found": true,
+   "value": 11.918,
+   "value_as_printed": "11,918",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Construction in progress",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "Property and equipment, net, consisted of the following (in millions):"
+    },
+    {
+     "role": "units",
+     "text": "(in millions)"
+    },
+    {
+     "role": "column",
+     "text": "June 30, 2026 | December 31, 2025"
+    },
+    {
+     "role": "value",
+     "text": "Construction in progress | 11,918 | 9,376"
+    }
+   ],
+   "comment": "Construction in progress of $11,918 million at June 30, 2026 (December 31, 2025: $9,376 million)."
+  },
+  {
+   "item": "F141:CRWV_te",
+   "found": true,
+   "value": 33.823,
+   "value_as_printed": "$33,823",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Technology equipment",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "Property and equipment, net, consisted of the following (in millions):"
+    },
+    {
+     "role": "units",
+     "text": "(in millions)"
+    },
+    {
+     "role": "column",
+     "text": "June 30, 2026 | December 31, 2025"
+    },
+    {
+     "role": "value",
+     "text": "Technology equipment | $33,823 | $20,903"
+    }
+   ],
+   "comment": "Gross technology equipment is reported at the latest period in this document, June 30, 2026 ($33,823 million); the paper's $20,903 million is the December 31, 2025 column."
+  },
+  {
+   "item": "F141:CRWV_rev",
+   "found": true,
+   "value": 2.575,
+   "value_as_printed": "$2,575",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "Revenue",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS (in millions, except per share data) (unaudited)"
+    },
+    {
+     "role": "column",
+     "text": "Three Months Ended June 30, | Six Months Ended June 30,"
+    },
+    {
+     "role": "value",
+     "text": "Revenue | $2,575 | $1,212 | $4,653 | $2,194"
+    }
+   ],
+   "comment": "Total revenue of $2,575 million for the three months ended June 30, 2026."
+  },
+  {
+   "item": "F150:CRWV",
+   "found": true,
+   "value": 1.365,
+   "value_as_printed": "1,365",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "6m",
+   "line_item": "Deferred revenue",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions) (unaudited)"
+    },
+    {
+     "role": "column",
+     "text": "Six Months Ended June 30,"
+    },
+    {
+     "role": "value",
+     "text": "Deferred revenue | 1,365 | 743"
+    }
+   ],
+   "comment": "Cash-flow line for the change in deferred revenue (contract liabilities) for the six months ended June 30, 2026: $1,365 million, as printed and not annualised."
+  },
+  {
+   "item": "F152:CRWV",
+   "found": true,
+   "value": 35.5,
+   "value_as_printed": "$ 35.5 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "estimated future undiscounted lease payments associated with leases that had not yet commenced",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "As of June 30, 2026, the Company executed additional lease agreements, primarily for data centers, equipment, and office buildings, that had not yet commenced."
+    },
+    {
+     "role": "value",
+     "text": "The aggregate amount of estimated future undiscounted lease payments associated with such leases is $ 35.5 billion."
+    }
+   ],
+   "comment": "Leases signed but not yet commenced: $35.5 billion of estimated future undiscounted lease payments at June 30, 2026."
+  },
+  {
+   "item": "F154:CRWV_revolver",
+   "found": true,
+   "value": 1.2,
+   "value_as_printed": "$ 1.2 billion",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "event",
+   "line_item": "draw down on the Revolving Credit Facility",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "In August 2026, the Company made a $ 1.2 billion draw down on the Revolving Credit Facility."
+    }
+   ],
+   "comment": "Subsequent event: $1.2 billion drawn on the Revolving Credit Facility in August 2026, after the June 30, 2026 balance date."
+  },
+  {
+   "item": "F154:CRWV_new_draw",
+   "found": true,
+   "value": 1.2,
+   "value_as_printed": "$ 1.2 billion",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "event",
+   "line_item": "amount drawn on the DDTL 5.5 Facility",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "The agreement provides a $ 2.6 billion delayed draw term loan facility (the “DDTL 5.5 Facility”) available in one or more draws through the commitment termination date in December 2026."
+    },
+    {
+     "role": "value",
+     "text": "Subsequent to the closing, the Company has drawn $ 1.2 billion."
+    }
+   ],
+   "comment": "The $1.2 billion draw is on the new DDTL 5.5 Facility entered in August 2026."
+  },
+  {
+   "item": "F154:CRWV_new_size",
+   "found": true,
+   "value": 2.6,
+   "value_as_printed": "$ 2.6 billion",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "event",
+   "line_item": "delayed draw term loan facility (the “DDTL 5.5 Facility”)",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "The agreement provides a $ 2.6 billion delayed draw term loan facility (the “DDTL 5.5 Facility”) available in one or more draws through the commitment termination date in December 2026."
+    }
+   ],
+   "comment": "Total size of the new DDTL 5.5 Facility is $2.6 billion, maturing September 2031."
+  },
+  {
+   "item": "F155:CRWV_ratio",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": "absence",
+   "line_item": "covenant ratio",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "In addition, we are required to maintain specified financial covenant ratios and satisfy other financial condition tests under the credit agreements governing our Credit Facilities."
+    },
+    {
+     "role": "evidence",
+     "text": "As of June 30, 2026, the Company was in compliance with all covenants under its delayed draw term loan facility agreements."
+    }
+   ],
+   "comment": "The document refers to financial covenant ratios and covenant compliance but discloses no actual measured ratio value, only qualitative statements; the paper's absence claim stands."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Remaining performance obligations (RPO) of $103.7bn with recognition timing",
+   "related_rows": [
+    "F056:CRWV"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, the Company had $ 103.7 billion of unsatisfied RPO, of which 41 % was expected to be recognized over the initial 24 months ending June 30, 2028, 39 % between months 25 and 48, and the remaining balance recognized between months 49 and 78."
+    },
+    {
+     "role": "context",
+     "text": "RPO includes both billed and unbilled consideration from the Company's committed contracts."
+    }
+   ],
+   "why_it_matters": "The committed-contract backlog backing CoreWeave's take-or-pay revenue share is disclosed with the share expected to be recognised over the initial 24 months."
+  },
+  {
+   "topic": "Customer concentration in the quarter",
+   "related_rows": [
+    "F056:CRWV"
+   ],
+   "fragments": [
+    {
+     "role": "column",
+     "text": "Three Months Ended June 30, | Six Months Ended June 30,"
+    },
+    {
+     "role": "value",
+     "text": "Customer A | 36 % | 71 % | 40 % | 72 %"
+    },
+    {
+     "role": "value",
+     "text": "Customer B | 26 % | * | 23 % | *"
+    }
+   ],
+   "why_it_matters": "Two customers together drive the majority of revenue and 32% each of accounts receivable, so committed-contract revenue depends on very few counterparties."
+  },
+  {
+   "topic": "Lease and equipment commitments outside lease liabilities",
+   "related_rows": [
+    "F152:CRWV",
+    "F135:CRWV"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "The Company will make contractual rent payments based on 24 Table of Contents construction costs incurred by the lessor, subject to a contractual maximum of $ 14.7 billion over the sixteen year term of this lease."
+    },
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, the Company estimated that it would incur between $ 500 million and $ 1.2 billion to fulfill these commitments, with expenditures expected to be incurred in phases through 2028."
+    }
+   ],
+   "why_it_matters": "Additional data-center rent and equipment obligations sit outside the leases-not-yet-commenced total, adding future fixed payments not in the lease liability."
+  },
+  {
+   "topic": "Large customer contract commitments signed in 2026",
+   "related_rows": [
+    "F056:CRWV"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Similarly, in March 2026, we entered into an order form under an existing master services agreement pursuant to which Meta Platforms, Inc. (“Meta”) initially committed to pay us up to approximately $21.0 billion (inclusive of access to new computing capacity through December 20, 2032 and the exercise of an existing option to access additional computing capacity through April 10, 2032)"
+    },
+    {
+     "role": "value",
+     "text": "In May 2025, we entered into a master services agreement with OpenAI OpCo, LLC (\"OpenAI\") and in September 2025, we entered into an order form under this master services agreement pursuant to which OpenAI committed to pay us up to approximately $6.5 billion through May 31, 2031"
+    }
+   ],
+   "why_it_matters": "Named customer commitments underpin the committed-contract revenue share and the customer-concentration profile."
+  },
+  {
+   "topic": "Joint venture funding commitments and guarantees",
+   "related_rows": [
+    "F135:CRWV"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "During the six months ended June 30, 2026, the Company committed to invest up to $ 1.7 billion, which includes incremental funding commitments of approximately $ 500 million during the three months ended June 30, 2026, to acquire equity interests in two separate joint ventures that each hold a data center development project."
+    },
+    {
+     "role": "value",
+     "text": "The Company's maximum exposure to loss related to these joint ventures is limited to its total funding commitments of $ 1.7 billion as of June 30, 2026."
+    }
+   ],
+   "why_it_matters": "Off-balance-sheet data-center development exposure includes committed funding and a guarantee that could require further cash beyond reported construction in progress."
+  }
+ ]
+}

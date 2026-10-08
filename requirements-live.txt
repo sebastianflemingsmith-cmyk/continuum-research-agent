@@ -1,0 +1,2 @@
+# Optional: PDF transcripts only. Offline demo and regression suites need no packages.
+pypdf==6.19.0

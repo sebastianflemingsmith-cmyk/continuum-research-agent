@@ -1,0 +1,27 @@
+.local/
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+~$*
+.env
+.env.*
+**/config.json
+*.pem
+*.key
+reader/documents/
+reader/reports/
+reader/*.jsonl
+reader/Open proposals.md
+reader/test/last run/
+approvals/sheets/
+approvals/decided/
+approvals/gate/
+approvals/Changes to make.md
+approvals/Leads to use.md
+approvals/Reader mistakes.md
+watcher/reports/
+watcher/state.json
+watcher/log.jsonl
+watcher/handoff.json
+review/review.json

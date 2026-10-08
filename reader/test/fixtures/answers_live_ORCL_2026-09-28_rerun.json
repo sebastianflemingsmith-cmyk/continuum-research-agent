@@ -1,0 +1,506 @@
+{
+ "ORCL_periodic_2026-09-26_16": {
+  "items": [
+   {
+    "item": "F035:ORCL",
+    "found": false,
+    "value": null,
+    "value_as_printed": null,
+    "unit": "",
+    "period_end": null,
+    "period_type": "absence",
+    "line_item": "",
+    "fragments": [
+     {
+      "role": "evidence",
+      "text": "Our products and services include enterprise applications and infrastructure offerings that incorporate and are enhanced by artificial intelligence (AI) technologies, including embedded AI-driven automation and analytics and generative AI capabilities."
+     },
+     {
+      "role": "evidence",
+      "text": "The principal category we use to disaggregate revenues is the nature of our products and services as presented in our condensed consolidated statements of operations."
+     },
+     {
+      "role": "evidence",
+      "text": "The following table presents our cloud revenues by offerings:"
+     }
+    ],
+    "comment": "No AI revenue figure is disclosed. Revenues are disaggregated only into cloud applications, cloud infrastructure, software license, software support, hardware and services (and by geography); AI is described only as a feature embedded in offerings."
+   },
+   {
+    "item": "F059:ORCL",
+    "found": true,
+    "value": 288,
+    "value_as_printed": "$288 billion",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "line_item": "additional lease commitments",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of August 31, 2026 , we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements"
+     },
+     {
+      "role": "context",
+      "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+     }
+    ],
+    "comment": "Latest period is the quarter ended August 31, 2026 ($288 billion); the paper's $260 billion was as of May 31, 2026."
+   },
+   {
+    "item": "F065:ORCL_start",
+    "found": true,
+    "value": null,
+    "value_text": "second quarter of fiscal 2027",
+    "unit": "text",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "line_item": "additional lease commitments ... generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of August 31, 2026 , we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years"
+     }
+    ],
+    "comment": "Document now says commencement begins in the second quarter of fiscal 2027, not the first quarter."
+   },
+   {
+    "item": "F065:ORCL_end",
+    "found": true,
+    "value": null,
+    "value_text": "fiscal 2029",
+    "unit": "text",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "line_item": "additional lease commitments ... generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of August 31, 2026 , we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years"
+     }
+    ],
+    "comment": "Last commencement year unchanged: fiscal 2029."
+   },
+   {
+    "item": "F065:ORCL_term_min",
+    "found": true,
+    "value": 15,
+    "value_as_printed": "fifteen",
+    "unit": "years",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "line_item": "terms of fifteen to nineteen years",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+     }
+    ],
+    "comment": "Shortest term of the additional (not yet commenced) leases is fifteen years."
+   },
+   {
+    "item": "F065:ORCL_term_max",
+    "found": true,
+    "value": 19,
+    "value_as_printed": "nineteen",
+    "unit": "years",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "line_item": "terms of fifteen to nineteen years",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+     }
+    ],
+    "comment": "Longest term of the additional (not yet commenced) leases is nineteen years."
+   },
+   {
+    "item": "F150:ORCL_ytd",
+    "found": true,
+    "value": 11.363,
+    "value_as_printed": "11,363",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "3m",
+    "line_item": "Increase in deferred revenues from customer prepayments with significant financing component",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363"
+     },
+     {
+      "role": "column",
+      "text": "Three Months Ended\nAugust 31,"
+     },
+     {
+      "role": "units",
+      "text": "(in millions)"
+     },
+     {
+      "role": "context",
+      "text": "During the first quarter of fiscal 2027, we received $ 11.4 billion of prepayments from customers that included a significant financing component."
+     }
+    ],
+    "comment": "Cash-flow line for the quarter (fiscal 2027 to date): $11,363 million. The 2025 comparative column shows a dash."
+   },
+   {
+    "item": "F150:ORCL_prior_ytd",
+    "found": true,
+    "value": 0,
+    "value_as_printed": "—",
+    "unit": "$bn",
+    "period_end": "2025-08-31",
+    "period_type": "3m",
+    "line_item": "Increase in deferred revenues from customer prepayments with significant financing component",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363\n—"
+     },
+     {
+      "role": "column",
+      "text": "Three Months Ended\nAugust 31,"
+     },
+     {
+      "role": "units",
+      "text": "(in millions)"
+     },
+     {
+      "role": "context",
+      "text": "No prepayments from customers that included a significant financing component were received during the first quarter of fiscal 2026."
+     }
+    ],
+    "comment": "Prior-year comparative column shows a dash (nil) for the same line; narrative confirms no such prepayments in the first quarter of fiscal 2026."
+   },
+   {
+    "item": "F152:ORCL",
+    "found": true,
+    "value": 288,
+    "value_as_printed": "$288 billion",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "line_item": "additional lease commitments",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of August 31, 2026 , we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements"
+     },
+     {
+      "role": "context",
+      "text": "that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above."
+     }
+    ],
+    "comment": "Same disclosure as F059: additional lease commitments not yet on the balance sheet were $288 billion at August 31, 2026."
+   },
+   {
+    "item": "F154:ORCL_atm",
+    "found": true,
+    "value": 19.9,
+    "value_as_printed": "$ 19.9 billion",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "3m",
+    "line_item": "net proceeds from the issuance of common stock via the ATM Program",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "During the first quarter ended August 31, 2026, we fully utilized the ATM Program and issued approximately 141 million shares of common stock under the ATM Program for net proceeds of $ 19.9 billion."
+     },
+     {
+      "role": "context",
+      "text": "Proceeds from issuances of common stock via at-the-market program, net of issuance costs\n19,909"
+     },
+     {
+      "role": "units",
+      "text": "(in millions)"
+     }
+    ],
+    "comment": "Cash-flow statement shows the precise line of $19,909 million ($19.909bn); the note states net proceeds of $19.9 billion. ATM program fully utilized."
+   },
+   {
+    "item": "F154:ORCL_debt",
+    "found": false,
+    "value": null,
+    "value_as_printed": null,
+    "unit": "",
+    "period_end": null,
+    "period_type": "absence",
+    "line_item": "",
+    "fragments": [
+     {
+      "role": "evidence",
+      "text": "Cash flows from financing activities:"
+     },
+     {
+      "role": "evidence",
+      "text": "Repayments of senior notes, term loan credit agreements and other borrowings\n(\n4,202\n)\n(\n1,052\n)"
+     },
+     {
+      "role": "evidence",
+      "text": "(Repayments of) proceeds from short-term financing related to capital expenditures, net\n(\n830\n)\n1,958"
+     }
+    ],
+    "comment": "The financing section contains no 'proceeds from borrowings'/'issuance of notes' line in the quarter; only repayments of senior notes/term loan/other borrowings ($4,202 million) and net repayments of short-term financing ($830 million). The measure (cash received from new borrowings) is not disclosed, consistent with the paper's statement of no new debt."
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Remaining performance obligations jump to $664bn",
+    "related_rows": [
+     "F059",
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Remaining performance obligations were $ 664 billion and $ 455 billion as of August 31, 2026 and 2025, respectively."
+     },
+     {
+      "role": "context",
+      "text": "The increase in remaining performance obligations as of August 31, 2026 in comparison to August 31, 2025 was primarily attributable to certain significant cloud contracts that were entered into during the period."
+     }
+    ],
+    "why_it_matters": "Contractual backlog backing the data-center capacity that the additional lease commitments tracked above will supply."
+   },
+   {
+    "topic": "Capital expenditures scaled up to $28.5bn in the quarter",
+    "related_rows": [
+     "F152",
+     "F059"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Cash used for capital expenditures increased from $8.5 billion in the first quarter of fiscal 2026 to $28.5 billion in the first quarter of fiscal 2027 primarily due to the expansion of our data centers."
+     },
+     {
+      "role": "context",
+      "text": "We expect our capital expenditures in fiscal 2027 to be higher than fiscal 2026 as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand for our cloud offerings."
+     }
+    ],
+    "why_it_matters": "Cash build-out spending is the driver of the new lease and purchase commitments, and it exceeded operating cash flow in the quarter."
+   },
+   {
+    "topic": "Unconditional purchase obligations of $34.2bn for cloud infrastructure and data-center power",
+    "related_rows": [
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of August 31, 2026, our unconditional purchase and certain other obligations with terms of one year or greater, which were primarily related to long-term supply arrangements for purchasing components for cloud infrastructure assets and power supply arrangements for data centers, were as follows (in millions):"
+     },
+     {
+      "role": "value",
+      "text": "Total\n$\n34,150"
+     }
+    ],
+    "why_it_matters": "Off-balance-sheet purchase commitments for cloud components and data-center power sit alongside the not-yet-commenced leases."
+   },
+   {
+    "topic": "New lease ROU assets obtained in the quarter",
+    "related_rows": [
+     "F059",
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "context",
+      "text": "ROU assets obtained in exchange for lease obligations:"
+     },
+     {
+      "role": "value",
+      "text": "Operating leases\n$\n4,903\n$\n3,181"
+     },
+     {
+      "role": "value",
+      "text": "Finance leases\n$\n1,539\n$\n1,122"
+     },
+     {
+      "role": "units",
+      "text": "(in millions)"
+     }
+    ],
+    "why_it_matters": "Leases already landing on the balance sheet are growing fast next to the additional commitments that have not commenced."
+   },
+   {
+    "topic": "Debt funding: $43.0bn of senior notes issued in fiscal 2026",
+    "related_rows": [
+     "F154"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Interest expense increased in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, primarily due to higher average borrowings from the issuances of $43.0 billion of senior notes in fiscal 2026, partially offset by lower interest expense due to scheduled repayments of $8.1 billion of debt made during the first quarter of fiscal 2027 and full year of fiscal 2026."
+     }
+    ],
+    "why_it_matters": "Shows the debt raised before this quarter and the repayment burden carried into it, as background to the no-new-debt finding."
+   }
+  ]
+ },
+ "ORCL_results_2026-09-26_15": {
+  "items": [
+   {
+    "item": "F035:ORCL",
+    "found": false,
+    "value": null,
+    "value_as_printed": null,
+    "unit": "",
+    "period_end": null,
+    "period_type": "absence",
+    "line_item": "AI revenue",
+    "fragments": [
+     {
+      "role": "evidence",
+      "text": "Oracle booked more than $30 billion of additional AI cloud contracts in Q1 increasing its RPO to $664 billion."
+     },
+     {
+      "role": "evidence",
+      "text": "Cloud infrastructure\n3,347\n4,079\n4,888\n5,787\n18,101\n7,388\n7,388"
+     }
+    ],
+    "comment": "No separate AI revenue figure; AI appears as contracts/RPO and product announcements, not a revenue line."
+   },
+   {
+    "item": "F037:ORCL",
+    "found": false,
+    "value": null,
+    "value_as_printed": null,
+    "unit": "$bn",
+    "period_end": null,
+    "period_type": "said",
+    "line_item": "total of customer prepayments and customer-supplied hardware in AI contracts",
+    "fragments": [
+     {
+      "role": "evidence",
+      "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363\n—"
+     },
+     {
+      "role": "evidence",
+      "text": "(3) Represents customer prepayments with significant financing component as reported in cash flows from operating activities in our cash flow statements presented in accordance with GAAP."
+     }
+    ],
+    "comment": "Document discloses customer prepayments with significant financing component but not a total of customer prepayments and customer-supplied hardware in AI contracts; no $75bn figure."
+   },
+   {
+    "item": "F042:ORCL",
+    "found": true,
+    "value": 7.388,
+    "value_as_printed": "7,388",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "3m",
+    "line_item": "Cloud infrastructure",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Cloud infrastructure\n3,347\n4,079\n4,888\n5,787\n18,101\n7,388\n7,388"
+     },
+     {
+      "role": "column",
+      "text": "Q1"
+     },
+     {
+      "role": "units",
+      "text": "($ in millions)"
+     },
+     {
+      "role": "context",
+      "text": "Q1 FISCAL 2027 FINANCIAL RESULTS"
+     }
+    ],
+    "comment": "Reported in CLOUD REVENUES BY OFFERINGS table; latest period Q1 FY2027."
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "ATM equity sale",
+    "related_rows": [
+     "F037"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "During Q1 FY 2027, Oracle successfully completed the sale of $20 billion of common stock (before commissions) through an At-the-Market (ATM) equity program, as part of its previously disclosed capital investment program."
+     }
+    ],
+    "why_it_matters": "Adds large equity funding for AI infrastructure investment."
+   },
+   {
+    "topic": "Customer prepayments for capital expenditures",
+    "related_rows": [
+     "F037"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363\n—"
+     },
+     {
+      "role": "context",
+      "text": "(3) Represents customer prepayments with significant financing component as reported in cash flows from operating activities in our cash flow statements presented in accordance with GAAP."
+     }
+    ],
+    "why_it_matters": "Customer prepayments fund capital expenditures, reducing net cash outlay."
+   },
+   {
+    "topic": "RPO and new AI cloud contracts",
+    "related_rows": [
+     "F037",
+     "F042"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Remaining Performance Obligations or RPO up $209 billion year-over-year to $664 billion"
+     },
+     {
+      "role": "value",
+      "text": "Oracle booked more than $30 billion of additional AI cloud contracts in Q1 increasing its RPO to $664 billion."
+     },
+     {
+      "role": "context",
+      "text": "Based on the structuring of those new contracts, the Company confirms there is no incremental impact on its plans to raise capital."
+     }
+    ],
+    "why_it_matters": "AI contract backlog grew while the company says no incremental capital raise is needed."
+   },
+   {
+    "topic": "Capital expenditures and net cash outlay",
+    "related_rows": [
+     "F042"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Capital expenditures\n(28,499\n)\n(8,502\n)"
+     },
+     {
+      "role": "value",
+      "text": "Net Cash Outlay for Capital Expenditures\n$\n6,544\n$\n12,793\n$\n17,166\n$\n11,223\n$\n47,726\n$\n17,966\n$\n17,966"
+     }
+    ],
+    "why_it_matters": "Shows scale of capital spending on cloud infrastructure and the effect of financing adjustments."
+   },
+   {
+    "topic": "Operating lease assets and liabilities",
+    "related_rows": [
+     "F042"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Operating lease right-of-use assets\n33,967\n29,690"
+     },
+     {
+      "role": "value",
+      "text": "Operating lease liabilities\n30,594\n26,648"
+     }
+    ],
+    "why_it_matters": "Shows significant lease commitments for AI infrastructure."
+   }
+  ]
+ }
+}

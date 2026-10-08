@@ -1,0 +1,356 @@
+{
+ "CRWV_periodic_2026-09-26_17": {
+  "items": [
+   {
+    "item": "F056:CRWV",
+    "found": true,
+    "value": 0.98,
+    "value_as_printed": "98 %",
+    "unit": "share",
+    "period_end": "2026-06-30",
+    "period_type": "3m",
+    "line_item": "revenue recognized related to customer commitments",
+    "fragments": [
+     {
+      "role": "context",
+      "text": "The Company primarily generates its revenue through providing cloud computing services, which include both committed contracts and on-demand services."
+     },
+     {
+      "role": "value",
+      "text": "Revenue recognized related to customer commitments, including revenue from delivering capacity prior to commitment start dates, represented 98 % of total revenue for the three months ended June 30, 2026 and 2025, and 98 % of total revenue for the six months ended June 30, 2026 and 2025."
+     },
+     {
+      "role": "context",
+      "text": "For each of the three months ended June 30, 2026 and 2025, committed contracts accounted for 98% of our revenue."
+     }
+    ],
+    "comment": "98% of revenue from committed contracts for the three months ended June 30, 2026."
+   },
+   {
+    "item": "F078:CRWV",
+    "found": false,
+    "unit": "years",
+    "period_end": "2025-12-31",
+    "period_type": "policy",
+    "line_item": "estimated useful life of technology equipment",
+    "fragments": [
+     {
+      "role": "evidence",
+      "text": "There have been no material changes to the Company's significant accounting policies as discussed in \"Note 1—Overview and Summary of Significant Accounting Policies\" in the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2025."
+     },
+     {
+      "role": "evidence",
+      "text": "Significant estimates include the useful lives assigned to property and equipment; the fair value of lease assets; the discount rates used for operating and finance leases;"
+     }
+    ],
+    "comment": "This 10-Q gives no useful life for technology equipment; it says there have been no material changes to the significant accounting policies disclosed in the FY2025 10-K and only lists useful lives as a source of estimation. The 6-year life is not stated in this document."
+   },
+   {
+    "item": "F135:CRWV",
+    "found": true,
+    "value": 11.918,
+    "value_as_printed": "11,918",
+    "unit": "$bn",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "line_item": "Construction in progress",
+    "fragments": [
+     {
+      "role": "units",
+      "text": "Property and equipment, net, consisted of the following (in millions):"
+     },
+     {
+      "role": "column",
+      "text": "June 30,\n2026 | December 31,\n2025"
+     },
+     {
+      "role": "value",
+      "text": "Construction in progress | 11,918 | 9,376"
+     }
+    ],
+    "comment": "Construction in progress of $11.918bn at June 30, 2026; prior-year column shows $9.376bn at December 31, 2025."
+   },
+   {
+    "item": "F141:CRWV_te",
+    "found": true,
+    "value": 33.823,
+    "value_as_printed": "33,823",
+    "unit": "$bn",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "line_item": "Technology equipment",
+    "fragments": [
+     {
+      "role": "units",
+      "text": "Property and equipment, net, consisted of the following (in millions):"
+     },
+     {
+      "role": "column",
+      "text": "June 30,\n2026 | December 31,\n2025"
+     },
+     {
+      "role": "value",
+      "text": "Technology equipment | $33,823 | $20,903"
+     }
+    ],
+    "comment": "Latest period in the document is June 30, 2026: gross technology equipment of $33.823bn. The paper's $20.903bn is the December 31, 2025 comparative column of the same row."
+   },
+   {
+    "item": "F141:CRWV_rev",
+    "found": true,
+    "value": 2.575,
+    "value_as_printed": "$2,575",
+    "unit": "$bn",
+    "period_end": "2026-06-30",
+    "period_type": "3m",
+    "line_item": "Revenue",
+    "fragments": [
+     {
+      "role": "units",
+      "text": "(in millions, except per share data)"
+     },
+     {
+      "role": "column",
+      "text": "Three Months Ended June 30,\nSix Months Ended June 30,\n2026 | 2025 | 2026 | 2025"
+     },
+     {
+      "role": "value",
+      "text": "Revenue | $2,575 | $1,212 | $4,653 | $2,194"
+     }
+    ],
+    "comment": "Revenue for the three months ended June 30, 2026."
+   },
+   {
+    "item": "F150:CRWV",
+    "found": true,
+    "value": 1.365,
+    "value_as_printed": "1,365",
+    "unit": "$bn",
+    "period_end": "2026-06-30",
+    "period_type": "6m",
+    "line_item": "Deferred revenue",
+    "fragments": [
+     {
+      "role": "units",
+      "text": "(in millions)"
+     },
+     {
+      "role": "column",
+      "text": "Six Months Ended June 30,\n2026 | 2025"
+     },
+     {
+      "role": "value",
+      "text": "Deferred revenue | 1,365 | 743"
+     }
+    ],
+    "comment": "Reported as printed for the six months ended June 30, 2026: $1,365 million increase in deferred revenue in operating cash flows; not annualised."
+   },
+   {
+    "item": "F152:CRWV",
+    "found": true,
+    "value": 35.5,
+    "value_as_printed": "$ 35.5 billion",
+    "unit": "$bn",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "line_item": "estimated future undiscounted lease payments associated with leases not yet commenced",
+    "fragments": [
+     {
+      "role": "context",
+      "text": "As of June 30, 2026, the Company executed additional lease agreements, primarily for data centers, equipment, and office buildings, that had not yet commenced."
+     },
+     {
+      "role": "value",
+      "text": "The aggregate amount of estimated future undiscounted lease payments associated with such leases is $ 35.5 billion."
+     }
+    ],
+    "comment": "Leases not yet commenced, estimated future undiscounted payments, at June 30, 2026."
+   },
+   {
+    "item": "F154:CRWV_revolver",
+    "found": true,
+    "value": 1.2,
+    "value_as_printed": "$ 1.2 billion",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "event",
+    "line_item": "draw down on the Revolving Credit Facility",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In August 2026, the Company made a $ 1.2 billion draw down on the Revolving Credit Facility."
+     }
+    ],
+    "comment": "Subsequent-event revolver draw of $1.2bn in August 2026."
+   },
+   {
+    "item": "F154:CRWV_new_draw",
+    "found": true,
+    "value": 1.2,
+    "value_as_printed": "$ 1.2 billion",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "event",
+    "line_item": "amount drawn under the DDTL 5.5 Facility subsequent to closing",
+    "fragments": [
+     {
+      "role": "context",
+      "text": "The agreement provides a $ 2.6 billion delayed draw term loan facility (the “DDTL 5.5 Facility”) available in one or more draws through the commitment termination date in December 2026."
+     },
+     {
+      "role": "value",
+      "text": "Subsequent to the closing, the Company has drawn $ 1.2 billion."
+     }
+    ],
+    "comment": "Draw of $1.2bn on the new DDTL 5.5 Facility after the quarter."
+   },
+   {
+    "item": "F154:CRWV_new_size",
+    "found": true,
+    "value": 2.6,
+    "value_as_printed": "$ 2.6 billion",
+    "unit": "$bn",
+    "period_end": "2026-08-31",
+    "period_type": "event",
+    "line_item": "delayed draw term loan facility (the “DDTL 5.5 Facility”)",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The agreement provides a $ 2.6 billion delayed draw term loan facility (the “DDTL 5.5 Facility”) available in one or more draws through the commitment termination date in December 2026."
+     },
+     {
+      "role": "context",
+      "text": "In August 2026, one of the Company's indirect subsidiaries, CoreWeave Financing DDTL V-V, LLC entered into a delayed draw term loan facility agreement with various lenders and JPMorgan Chase Bank, N.A., as the administrative agent."
+     }
+    ],
+    "comment": "Total size of the new DDTL 5.5 Facility entered in August 2026."
+   },
+   {
+    "item": "F155:CRWV_tests",
+    "found": false,
+    "unit": "count",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "line_item": "financial covenant tests",
+    "fragments": [
+     {
+      "role": "evidence",
+      "text": "In addition, we are required to maintain specified financial covenant ratios and satisfy other financial condition tests under the credit agreements governing our Credit Facilities."
+     },
+     {
+      "role": "evidence",
+      "text": "As of June 30, 2026, the Company was in compliance with all covenants under its delayed draw term loan facility agreements."
+     }
+    ],
+    "comment": "The document does not state a number of financial maintenance covenant tests; it only says specified financial covenant ratios and other financial condition tests are required, without counting them."
+   },
+   {
+    "item": "F155:CRWV_ratio",
+    "found": false,
+    "unit": "",
+    "period_end": null,
+    "period_type": "absence",
+    "line_item": "actual covenant ratio",
+    "fragments": [
+     {
+      "role": "evidence",
+      "text": "In addition, we are required to maintain specified financial covenant ratios and satisfy other financial condition tests under the credit agreements governing our Credit Facilities."
+     },
+     {
+      "role": "evidence",
+      "text": "As of June 30, 2026, the Company was in compliance with all covenants under its delayed draw term loan facility agreements."
+     }
+    ],
+    "comment": "No actual (measured) covenant ratio is disclosed; the document only refers to required ratios and states compliance."
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Unsatisfied remaining performance obligations (RPO)",
+    "related_rows": [
+     "F056",
+     "F150"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, the Company had $ 103.7 billion of unsatisfied RPO, of which 41 % was expected to be recognized over the initial 24 months ending June 30, 2028, 39 % between months 25 and 48, and the remaining balance recognized between months 49 and 78."
+     },
+     {
+      "role": "context",
+      "text": "RPO represents the aggregate amount of the transaction price, net of estimated variable consideration, allocated to performance obligations not delivered, or partially undelivered, as of the end of the reporting period."
+     }
+    ],
+    "why_it_matters": "Total unsatisfied RPO is the backlog behind the committed-contract revenue share in F056 and the customer prepayments flowing through F150."
+   },
+   {
+    "topic": "Deferred revenue (contract liability) balance",
+    "related_rows": [
+     "F150"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Deferred revenue, including current and non-current balances as of June 30, 2026 and December 31, 2025, was $ 9.7 billion and $ 8.2 billion, respectively."
+     }
+    ],
+    "why_it_matters": "The prepayment stock that generates the deferred-revenue cash-flow line in F150 grew to $9.7 billion by June 30, 2026."
+   },
+   {
+    "topic": "Customer concentration and large customer commitments",
+    "related_rows": [
+     "F056"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We recognized an aggregate of approximately 36%, 26%, and 10% of our revenue from our top three customers for the three months ended June 30, 2026, with no other customer representing 10% or more of our revenue for that period."
+     },
+     {
+      "role": "value",
+      "text": "Similarly, in March 2026, we entered into an order form under an existing master services agreement pursuant to which Meta Platforms, Inc. (“Meta”) initially committed to pay us up to approximately $21.0 billion"
+     }
+    ],
+    "why_it_matters": "Concentration in a few take-or-pay customers and a new multi-billion-dollar commitment support, and concentrate the risk in, the committed-revenue share tested in F056."
+   },
+   {
+    "topic": "Post-quarter borrowings (DDTL 5.5 and revolver draw)",
+    "related_rows": [
+     "F154"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The agreement provides a $ 2.6 billion delayed draw term loan facility (the “DDTL 5.5 Facility”) available in one or more draws through the commitment termination date in December 2026."
+     },
+     {
+      "role": "value",
+      "text": "Subsequent to the closing, the Company has drawn $ 1.2 billion."
+     },
+     {
+      "role": "value",
+      "text": "In August 2026, the Company made a $ 1.2 billion draw down on the Revolving Credit Facility."
+     }
+    ],
+    "why_it_matters": "A new facility plus revolver and facility draws show the debt funding raised after the balance-sheet date for the same items tracked in F154."
+   },
+   {
+    "topic": "Lease and equipment commitments excluded from leases not yet commenced",
+    "related_rows": [
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "construction costs incurred by the lessor, subject to a contractual maximum of $ 14.7 billion over the sixteen year term of this lease."
+     },
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, the Company estimated that it would incur between $ 500 million and $ 1.2 billion to fulfill these commitments, with expenditures expected to be incurred in phases through 2028."
+     }
+    ],
+    "why_it_matters": "Further lease-based obligations payable on construction-cost terms are excluded from the $35.5 billion not-yet-commenced lease figure in F152."
+   }
+  ]
+ }
+}

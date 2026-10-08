@@ -1,0 +1,205 @@
+{
+ "items": [
+  {
+   "item": "F003:NVDA",
+   "found": true,
+   "value": 89.023,
+   "value_as_printed": "$89,023",
+   "unit": "$bn",
+   "period_end": "2026-07-26",
+   "period_type": "3m",
+   "line_item": "Data Center",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Data Center | $89,023 | $75,246 | $41,096 | 18 | % | 117 | %"
+    },
+    {
+     "role": "column",
+     "text": "($ in millions) | Q2 FY27 | Q1 FY27 | Q2 FY26 | Q/Q | Y/Y"
+    },
+    {
+     "role": "units",
+     "text": "($ in millions)"
+    },
+    {
+     "role": "context",
+     "text": "Data Center revenue for the second quarter was a record $89.0 billion, up 117% from a year ago and up 18% sequentially, driven by the ramp of our Blackwell Ultra infrastructure."
+    }
+   ],
+   "comment": "Total Data Center revenue for Q2 FY27 from Revenue by Market Platform table."
+  },
+  {
+   "item": "F005:NVDA",
+   "found": true,
+   "value": 48.71,
+   "value_as_printed": "48,710",
+   "unit": "$bn",
+   "period_end": "2026-07-26",
+   "period_type": "3m",
+   "line_item": "Hyperscale",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Hyperscale | 48,710 | 43,050 | 24,168 | 13 | % | 102 | %"
+    },
+    {
+     "role": "column",
+     "text": "($ in millions) | Q2 FY27 | Q1 FY27 | Q2 FY26 | Q/Q | Y/Y"
+    },
+    {
+     "role": "units",
+     "text": "($ in millions)"
+    },
+    {
+     "role": "context",
+     "text": "Hyperscale revenue more than doubled from a year ago and increased 13% sequentially on the strength of Blackwell Ultra."
+    }
+   ],
+   "comment": "Hyperscale revenue line item in Revenue by Market Platform table."
+  },
+  {
+   "item": "F006:NVDA",
+   "found": true,
+   "value": 40.313,
+   "value_as_printed": "40,313",
+   "unit": "$bn",
+   "period_end": "2026-07-26",
+   "period_type": "3m",
+   "line_item": "AI Clouds, Industrial, & Enterprise",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "AI Clouds, Industrial, & Enterprise | 40,313 | 32,196 | 16,928 | 25 | % | 138 | %"
+    },
+    {
+     "role": "column",
+     "text": "($ in millions) | Q2 FY27 | Q1 FY27 | Q2 FY26 | Q/Q | Y/Y"
+    },
+    {
+     "role": "units",
+     "text": "($ in millions)"
+    },
+    {
+     "role": "context",
+     "text": "ACIE revenue increased 138% from a year ago and 25% sequentially driven by end-demand from AI natives, enterprises, and sovereign customers, as well as hyperscalers utilizing AI clouds."
+    }
+   ],
+   "comment": "ACIE revenue line item in Revenue by Market Platform table."
+  },
+  {
+   "item": "F006:NVDA_growth",
+   "found": true,
+   "value": 138,
+   "value_as_printed": "138%",
+   "unit": "%",
+   "period_end": "2026-07-26",
+   "period_type": "3m",
+   "line_item": "ACIE revenue year-on-year growth",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "ACIE revenue increased 138% from a year ago and 25% sequentially driven by end-demand from AI natives, enterprises, and sovereign customers, as well as hyperscalers utilizing AI clouds."
+    },
+    {
+     "role": "column",
+     "text": "($ in millions) | Q2 FY27 | Q1 FY27 | Q2 FY26 | Q/Q | Y/Y"
+    },
+    {
+     "role": "value",
+     "text": "AI Clouds, Industrial, & Enterprise | 40,313 | 32,196 | 16,928 | 25 | % | 138 | %"
+    }
+   ],
+   "comment": "Year-on-year growth of ACIE revenue, stated in text and table Y/Y column."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Reclassification of ACIE to Hyperscale",
+   "related_rows": [
+    "F005:NVDA",
+    "F006:NVDA",
+    "F006:NVDA_growth"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "During the second quarter we reclassified a company from AI Clouds, Industrial, & Enterprise (ACIE) to Hyperscale due to a change in their business model and recast the prior period revenue associated with this company."
+    }
+   ],
+   "why_it_matters": "This reclassification changes the composition of Hyperscale and ACIE revenue, affecting comparability of these items."
+  },
+  {
+   "topic": "Increased supply and capacity commitments",
+   "related_rows": [
+    "F003:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Our commitments increased from $119 billion last quarter to $279 billion, primarily related to the procurement of memory."
+    },
+    {
+     "role": "value",
+     "text": "Supply and capacity | $92 | $87 | $88 | $6 | $5 | $1 | $279"
+    }
+   ],
+   "why_it_matters": "Higher supply commitments signal future procurement obligations tied to Data Center growth."
+  },
+  {
+   "topic": "SB Energy guarantees and PORTS-Pike site",
+   "related_rows": [
+    "F003:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In August 2026, we entered into guarantees to provide credit support on the land, power, and shell buildout to secure approximately 4.25 gigawatts (GW) at SB Energy's PORTS-Pike Technology Campus in Ohio, which will exclusively host NVIDIA infrastructure under 20-year leases to OpenAI, subject to limited exceptions."
+    },
+    {
+     "role": "value",
+     "text": "Our guarantee obligations are capped at a total of $105 billion and become effective in phases as certain conditions are met, including data centers becoming ready for service, with the first expected in fiscal 2029."
+    },
+    {
+     "role": "value",
+     "text": "SB Energy Corp. guarantees | 105.0"
+    }
+   ],
+   "why_it_matters": "New guarantee exposure links NVIDIA to OpenAI data center lease obligations and future infrastructure revenue."
+  },
+  {
+   "topic": "Extended payment terms raise accounts receivable",
+   "related_rows": [
+    "F003:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Accounts receivable was $63.1 billion with 60 days sales outstanding (DSO), up from 45 days sequentially, due to extended payment terms on large, multi-quarter agreements with certain investment-grade customers."
+    }
+   ],
+   "why_it_matters": "Extended payment terms affect cash conversion and credit risk associated with Data Center revenue."
+  },
+  {
+   "topic": "Data center lease and AI cloud commitments",
+   "related_rows": [
+    "F003:NVDA"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Our upcoming data center leases have terms up to twenty years and are expected to commence between the third quarter of fiscal year 2027 and fiscal year 2033."
+    },
+    {
+     "role": "value",
+     "text": "Data center leases not commenced | — | 1 | 1 | 2 | 1 | 20 | 25"
+    },
+    {
+     "role": "value",
+     "text": "AI cloud agreements | $— | $6 | $8 | $7 | $6 | $9 | $36"
+    }
+   ],
+   "why_it_matters": "Lease and AI cloud commitments represent future fixed obligations and revenue-sharing arrangements tied to AI infrastructure."
+  }
+ ]
+}

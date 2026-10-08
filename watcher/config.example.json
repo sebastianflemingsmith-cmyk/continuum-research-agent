@@ -1,0 +1,7 @@
+{
+  "contact_name": "",
+  "contact_email": "",
+  "watch_list": "../Watch list - The AI Lose Lose Race.xlsx",
+  "baseline_date": "2026-09-25",
+  "_help": "Copy this file to config.json and fill in your name and email. The SEC asks every program that reads its data to say who is running it. The email is only sent to the SEC. config.json is git-ignored."
+}

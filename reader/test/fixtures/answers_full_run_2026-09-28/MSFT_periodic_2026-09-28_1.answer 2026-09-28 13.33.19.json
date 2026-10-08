@@ -1,0 +1,243 @@
+{
+ "items": [
+  {
+   "item": "F058:MSFT",
+   "found": true,
+   "value": 329.1,
+   "value_as_printed": "$ 329.1 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "additional leases, primarily for datacenters, that had not yet commenced",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "As of June 30, 2026, we had additional leases, primarily for datacenters, that had not yet commenced of $ 329.1 billion, with some arrangements subject to certain contractual conditions being met."
+    },
+    {
+     "role": "context",
+     "text": "NOTE 13 — LEASES"
+    }
+   ],
+   "comment": "Found as additional leases not yet commenced, primarily datacenters."
+  },
+  {
+   "item": "F077:MSFT_min",
+   "found": true,
+   "value": 2,
+   "value_as_printed": "two",
+   "unit": "years",
+   "period_end": "2026-06-30",
+   "period_type": "policy",
+   "line_item": "servers and network equipment",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "software developed or acquired for internal use, three years ; servers and network equipment, two to six years ; buildings and improvements, five to 15 years ; leasehold improvements, three to 15 years ; and furniture and equipment, one to 10 years ."
+    }
+   ],
+   "comment": "Useful life policy; lower end of two to six years."
+  },
+  {
+   "item": "F077:MSFT_max",
+   "found": true,
+   "value": 6,
+   "value_as_printed": "six",
+   "unit": "years",
+   "period_end": "2026-06-30",
+   "period_type": "policy",
+   "line_item": "servers and network equipment",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "software developed or acquired for internal use, three years ; servers and network equipment, two to six years ; buildings and improvements, five to 15 years ; leasehold improvements, three to 15 years ; and furniture and equipment, one to 10 years ."
+    }
+   ],
+   "comment": "Useful life policy; upper end of two to six years."
+  },
+  {
+   "item": "F087:MSFT",
+   "found": true,
+   "value": 678,
+   "value_as_printed": "$ 678 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Revenue allocated to remaining performance obligations related to the commercial portion of revenue",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $ 678 billion as of June 30, 2026, with a weighted average duration of approximately 2.3 years."
+    }
+   ],
+   "comment": "Commercial RPO, not total company RPO."
+  },
+  {
+   "item": "F087:MSFT_duration",
+   "found": true,
+   "value": 2.3,
+   "value_as_printed": "approximately 2.3 years",
+   "unit": "years",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "weighted average duration",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $ 678 billion as of June 30, 2026, with a weighted average duration of approximately 2.3 years."
+    }
+   ],
+   "comment": "Weighted average duration of commercial RPO."
+  },
+  {
+   "item": "F087:MSFT_12m",
+   "found": true,
+   "value": 30,
+   "value_as_printed": "30 %",
+   "unit": "%",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "commercial remaining performance obligation revenue over the next 12 months",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We expect to recognize approximately 30 % of both our total company remaining performance obligation revenue and commercial remaining performance obligation revenue over the next 12 months and the remainder thereafter."
+    }
+   ],
+   "comment": "Share of commercial RPO expected to be recognized within 12 months."
+  },
+  {
+   "item": "F099:MSFT_rev",
+   "found": true,
+   "value": 24.1,
+   "value_as_printed": "$ 24.1 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "12m",
+   "line_item": "revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "For fiscal year 2026, we recorded revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments, of $ 24.1 billion, and accounts receivable from OpenAI as of June 30, 2026 was $ 6.0 billion."
+    },
+    {
+     "role": "context",
+     "text": "We have a long-term strategic partnership with OpenAI. In October 2025, we signed a new definitive agreement with OpenAI that extends this partnership. We have an investment accounted for under the equity method that represents an approximate 25 % interest on an as-converted basis."
+    }
+   ],
+   "comment": "Related-party revenue from OpenAI."
+  },
+  {
+   "item": "F099:MSFT_recv",
+   "found": true,
+   "value": 6.0,
+   "value_as_printed": "$ 6.0 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "accounts receivable from OpenAI",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "For fiscal year 2026, we recorded revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments, of $ 24.1 billion, and accounts receivable from OpenAI as of June 30, 2026 was $ 6.0 billion."
+    },
+    {
+     "role": "context",
+     "text": "We have a long-term strategic partnership with OpenAI. In October 2025, we signed a new definitive agreement with OpenAI that extends this partnership. We have an investment accounted for under the equity method that represents an approximate 25 % interest on an as-converted basis."
+    }
+   ],
+   "comment": "Related-party receivable from OpenAI at year end."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Datacenter purchase commitments",
+   "related_rows": [
+    "F058"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Purchase commitments (d)\n169,008\n25,052\n194,060"
+    },
+    {
+     "role": "context",
+     "text": "(d) Purchase commitments primarily relate to datacenters and include open purchase orders and take-or-pay contracts that are not presented as construction commitments above."
+    },
+    {
+     "role": "units",
+     "text": "(In millions)"
+    }
+   ],
+   "why_it_matters": "Shows large off-balance-sheet AI infrastructure commitments beyond leases."
+  },
+  {
+   "topic": "Datacenter construction commitments",
+   "related_rows": [
+    "F058"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Construction commitments (b)\n29,848\n4,718\n34,566"
+    },
+    {
+     "role": "units",
+     "text": "(In millions)"
+    }
+   ],
+   "why_it_matters": "Adds committed construction spend for new buildings and datacenters."
+  },
+  {
+   "topic": "OpenAI funding commitments and ownership",
+   "related_rows": [
+    "F099"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We have made total funding commitments of $ 13.0 billion related to our investment, of which $ 11.9 billion has been funded as of June 30, 2026."
+    },
+    {
+     "role": "context",
+     "text": "We have an investment accounted for under the equity method that represents an approximate 25 % interest on an as-converted basis."
+    }
+   ],
+   "why_it_matters": "Shows additional capital committed to and related-party ownership in OpenAI."
+  },
+  {
+   "topic": "Finance lease obligations and new finance lease assets",
+   "related_rows": [
+    "F058"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Total finance lease liabilities\n$\n66,594\n$\n46,172"
+    },
+    {
+     "role": "value",
+     "text": "Finance leases\n24,608\n20,511\n11,633"
+    },
+    {
+     "role": "units",
+     "text": "(In millions)"
+    }
+   ],
+   "why_it_matters": "Shows scale of finance lease financing for datacenters and equipment."
+  },
+  {
+   "topic": "Commercial RPO growth",
+   "related_rows": [
+    "F087"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Commercial remaining performance obligation increased 84% to $678 billion."
+    }
+   ],
+   "why_it_matters": "Gives growth rate for commercial RPO, relevant to backlog."
+  }
+ ]
+}

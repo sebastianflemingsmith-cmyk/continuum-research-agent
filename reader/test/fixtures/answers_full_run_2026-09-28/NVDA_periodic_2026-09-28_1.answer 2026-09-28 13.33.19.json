@@ -1,0 +1,150 @@
+{
+ "items": [
+  {
+   "item": "F003:NVDA",
+   "found": true,
+   "value": 89.023,
+   "value_as_printed": "$89,023",
+   "unit": "$bn",
+   "period_end": "2026-07-26",
+   "period_type": "3m",
+   "line_item": "Data Center",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "Revenue by Market Platform"
+    },
+    {
+     "role": "column",
+     "text": "Jul 26, 2026 | Jul 27, 2025 | Jul 26, 2026 | Jul 27, 2025"
+    },
+    {
+     "role": "units",
+     "text": "(In millions)"
+    },
+    {
+     "role": "value",
+     "text": "Data Center | $89,023 | $41,096 | $164,269 | $80,208"
+    }
+   ],
+   "comment": "Total Data Center revenue for the quarter ended Jul 26, 2026, as presented in the Revenue by Market Platform table in Note 13 (also given in MD&A: 'Data Center revenue was $89.0 billion')."
+  },
+  {
+   "item": "F092:NVDA",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": null,
+   "period_type": "event",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "SB Energy Corp. guarantees – In August 2026, we entered into guarantees, capped at a total of $ 105 billion, to provide credit support on a land, power, and shell buildout with affiliates of SB Energy Corp. (SB Energy) on behalf of a customer, an affiliate of OpenAI Group PBC (OpenAI), related to leases for approximately 4.25 gigawatts of IT load in the aggregate at SB Energy’s PORTS Technology Campus in Pike County, Ohio."
+    },
+    {
+     "role": "evidence",
+     "text": "Equity investments | 18 | 3 | 2 | 2 | — | — | 25"
+    },
+    {
+     "role": "evidence",
+     "text": "These include equity investments of $99 billion and equity investment commitments of $25 billion as of July 26, 2026."
+    }
+   ],
+   "comment": "This 10-Q discloses no intended or agreed investment amount in OpenAI. What it discloses are credit-support guarantees for OpenAI-affiliated data center leases (SB Energy, capped at $105 billion) and generic aggregate equity investment commitments ($25 billion) that are not attributed to OpenAI."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "SB Energy guarantees for OpenAI-affiliated leases",
+   "related_rows": [
+    "F092"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "SB Energy Corp. guarantees – In August 2026, we entered into guarantees, capped at a total of $ 105 billion, to provide credit support on a land, power, and shell buildout with affiliates of SB Energy Corp. (SB Energy) on behalf of a customer, an affiliate of OpenAI Group PBC (OpenAI), related to leases for approximately 4.25 gigawatts of IT load in the aggregate at SB Energy’s PORTS Technology Campus in Pike County, Ohio."
+    },
+    {
+     "role": "value",
+     "text": "SB Energy Corp. guarantees | 105.0"
+    },
+    {
+     "role": "value",
+     "text": "Total | $108.5"
+    }
+   ],
+   "why_it_matters": "Adds maximum gross exposure on OpenAI-related infrastructure that sits alongside the intended investment, and the guarantees begin only as each data center phase is placed in service."
+  },
+  {
+   "topic": "MOUs for $500bn third-party AI infrastructure financing platforms",
+   "related_rows": [
+    "F092"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In August 2026, we entered into memorandums of understanding with several large capital providers to establish independent financing platforms designed to mobilize more than $500 billion of third-party capital over time to support the deployment of AI infrastructure."
+    },
+    {
+     "role": "value",
+     "text": "At our option, we may provide limited residual-value support for a portion of specific projects, subject to disciplined risk management and project-by-project evaluation."
+    }
+   ],
+   "why_it_matters": "Shows a push to move AI infrastructure funding off Nvidia's own balance sheet, but as preliminary arrangements that may not become definitive agreements and may carry residual-value support."
+  },
+  {
+   "topic": "Supply and capacity commitments jump to $279bn",
+   "related_rows": [
+    "F003",
+    "F092"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand."
+    },
+    {
+     "role": "value",
+     "text": "Supply and capacity | $92 | $87 | $88 | $6 | $5 | $1 | $279"
+    }
+   ],
+   "why_it_matters": "The scale of committed supply spending is the demand-side counterpart to the data center revenue and to any customer-financing support."
+  },
+  {
+   "topic": "Equity investment commitments and portfolio",
+   "related_rows": [
+    "F092"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "These include equity investments of $99 billion and equity investment commitments of $25 billion as of July 26, 2026."
+    },
+    {
+     "role": "value",
+     "text": "Equity investments – We committed to make certain equity investments in AI model makers, infrastructure financiers, and other private companies, subject to certain contingencies."
+    }
+   ],
+   "why_it_matters": "Quantifies the ecosystem investment channel (including AI model makers and infrastructure financiers) through which a future OpenAI investment would be made."
+  },
+  {
+   "topic": "June 2026 debt issuance and commercial paper capacity",
+   "related_rows": [
+    "F092"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In June 2026, we issued an aggregate of $ 25.0 billion of senior unsecured notes across seven tranches for general corporate purposes."
+    },
+    {
+     "role": "value",
+     "text": "As of July 26, 2026, our commercial paper program had a capacity of $ 25.0 billion, with no amounts outstanding."
+    }
+   ],
+   "why_it_matters": "Funding raised for general corporate purposes expands the capital available for investments, commitments and credit support."
+  }
+ ]
+}

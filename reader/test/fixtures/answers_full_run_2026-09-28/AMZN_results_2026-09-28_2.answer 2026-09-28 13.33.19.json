@@ -1,0 +1,113 @@
+{
+ "items": [
+  {
+   "item": "F011:AMZN",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "ttm",
+   "line_item": "free cash flow",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Free cash flow is cash flow from operations reduced by “Purchases of property and equipment, net of proceeds from sales and incentives.”"
+    },
+    {
+     "role": "evidence",
+     "text": "For a quantitative reconciliation of free cash flow to the most directly comparable amounts reported in accordance with GAAP, see “Supplemental Financial Information and Business Metrics” in Exhibit 99.1 to this Current Report on Form 8-K."
+    }
+   ],
+   "comment": "This exhibit (99.2) only defines free cash flow as a non-GAAP measure; no free cash flow amount is given. The quantitative reconciliation and figures are in Exhibit 99.1, which is not part of this document."
+  },
+  {
+   "item": "F034:AMZN",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": "2026-07-30",
+   "period_type": "said",
+   "line_item": "AWS AI business annual revenue run rate",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "The effect on our consolidated statements of operations from changes in foreign exchange rates versus the U.S. Dollar is also a non-GAAP financial measure."
+    }
+   ],
+   "comment": "The document is the non-GAAP financial measures exhibit and contains no discussion of AWS, its AI business or any revenue run rate."
+  },
+  {
+   "item": "F040:AMZN",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "AWS segment net sales",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "For a quantitative reconciliation of free cash flow to the most directly comparable amounts reported in accordance with GAAP, see “Supplemental Financial Information and Business Metrics” in Exhibit 99.1 to this Current Report on Form 8-K."
+    }
+   ],
+   "comment": "No segment or AWS net sales figures appear in this exhibit; only the definitions of non-GAAP measures are given here, with financial detail deferred to Exhibit 99.1."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Free cash flow definition",
+   "related_rows": [
+    "F011"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Free cash flow is cash flow from operations reduced by “Purchases of property and equipment, net of proceeds from sales and incentives.”"
+    }
+   ],
+   "why_it_matters": "Fixes the company's own definition of free cash flow, so any reported figure must equal cash flow from operations less purchases of property and equipment, net of proceeds from sales and incentives."
+  },
+  {
+   "topic": "Free cash flow limitations",
+   "related_rows": [
+    "F011"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "For example, free cash flow does not incorporate the portion of payments representing principal reductions of debt or cash payments for business acquisitions."
+    }
+   ],
+   "why_it_matters": "Tells the reader that debt principal payments and acquisition cash outflows sit outside the free cash flow measure, which matters when comparing it with total cash obligations."
+  },
+  {
+   "topic": "Reconciliation location",
+   "related_rows": [
+    "F011"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "For a quantitative reconciliation of free cash flow to the most directly comparable amounts reported in accordance with GAAP, see “Supplemental Financial Information and Business Metrics” in Exhibit 99.1 to this Current Report on Form 8-K."
+    }
+   ],
+   "why_it_matters": "Points to the accompanying exhibit where the free cash flow amount and its GAAP reconciliation are actually disclosed."
+  },
+  {
+   "topic": "Foreign exchange non-GAAP measure",
+   "related_rows": [
+    "F011"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "The effect on our consolidated statements of operations from changes in foreign exchange rates versus the U.S. Dollar is also a non-GAAP financial measure."
+    }
+   ],
+   "why_it_matters": "Flags a second non-GAAP measure in the same release that affects reported period operating results."
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "items": [
+  {
+   "item": "F035:GOOGL",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": null,
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Google Search & other | $54,190 | $63,271\nYouTube ads | 9,796 | 11,055\nGoogle Network | 7,354 | 7,303\nGoogle advertising | 71,340 | 81,629\nGoogle subscriptions, platforms, and devices | 11,203 | 12,911\nGoogle Services total | 82,543 | 94,540\nGoogle Cloud | 13,624 | 24,768\nOther Bets | 373 | 382\nHedging gains (losses) | (112) | 106\nTotal revenues | $96,428 | $119,796"
+    },
+    {
+     "role": "evidence",
+     "text": "Google Cloud saw a meaningful acceleration in growth as revenues increased 82% to $24.8 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI Infrastructure, as well as core GCP services."
+    }
+   ],
+   "comment": "No separately disclosed AI revenue figure. Revenue is broken out by Google Search & other, YouTube ads, Google Network, Google subscriptions, platforms, and devices, Google Cloud, Other Bets, and hedging gains (losses); the Google Cloud narrative mentions enterprise AI Solutions and AI Infrastructure but not a separate AI revenue line."
+  },
+  {
+   "item": "F036:GOOGL_tokens",
+   "found": true,
+   "value": 22,
+   "value_as_printed": "22 billion",
+   "unit": "billion",
+   "period_end": "2026-07-22",
+   "period_type": "said",
+   "line_item": "Gemini API tokens processed per minute",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Gemini models now process 22 billion API tokens per minute and the Gemini App has 950 million monthly active users."
+    },
+    {
+     "role": "context",
+     "text": "MOUNTAIN VIEW, Calif. – July 22, 2026 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended June 30, 2026."
+    }
+   ],
+   "comment": "Latest disclosure in Q2 2026 results release."
+  },
+  {
+   "item": "F036:GOOGL_users",
+   "found": true,
+   "value": 950,
+   "value_as_printed": "950 million",
+   "unit": "million",
+   "period_end": "2026-07-22",
+   "period_type": "said",
+   "line_item": "Gemini App monthly active users",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Gemini models now process 22 billion API tokens per minute and the Gemini App has 950 million monthly active users."
+    },
+    {
+     "role": "context",
+     "text": "MOUNTAIN VIEW, Calif. – July 22, 2026 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended June 30, 2026."
+    }
+   ],
+   "comment": "Latest disclosure in Q2 2026 results release."
+  },
+  {
+   "item": "F036:GOOGL_f100",
+   "found": true,
+   "value": 90,
+   "value_as_printed": "nearly 90%",
+   "unit": "%",
+   "period_end": "2026-07-22",
+   "period_type": "said",
+   "line_item": "share of the Fortune 100 using Gemini Enterprise",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "It’s great to see wide adoption of Gemini Enterprise, with nearly 90% of the Fortune 100 using it."
+    },
+    {
+     "role": "context",
+     "text": "MOUNTAIN VIEW, Calif. – July 22, 2026 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended June 30, 2026."
+    }
+   ],
+   "comment": "Stated as nearly 90%."
+  },
+  {
+   "item": "F041:GOOGL",
+   "found": true,
+   "value": 24.768,
+   "value_as_printed": "24,768",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "Google Cloud",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Google Cloud | 13,624 | 24,768"
+    },
+    {
+     "role": "column",
+     "text": "Quarter Ended June 30,\n2025 | 2026"
+    },
+    {
+     "role": "units",
+     "text": "Q2 2026 Supplemental Information (in millions, except for number of employees; unaudited)"
+    },
+    {
+     "role": "context",
+     "text": "Google Cloud saw a meaningful acceleration in growth as revenues increased 82% to $24.8 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI Infrastructure, as well as core GCP services."
+    }
+   ],
+   "comment": "Table in millions; $24,768 million for the quarter ended June 30, 2026."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "Equity capital raise for AI infrastructure",
+   "related_rows": [
+    "F041"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In June 2026, we issued a combination of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute."
+    },
+    {
+     "role": "value",
+     "text": "Additionally, we entered into an equity distribution agreement with certain sales agents to sell up to $40.0 billion of our Class A stock and Class C stock from time to time through an At-the-Market Program (ATM Program)."
+    }
+   ],
+   "why_it_matters": "New equity funding is explicitly earmarked for AI infrastructure and compute capex, and an ATM provides additional equity capacity."
+  },
+  {
+   "topic": "Senior unsecured notes issuance",
+   "related_rows": [
+    "F041"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In the second quarter of 2026, we issued senior unsecured notes for net proceeds of $20.3 billion, to be used for general corporate purposes."
+    }
+   ],
+   "why_it_matters": "Adds new debt funding available for general corporate purposes, including AI-related investments."
+  },
+  {
+   "topic": "AI infrastructure capital expenditures",
+   "related_rows": [
+    "F041"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Purchases of property and equipment | (22,446) | (44,924) | (39,643) | (80,598)"
+    },
+    {
+     "role": "column",
+     "text": "Quarter Ended June 30, | Year To Date June 30,\n2025 | 2026 | 2025 | 2026"
+    }
+   ],
+   "why_it_matters": "Shows large quarterly and year-to-date AI infrastructure capital spending."
+  },
+  {
+   "topic": "Negative quarterly free cash flow",
+   "related_rows": [
+    "F041"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Free cash flow | $24,461 | $24,551 | $10,116 | $(5,855) | $53,273"
+    },
+    {
+     "role": "column",
+     "text": "Quarter Ended | TTM\nQ3 2025 | Q4 2025 | Q1 2026 | Q2 2026 | Q2 2026"
+    }
+   ],
+   "why_it_matters": "Quarterly free cash flow turned negative as capital expenditures exceeded operating cash flow."
+  },
+  {
+   "topic": "Google Cloud AI-driven acceleration",
+   "related_rows": [
+    "F041"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Google Cloud saw a meaningful acceleration in growth as revenues increased 82% to $24.8 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI Infrastructure, as well as core GCP services."
+    }
+   ],
+   "why_it_matters": "Confirms AI infrastructure and enterprise AI solutions are the cited drivers of Google Cloud revenue growth."
+  }
+ ]
+}

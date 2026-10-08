@@ -1,0 +1,17 @@
+10-Q filed 2026-11-12 (SYNTHETIC TEST DOCUMENT, not a real filing)
+https://example.invalid/crwv-20260930-synthetic.htm
+
+SYNTHETIC TEST DOCUMENT. This is not a CoreWeave filing. The figures are invented to test that the reader detects a changed component.
+FORM 10-Q
+For the quarterly period ended September 30, 2026
+5. Property and Equipment, Net
+Property and equipment, net, consisted of the following (in millions):
+September 30,
+2026 | December 31,
+2025
+Technology equipment | $41,000 | $20,903
+Construction in progress | 14,000 | 9,376
+Leases
+As of September 30, 2026, the Company executed additional lease agreements, primarily for data centers, that had not yet commenced. The aggregate amount of estimated future undiscounted lease payments associated with such leases is $ 41.2 billion.
+Remaining performance obligations
+As of September 30, 2026, the Company had $ 110.0 billion of unsatisfied RPO.

@@ -1,0 +1,172 @@
+{
+ "items": [
+  {
+   "item": "F035:ORCL",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "",
+   "period_end": null,
+   "period_type": "absence",
+   "line_item": null,
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "CLOUD REVENUES BY OFFERINGS"
+    },
+    {
+     "role": "evidence",
+     "text": "Cloud infrastructure\n3,347\n4,079\n4,888\n5,787\n18,101\n7,388\n7,388"
+    },
+    {
+     "role": "evidence",
+     "text": "Cloud applications\n$\n3,839\n$\n3,898\n$\n4,026\n$\n4,126\n$\n15,888\n$\n4,219\n$\n4,219"
+    },
+    {
+     "role": "evidence",
+     "text": "Customer demand for AI Cloud Training and Inferencing Services continues to grow faster than supply. Oracle booked more than $30 billion of additional AI cloud contracts in Q1 increasing its RPO to $664 billion."
+    }
+   ],
+   "comment": "No separately disclosed AI revenue figure. Revenue is broken into Cloud, Software, Hardware and Services, and cloud is split only into cloud applications and cloud infrastructure."
+  },
+  {
+   "item": "F037:ORCL",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "$bn",
+   "period_end": null,
+   "period_type": null,
+   "line_item": "Customer prepayments with significant financing component for capital expenditures",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "Less: Customer Prepayments with Significant Financing Component for Capital Expenditures (3)\n—\n—\n—\n(4,592\n)\n(4,592\n)\n(11,363\n)\n(11,363\n)"
+    },
+    {
+     "role": "evidence",
+     "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363\n—"
+    },
+    {
+     "role": "evidence",
+     "text": "Represents customer prepayments with significant financing component as reported in cash flows from operating activities in our cash flow statements presented in accordance with GAAP."
+    }
+   ],
+   "comment": "Document discloses customer prepayments with significant financing component for capital expenditures, but no total of customer prepayments plus customer-supplied hardware in AI contracts and no $75bn figure."
+  },
+  {
+   "item": "F042:ORCL",
+   "found": true,
+   "value": 7.388,
+   "value_as_printed": "7,388",
+   "unit": "$bn",
+   "period_end": "2026-08-31",
+   "period_type": "3m",
+   "line_item": "Cloud infrastructure",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Cloud infrastructure\n3,347\n4,079\n4,888\n5,787\n18,101\n7,388\n7,388"
+    },
+    {
+     "role": "column",
+     "text": "Fiscal 2027\nQ1\nQ2\nQ3\nQ4\nTOTAL"
+    },
+    {
+     "role": "units",
+     "text": "($ in millions)"
+    },
+    {
+     "role": "context",
+     "text": "CLOUD REVENUES BY OFFERINGS"
+    }
+   ],
+   "comment": "Table reports cloud infrastructure revenue of $7,388 million for Q1 FY2027."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "ATM equity sale",
+   "related_rows": [
+    "F037",
+    "F042"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "During Q1 FY 2027, Oracle successfully completed the sale of $20 billion of common stock (before commissions) through an At-the-Market (ATM) equity program, as part of its previously disclosed capital investment program."
+    }
+   ],
+   "why_it_matters": "Shows equity funding for the capital investment program."
+  },
+  {
+   "topic": "Customer prepayments for capital expenditures",
+   "related_rows": [
+    "F037"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Less: Customer Prepayments with Significant Financing Component for Capital Expenditures (3)\n—\n—\n—\n(4,592\n)\n(4,592\n)\n(11,363\n)\n(11,363\n)"
+    },
+    {
+     "role": "context",
+     "text": "Represents customer prepayments with significant financing component as reported in cash flows from operating activities in our cash flow statements presented in accordance with GAAP."
+    }
+   ],
+   "why_it_matters": "Shows customer prepayments reduce net cash outlay for AI infrastructure capital expenditures."
+  },
+  {
+   "topic": "Capital expenditures and negative free cash flow",
+   "related_rows": [
+    "F042"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Capital Expenditures\n(8,502\n)\n(12,033\n)\n(18,635\n)\n(16,493\n)\n(55,663\n)\n(28,499\n)\n(28,499\n)"
+    },
+    {
+     "role": "value",
+     "text": "Free Cash Flow\n$\n(362\n)\n$\n(9,967\n)\n$\n(11,484\n)\n$\n(1,873\n)\n$\n(23,686\n)\n$\n(5,396\n)\n$\n(5,396\n)"
+    }
+   ],
+   "why_it_matters": "Shows heavy capital spending and negative free cash flow tied to cloud infrastructure buildout."
+  },
+  {
+   "topic": "RPO and AI cloud contracts",
+   "related_rows": [
+    "F035",
+    "F042"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Remaining Performance Obligations or RPO up $209 billion year-over-year to $664 billion"
+    },
+    {
+     "role": "value",
+     "text": "Oracle booked more than $30 billion of additional AI cloud contracts in Q1 increasing its RPO to $664 billion. Based on the structuring of those new contracts, the Company confirms there is no incremental impact on its plans to raise capital."
+    }
+   ],
+   "why_it_matters": "Shows AI contract backlog growth and management's statement on capital raise plans."
+  },
+  {
+   "topic": "AI datacenter capacity and GPU deliveries",
+   "related_rows": [
+    "F042"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "with the delivery of 850MW additional datacenter capacity."
+    },
+    {
+     "role": "value",
+     "text": "Since the end of Q4, Oracle also delivered more than 300,000 GPUs to its AI Cloud customers and almost triple the capacity delivered in Q4 FY26."
+    }
+   ],
+   "why_it_matters": "Shows rapid AI infrastructure capacity expansion."
+  }
+ ]
+}

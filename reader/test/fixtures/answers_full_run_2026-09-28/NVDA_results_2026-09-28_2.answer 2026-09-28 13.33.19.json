@@ -1,0 +1,139 @@
+{
+ "items": [
+  {
+   "item": "F003:NVDA",
+   "found": true,
+   "value": 89.0,
+   "value_as_printed": "$89.0 billion",
+   "unit": "$bn",
+   "period_end": "2026-07-26",
+   "period_type": "3m",
+   "line_item": "Data Center revenue",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "• Data Center revenue of $89.0 billion, up 117% from a year ago"
+    },
+    {
+     "role": "context",
+     "text": "Second-quarter revenue was $89.0 billion, up 18% from the previous quarter and up 117% from a year ago."
+    }
+   ],
+   "comment": "Total Data Center revenue for the quarter."
+  },
+  {
+   "item": "F005:NVDA",
+   "found": false,
+   "comment": "Document does not disclose hyperscale share of Data Center revenue; it only reports total Data Center and Edge Computing revenue.",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "• Data Center revenue of $89.0 billion, up 117% from a year ago"
+    },
+    {
+     "role": "evidence",
+     "text": "Second-quarter Edge Computing revenue was $7.2 billion, up 13% from the previous quarter and up 27% from a year ago."
+    }
+   ]
+  },
+  {
+   "item": "F006:NVDA",
+   "found": false,
+   "comment": "Document does not disclose ACIE or AI clouds, industrial and enterprise data center revenue; it only reports total Data Center revenue.",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "• Data Center revenue of $89.0 billion, up 117% from a year ago"
+    },
+    {
+     "role": "evidence",
+     "text": "Second-quarter Edge Computing revenue was $7.2 billion, up 13% from the previous quarter and up 27% from a year ago."
+    }
+   ]
+  },
+  {
+   "item": "F006:NVDA_growth",
+   "found": false,
+   "comment": "Document does not disclose year-on-year growth of ACIE revenue; it only reports total Data Center revenue growth.",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "• Data Center revenue of $89.0 billion, up 117% from a year ago"
+    },
+    {
+     "role": "evidence",
+     "text": "Second-quarter Edge Computing revenue was $7.2 billion, up 13% from the previous quarter and up 27% from a year ago."
+    }
+   ]
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "AI infrastructure financing platforms",
+   "related_rows": [
+    "F003",
+    "F005"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Announced strategic partnerships to establish independent compute financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to mobilize over $500 billion of third-party capital for the buildout of AI infrastructure over time, subject to definitive agreements."
+    }
+   ],
+   "why_it_matters": "Third-party capital platform could finance the AI infrastructure buildout, affecting demand and customer mix."
+  },
+  {
+   "topic": "Vera Rubin partner deployments",
+   "related_rows": [
+    "F003",
+    "F005"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Announced the NVIDIA Vera Rubin platform is ramping into full production with racks running at partners including CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure and Nebius."
+    }
+   ],
+   "why_it_matters": "Vera Rubin production with named cloud and AI cloud partners indicates deployment and customer concentration."
+  },
+  {
+   "topic": "Secured land and power",
+   "related_rows": [
+    "F003"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Secured land, power and shell capacity through a partnership with SB Energy at the PORTS-Pike Technology Campus in Ohio to host NVIDIA compute."
+    }
+   ],
+   "why_it_matters": "Secured land and power supports expansion of data center capacity."
+  },
+  {
+   "topic": "Debt issuance",
+   "related_rows": [
+    "F003"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Proceeds related to issuance of debt, net of costs | 24,896 | — | 24,896 | —"
+    }
+   ],
+   "why_it_matters": "New debt issuance provides funding for AI infrastructure investments."
+  },
+  {
+   "topic": "Long-term debt increase",
+   "related_rows": [
+    "F003"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Long-term debt | 32,366 | 7,469"
+    }
+   ],
+   "why_it_matters": "Long-term debt increase shows balance-sheet financing of the buildout."
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "items": [
+  {
+   "item": "F011:AMZN",
+   "found": true,
+   "value": -7.604,
+   "value_as_printed": "$(7,604)",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "ttm",
+   "line_item": "Free cash flow -- TTM",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Free cash flow -- TTM (1) | $25,925 | $18,184 | $14,788 | $11,194 | $1,232 | $(7,604) | (142) | %"
+    },
+    {
+     "role": "column",
+     "text": "Q1 2025 | Q2 2025 | Q3 2025 | Q4 2025 | Q1 2026 | Q2 2026 | Y/Y % Change"
+    },
+    {
+     "role": "units",
+     "text": "(in millions, except per share data)"
+    }
+   ],
+   "comment": "Table shows free cash flow TTM of $(7,604) million for Q2 2026."
+  },
+  {
+   "item": "F034:AMZN",
+   "found": true,
+   "value": 25,
+   "value_as_printed": "$25 billion",
+   "unit": "$bn",
+   "period_end": "2026-07-30",
+   "period_type": "said",
+   "line_item": "annual revenue run rate for AWS’s AI business",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Exceeded a $25 billion annual revenue run rate for AWS’s AI business, growing triple-digit percentages year-over-year."
+    }
+   ],
+   "comment": "Document states AWS AI business exceeded $25 billion annual run rate, no exact figure beyond threshold."
+  },
+  {
+   "item": "F040:AMZN",
+   "found": true,
+   "value": 42.232,
+   "value_as_printed": "$42,232",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "Net sales",
+   "fragments": [
+    {
+     "role": "context",
+     "text": "AWS Segment:"
+    },
+    {
+     "role": "value",
+     "text": "Net sales | $29,267 | $30,873 | $33,006 | $35,579 | $37,587 | $42,232 | 37 | %"
+    },
+    {
+     "role": "column",
+     "text": "Q1 2025 | Q2 2025 | Q3 2025 | Q4 2025 | Q1 2026 | Q2 2026 | Y/Y % Change"
+    },
+    {
+     "role": "units",
+     "text": "(in millions)"
+    }
+   ],
+   "comment": "AWS segment net sales for Q2 2026 shown as $42,232 million."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "AI capex driving free cash flow outflow",
+   "related_rows": [
+    "F011"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Free cash flow decreased to an outflow of $7.6 billion for the trailing twelve months, driven primarily by a year-over-year increase of $66.1 billion in purchases of property and equipment, net of proceeds from sales and incentives. This increase primarily reflects investments in artificial intelligence."
+    },
+    {
+     "role": "value",
+     "text": "Purchases of property and equipment, net of proceeds from sales and incentives -- TTM | $87,978 | $102,953 | $115,903 | $128,320 | $147,299 | $169,007 | 64 | %"
+    }
+   ],
+   "why_it_matters": "The free cash flow outflow is mainly due to increased property and equipment purchases, primarily for AI investments."
+  },
+  {
+   "topic": "AWS AI business run rate",
+   "related_rows": [
+    "F034"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Exceeded a $25 billion annual revenue run rate for AWS’s AI business, growing triple-digit percentages year-over-year."
+    }
+   ],
+   "why_it_matters": "Confirms AWS AI business exceeds $25 billion annual run rate, supporting the item's figure."
+  },
+  {
+   "topic": "Trainium customer commitments",
+   "related_rows": [
+    "F034",
+    "F040"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Continued gaining momentum with Trainium, with the two leading AI labs in the world, Anthropic and OpenAI, making multi-year, multi-gigawatt commitments"
+    }
+   ],
+   "why_it_matters": "Shows multi-year AI infrastructure commitments from major customers, indicating demand for AWS AI services."
+  },
+  {
+   "topic": "New AI investments and cloud credits",
+   "related_rows": [
+    "F034",
+    "F040"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Announced an investment of $1 billion to create AWS Forward Deployed Engineering, a team of AI engineers embedded directly with customers to co-develop and deploy agentic AI solutions in days rather than months."
+    },
+    {
+     "role": "value",
+     "text": "Announced general availability of AWS Secret Cloud for Industry, giving defense contractors a faster, more secure path to classified innovation, with Northrop Grumman first to run classified workloads on the platform, and committed up to $1 billion in cloud credits to accelerate U.S. Intelligence Community cloud migration and modernization."
+    }
+   ],
+   "why_it_matters": "New investments and credits expand AI and cloud services, affecting future AWS revenue and infrastructure spending."
+  },
+  {
+   "topic": "Debt increase for financing",
+   "related_rows": [
+    "F011"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Long-term debt | 65,648 | 128,894"
+    },
+    {
+     "role": "value",
+     "text": "Proceeds from long-term debt | — | 13,557 | 746 | 66,998 | 746 | 81,925"
+    }
+   ],
+   "why_it_matters": "Long-term debt increased, with significant proceeds in 2026, likely funding AI infrastructure investments."
+  }
+ ]
+}

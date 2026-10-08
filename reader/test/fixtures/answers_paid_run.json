@@ -1,0 +1,2336 @@
+{
+ "AMZN_periodic_2026-09-26_10": {
+  "items": [
+   {
+    "item": "F061:AMZN",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Leases not yet commenced | 4,018 | 11,732 | 9,278 | 9,483 | 9,227 | 93,476 | 137,214"
+     }
+    ],
+    "comment": "Table in millions; 137,214 million = $137.214bn. Matches leases not yet commenced at 30 Jun 2026, not paper's 31 Mar 2026.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 137.214
+   },
+   {
+    "item": "F062:AMZN",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Unconditional purchase obligations (2) | 23,452 | 33,026 | 9,326 | 7,961 | 7,659 | 48,641 | 130,065"
+     }
+    ],
+    "comment": "Table in millions; 130,065 million = $130.065bn. Footnote covers energy, content, equipment, and software.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 130.065
+   },
+   {
+    "item": "F103:AMZN_h1",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We invested $28.7 billion in OpenAI’s Series C Preferred Stock for the six months ended June 30, 2026, including $13.7 billion invested in Q2 2026. Subsequent to June 30, 2026, we funded the remaining Commitment Amount of $21.3 billion."
+     }
+    ],
+    "comment": "Document reports $28.7bn for six months 2026 (includes $15.0bn Q1 + $13.7bn Q2) and $21.3bn subsequent; total $50.0bn.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 50.0
+   },
+   {
+    "item": "F108:AMZN_g",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In Q2 2026, we also invested $10.0 billion in Anthropic nonvoting preferred stock. Under this financing arrangement, in Q2 2026, we exercised our option to participate in subsequent Anthropic equity financings by investing $ 5.0 billion in Anthropic Series H nonvoting preferred stock, which reduced the amount available under the facility to $ 15.0 billion."
+     }
+    ],
+    "comment": "Q2 Anthropic investment total $10.0bn (Series G $5.0bn + Series H $5.0bn); facility availability reduced to $15.0bn left.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 10.0
+   },
+   {
+    "item": "F079:AMZN_from",
+    "found": false,
+    "comment": "Document does not disclose a change in server useful life from 6 to 5 years; it only says useful lives of equipment are reviewed on an ongoing basis."
+   },
+   {
+    "item": "F079:AMZN_to",
+    "found": false,
+    "comment": "Document does not disclose a change in server useful life from 6 to 5 years; it only says useful lives of equipment are reviewed on an ongoing basis."
+   },
+   {
+    "item": "F133:AMZN",
+    "found": false,
+    "comment": "Document does not present a construction in progress line or table; it discloses property and equipment, net by segment and total."
+   },
+   {
+    "item": "F103:AMZN_q2",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F103:AMZN_after",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F108:AMZN_h",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F108:AMZN_left",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "OpenAI AWS commitment expansion",
+    "related_rows": [
+     "F103"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In Q1 2026, AWS and OpenAI Group PBC (“OpenAI”) announced an expansion of the existing $ 38.0 billion multi-year commitment and commercial arrangement with OpenAI by $ 100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips."
+     }
+    ],
+    "why_it_matters": "Adds a very large AI infrastructure customer commitment and concentration beyond the paper's OpenAI payment data."
+   },
+   {
+    "topic": "Anthropic AWS commitment expansion",
+    "related_rows": [
+     "F108"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In Q2 2026, AWS and Anthropic announced an expansion of the strategic collaboration and existing multi-year commitment by more than $ 100.0 billion over 10.0 years, which includes contractual obligations related to the performance of AWS chips."
+     }
+    ],
+    "why_it_matters": "Expands AWS AI infrastructure backlog and customer concentration with Anthropic."
+   },
+   {
+    "topic": "Anthropic financing facility",
+    "related_rows": [
+     "F108"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Additionally, we entered into a financing arrangement to make available to Anthropic an aggregate facility not to exceed $ 20.0 billion that will expire 30 months after an Anthropic liquidity event, including an initial public offering (“IPO”)."
+     }
+    ],
+    "why_it_matters": "Creates a new financing commitment/guarantee-like exposure tied to Anthropic and AWS compute delivery milestones."
+   },
+   {
+    "topic": "Delayed draw term loan",
+    "related_rows": [],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In June 2026, we entered into a $ 17.5 billion unsecured delayed draw term loan with a syndicate of lenders (“Term Loan”), which matures three years from the date of borrowing and bears interest at the SOFR specified in the Term Loan plus a margin ranging from 0.625 % to 0.875 % based on our credit ratings."
+     }
+    ],
+    "why_it_matters": "New undrawn debt capacity that can fund AI infrastructure and other capital needs."
+   },
+   {
+    "topic": "AWS performance obligations",
+    "related_rows": [
+     "F062",
+     "F103",
+     "F108"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $ 496 billion as of June 30, 2026."
+     }
+    ],
+    "why_it_matters": "Shows the scale of contracted but unrecognized future revenue, primarily AWS, relevant to AI infrastructure financing and customer concentration."
+   }
+  ]
+ },
+ "META_periodic_2026-09-26_13": {
+  "items": [
+   {
+    "item": "F046:META_total",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The parties have committed to fund their respective pro rata share of approximately $ 27 billion in total estimated development costs."
+     }
+    ],
+    "comment": "Same asset as the paper's 'Hyperion': Note 5 describes the Louisiana data center campus Venture entered into in October 2025 in which Meta holds a 20% membership interest (not stated in the quote); the paper's ~$30bn / ~1/5 is superseded by ~$27bn total estimated development costs at a 20% interest.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 27.0
+   },
+   {
+    "item": "F060:META",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "These lease obligations were approximately $ 278.99 billion, consisting of data centers, colocations, and certain network infrastructure, which will commence during the remainder of 2026 through 2036 with lease terms ranging from greater than one year to 30 years."
+     }
+    ],
+    "comment": "Leases not yet commenced at 30 Jun 2026 = $278.99bn, up from $103.77bn at 31 Dec 2025; the 10-Q also adds ~$68bn of data-center leases signed in July 2026.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 278.99
+   },
+   {
+    "item": "F132:META",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Construction in progress (1) 80,345 | 50,521"
+     }
+    ],
+    "comment": "Note 6 table (in millions): construction in progress $80,345m at 30 Jun 2026 versus $50,521m at 31 Dec 2025; footnote says mostly data centers, servers and network infrastructure.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 80.345
+   },
+   {
+    "item": "F035:META",
+    "found": false,
+    "comment": "Meta (the only company this document covers) still publishes no AI revenue line: revenue is disaggregated only into Advertising and Other revenue and into Family of Apps / Reality Labs. The paper's absence claim still holds for Meta."
+   },
+   {
+    "item": "F078:META_min",
+    "found": false,
+    "comment": "No useful-life disclosure for servers/assets in this 10-Q; the only year figures given are lease terms (greater than one year to 30 years; 18-20 years). The paper's 'Meta: 5-5.5 years' cannot be confirmed from this document."
+   },
+   {
+    "item": "F078:META_max",
+    "found": false,
+    "comment": "No useful-life disclosure for servers/assets in this 10-Q; the only year figures given are lease terms (greater than one year to 30 years; 18-20 years). The paper's 'Meta: 5-5.5 years' cannot be confirmed from this document."
+   },
+   {
+    "item": "F046:META_share",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Post-period data-center leases",
+    "related_rows": [
+     "F060"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In July 2026, we entered into additional data center leases with lease obligations of approximately $ 68 billion, which are expected to commence in 2027 and 2028, with lease terms of 18 to 20 years."
+     }
+    ],
+    "why_it_matters": "Adds ~$68bn of off-balance-sheet lease commitments after the 30 June 2026 measurement date, so the $278.99bn total understates the forward pipeline."
+   },
+   {
+    "topic": "Residual value guarantees on Louisiana venture",
+    "related_rows": [
+     "F046"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In addition, we have provided residual value guarantees (RVG) with an aggregate threshold of approximately $ 28 billion that decreases over time."
+     }
+    ],
+    "why_it_matters": "Quantifies a contingent guarantee (part of $46.03bn maximum exposure to loss) supporting the Hyperion/Louisiana JV structure that the paper only saw via secondary sources."
+   },
+   {
+    "topic": "Contingent cloud capacity obligations",
+    "related_rows": [
+     "F046",
+     "F060"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In addition, as of June 30, 2026, we have contingent obligations to purchase up to $ 14.72 billion of cloud capacity over a five-year period, which may be reduced if the cloud service provider is able to sell such capacity to other customers."
+     }
+    ],
+    "why_it_matters": "New contingent AI-cloud purchase obligation sitting outside the $349.31bn of non-cancelable commitments; relevant to AI infrastructure financing exposure."
+   },
+   {
+    "topic": "El Paso venture guarantee",
+    "related_rows": [
+     "F046"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We will also provide residual value guarantees with a maximum aggregate exposure of approximately $ 13 billion."
+     }
+    ],
+    "why_it_matters": "Second JV (El Paso, 20% interest, closing Q3 2026) with a new $13bn guarantee and ~$2.3bn asset contribution - a structure the paper does not record."
+   },
+   {
+    "topic": "May 2026 debt raise",
+    "related_rows": [
+     "F060",
+     "F046"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In May 2026, we issued an aggregate of $ 25.00 billion of fixed-rate senior unsecured notes in six series."
+     }
+    ],
+    "why_it_matters": "Debt funding of the AI/data-center build (long-term debt $83.66bn at 30 Jun 2026, interest expense $783m in Q2 2026) is new relative to the paper's capital-structure picture."
+   }
+  ]
+ },
+ "ORCL_periodic_2026-09-26_16": {
+  "items": [
+   {
+    "item": "F059:ORCL",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of August 31, 2026 , we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029"
+     }
+    ],
+    "comment": "Same measure (additional lease commitments not on balance sheet), updated date: $288bn at 31 Aug 2026 vs the paper's $260bn at 31 May 2026.",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "value": 288.0
+   },
+   {
+    "item": "F152:ORCL",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years that were not reflected on our condensed consolidated balance sheets as of August 31, 2026 or in the maturities table above"
+     }
+    ],
+    "comment": "Oracle portion only: leases signed but not commenced are $288bn. The document does not cover CoreWeave or Nebius, so the $335.6bn combined total is not supported here.",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "value": 288.0
+   },
+   {
+    "item": "F150:ORCL_ytd",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "During the first quarter of fiscal 2027, we received $ 11.4 billion of prepayments from customers that included a significant financing component."
+     }
+    ],
+    "comment": "Oracle only (document does not cover CoreWeave or Nebius). The figure is a quarterly inflow, not an annual figure; the paper's $16.0bn a year is not directly comparable and no annual amount is disclosed.",
+    "period_end": "2026-08-31",
+    "period_type": "3m",
+    "value": 11.4
+   },
+   {
+    "item": "F154:ORCL_atm",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "During the first quarter ended August 31, 2026, we fully utilized the ATM Program and issued 141 million shares of common stock under the ATM Program for net proceeds of $ 19.9 billion."
+     }
+    ],
+    "comment": "Oracle portion only. $19.9bn of ATM equity is confirmed and the $20bn program is now fully used. No new debt was issued, but the quarter included debt repayments (senior notes, term loans and other borrowings of $4,202m), so 'no debt' applies only to new issuance.",
+    "period_end": "2026-08-31",
+    "period_type": "3m",
+    "value": 19.9
+   },
+   {
+    "item": "F065:ORCL_start",
+    "found": true,
+    "unit": "text",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years"
+     }
+    ],
+    "comment": "Terms unchanged at fifteen to nineteen years, but the start of the commencement window has moved from the first quarter of fiscal 2027 to the second quarter of fiscal 2027.",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "value_text": "second quarter of fiscal 2027"
+   },
+   {
+    "item": "F065:ORCL_term_min",
+    "found": true,
+    "unit": "years",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years"
+     }
+    ],
+    "comment": "Terms unchanged at fifteen to nineteen years, but the start of the commencement window has moved from the first quarter of fiscal 2027 to the second quarter of fiscal 2027.",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "value": 15.0
+   },
+   {
+    "item": "F065:ORCL_term_max",
+    "found": true,
+    "unit": "years",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "we had $ 288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 a nd fiscal 2029 and for terms of fifteen to nineteen years"
+     }
+    ],
+    "comment": "Terms unchanged at fifteen to nineteen years, but the start of the commencement window has moved from the first quarter of fiscal 2027 to the second quarter of fiscal 2027.",
+    "period_end": "2026-08-31",
+    "period_type": "instant",
+    "value": 19.0
+   },
+   {
+    "item": "F035:ORCL",
+    "found": false,
+    "comment": "Oracle portion only. The 10-Q gives no AI revenue line; it reports cloud revenue of $11,607m and cloud infrastructure revenue of $7,388m, and RPO of $664bn, none of which is an AI-specific revenue figure, so the absence claim still holds for Oracle."
+   },
+   {
+    "item": "F155:ORCL",
+    "found": false,
+    "comment": "The 10-Q contains no covenant disclosure and no EBITDA/interest coverage ratio; the filing does not state the 3.0x test."
+   },
+   {
+    "item": "F065:ORCL_end",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F150:ORCL_prior_ytd",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F154:ORCL_debt",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Record remaining performance obligations",
+    "related_rows": [
+     "F035",
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Remaining performance obligations were $ 664 billion as of August 31, 2026 , of which we expect to recognize approximately 13 % as revenues over the next twelve months"
+     }
+    ],
+    "why_it_matters": "Oracle's contracted backlog is $664bn (vs $455bn a year earlier), showing the scale of AI-cloud bookings that the paper says are not booked revenue."
+   },
+   {
+    "topic": "Capital expenditures and negative free cash flow",
+    "related_rows": [
+     "F154",
+     "F059"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Capital Expenditures : Cash used for capital expenditures increased from $8.5 billion in the first quarter of fiscal 2026 to $28.5 billion in the first quarter of fiscal 2027 primarily due to the expansion of our data centers."
+     }
+    ],
+    "why_it_matters": "One quarter of capex ($28.5bn) exceeded operating cash flow of $23.1bn, producing negative free cash flow of $5.4bn and the need for external funding."
+   },
+   {
+    "topic": "Unconditional purchase obligations",
+    "related_rows": [
+     "F059",
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of August 31, 2026, our unconditional purchase and certain other obligations with terms of one year or greater, which were primarily related to long-term supply arrangements for purchasing components for cloud infrastructure assets and power supply arrangements for data centers, were as follows (in millions):"
+     }
+    ],
+    "why_it_matters": "The table totals $34,150 million of take-or-pay style obligations for cloud components and data-center power, a further fixed claim on cash beyond leases."
+   },
+   {
+    "topic": "Debt service cost from senior notes",
+    "related_rows": [
+     "F154",
+     "F155"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Interest expense increased in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, primarily due to higher average borrowings from the issuances of $43.0 billion of senior notes in fiscal 2026, partially offset by lower interest expense due to scheduled repayments of $8.1 billion of debt made during the first quarter of fiscal 2027 and full year of fiscal 2026."
+     }
+    ],
+    "why_it_matters": "Interest expense of $1.43bn in the quarter (+55%) shows the debt-funded build-out is already raising the fixed-cost base against which any covenant test would be run."
+   },
+   {
+    "topic": "Executive share-sale plan",
+    "related_rows": [
+     "F154"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The trading plan is intended to permit Mr. Ellison to sell up to 50 million shares of Oracle common stock."
+     }
+    ],
+    "why_it_matters": "The founder/CTO adopted a 10b5-1 plan on 22 June 2026 covering up to 50 million shares, a potential equity overhang alongside the completed $19.9bn ATM issuance."
+   }
+  ]
+ },
+ "CRWV_periodic_2026-09-26_17": {
+  "items": [
+   {
+    "item": "F152:CRWV",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The aggregate amount of estimated future undiscounted lease payments associated with such leases is $ 35.5 billion."
+     }
+    ],
+    "comment": "Leases not yet commenced, CoreWeave-only.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 35.5
+   },
+   {
+    "item": "F135:CRWV",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Construction in progress | 11,918 | 9,376"
+     }
+    ],
+    "comment": "Construction in progress at June 30, 2026 is $11,918 million. Row is CoreWeave-only; other companies are not in this document.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 11.918
+   },
+   {
+    "item": "F141:CRWV_te",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Technology equipment | $33,823 | $20,903"
+     }
+    ],
+    "comment": "Technology equipment at Dec 31, 2025 is $20,903 million. Q2 2026 revenue is $2,575 million; the $10.3bn annualized revenue and 16.9% replacement bill are not stated in the 10-Q.",
+    "period_end": "2025-12-31",
+    "period_type": "instant",
+    "value": 20.903
+   },
+   {
+    "item": "F056:CRWV",
+    "found": true,
+    "unit": "share",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Revenue recognized related to customer commitments, including revenue from delivering capacity prior to commitment start dates, represented 98 % of total revenue for the three months ended June 30, 2026 and 2025, and 98 % of total revenue for the six months ended June 30, 2026 and 2025."
+     }
+    ],
+    "comment": "Matches the 98% committed-contract revenue figure; the 10-Q also states committed contracts are take-or-pay.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 0.98
+   },
+   {
+    "item": "F154:CRWV_revolver",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Subsequent to the closing, the Company has drawn $ 1.2 billion.\n\nIn August 2026, the Company made a $ 1.2 billion draw down on the Revolving Credit Facility."
+     }
+    ],
+    "comment": "CoreWeave-only; $1.2bn drawn under the new $2.6bn DDTL 5.5 facility and $1.2bn drawn on the Revolving Credit Facility.",
+    "period_end": "",
+    "period_type": "",
+    "value": 1.2
+   },
+   {
+    "item": "F154:CRWV_new_draw",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Subsequent to the closing, the Company has drawn $ 1.2 billion.\n\nIn August 2026, the Company made a $ 1.2 billion draw down on the Revolving Credit Facility."
+     }
+    ],
+    "comment": "CoreWeave-only; $1.2bn drawn under the new $2.6bn DDTL 5.5 facility and $1.2bn drawn on the Revolving Credit Facility.",
+    "period_end": "",
+    "period_type": "",
+    "value": 1.2
+   },
+   {
+    "item": "F078:CRWV",
+    "found": false,
+    "comment": "The 10-Q does not disclose a 6-year useful-life policy or figure for CoreWeave technology equipment; it only gives depreciation expense and lease terms."
+   },
+   {
+    "item": "F150:CRWV",
+    "found": false,
+    "comment": "The 10-Q gives a six-month increase in deferred revenue of $1,365 million, not an annual $2.7bn prepayment figure; annualizing would be computation."
+   },
+   {
+    "item": "F155:CRWV_tests",
+    "found": false,
+    "comment": "The 10-Q does not disclose a CoreWeave financial covenant ratio or the number of tests; 3.0x is Oracle's covenant and is not in this document."
+   },
+   {
+    "item": "F155:CRWV_ratio",
+    "found": false,
+    "comment": "The 10-Q does not disclose a CoreWeave financial covenant ratio or the number of tests; 3.0x is Oracle's covenant and is not in this document."
+   },
+   {
+    "item": "F141:CRWV_rev",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F154:CRWV_new_size",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "RPO scale and timing",
+    "related_rows": [
+     "F056",
+     "F150",
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, the Company had $ 103.7 billion of unsatisfied RPO, of which 41 % was expected to be recognized over the initial 24 months ending June 30, 2028, 39 % between months 25 and 48, and the remaining balance recognized between months 49 and 78."
+     }
+    ],
+    "why_it_matters": "Shows the scale and near-term recognition timing of committed AI infrastructure revenue."
+   },
+   {
+    "topic": "Customer concentration",
+    "related_rows": [
+     "F056",
+     "F150"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Customer A | 36 % | 71 % | 40 % | 72 %"
+     }
+    ],
+    "why_it_matters": "Top-customer concentration remains high and is directly relevant to the committed-revenue claims."
+   },
+   {
+    "topic": "Data-center JV funding commitments",
+    "related_rows": [
+     "F135",
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "During the six months ended June 30, 2026, the Company committed to invest up to $ 1.7 billion, which includes incremental funding commitments of approximately $ 500 million during the three months ended June 30, 2026, to acquire equity interests in two separate joint ventures that each hold a data center development project."
+     }
+    ],
+    "why_it_matters": "New AI data-center development funding commitments and maximum exposure."
+   },
+   {
+    "topic": "Total indebtedness and undrawn capacity",
+    "related_rows": [
+     "F154",
+     "F155"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, our total indebtedness was $35.6 billion and we had $10.0 billion of undrawn availability under our Revolving Credit Facility, DDTL 3.0 Facility, DDTL 4.0 Facility (as defined below), and DDTL 5.0 Facility (as defined below)."
+     }
+    ],
+    "why_it_matters": "Gives the debt and liquidity backdrop for the post-quarter financings and covenant capacity."
+   }
+  ]
+ },
+ "NBIS_6k_2026-09-26_18": {
+  "items": [
+   {
+    "item": "F152:NBIS",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, the Company had executed additional lease agreements, primarily for data center facilities, as well as equipment, that had not yet commenced. The aggregate estimated future undiscounted lease payments associated with these agreements amounted to $12,054.1, and the Company had made prepayments of $612.4 as of June 30, 2026."
+     }
+    ],
+    "comment": "Nebius portion only of the multi-company row (paper's 335.6 is the cross-company aggregate): $12,054.1m = $12.0541bn of signed but not commenced leases.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 12.0541
+   },
+   {
+    "item": "F150:NBIS",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "During the three and six months ended June 30, 2026, total deferred revenue increased by $1,197.1 and $4,397.7, respectively, primarily due to the recognition of prepayments received in advance for future services under customer agreements."
+     }
+    ],
+    "comment": "Document gives no annual figure of $8.8bn; it discloses the six-month (and three-month) increase in deferred revenue from customer prepayments. $4,397.7m for H1 2026; doubling it is an undisclosed run rate, not a stated yearly amount.",
+    "period_end": "2026-06-30",
+    "period_type": "6m",
+    "value": 4.3977
+   },
+   {
+    "item": "F154:NBIS_facility",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "On July 10, 2026, the Group entered into its first senior secured debt facility in an aggregate principal amount of approximately $775."
+     }
+    ],
+    "comment": "Nebius portion of the row. The ~$775m ($0.775bn) facility is confirmed; however the document discloses no $5.75bn convertible issuance after 30 June 2026 (the only converts are the March 2026 notes of $4.34bn principal and the June/September 2025 notes of $4.16bn).",
+    "period_end": "2026-07-10",
+    "period_type": "",
+    "value": 0.775
+   },
+   {
+    "item": "F050:NBIS",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Purchases of property and equipment and intangible assets (1,054.5) (8,130.3)"
+     }
+    ],
+    "comment": "Cash-flow table line for the six months ended 30 June 2026; $8,130.3 million = $8.1303bn.",
+    "period_end": "2026-06-30",
+    "period_type": "6m",
+    "value": 8.1303
+   },
+   {
+    "item": "F135:NBIS",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Assets not yet in use 2,417.4 7,836.4"
+     }
+    ],
+    "comment": "Only Nebius figure at 30 June 2026 matching the paper's $7.836bn is 'Assets not yet in use' (property and equipment not yet placed in service) = $7,836.4m in Note 7; reported other companies' parts are not relevant here.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 7.8364
+   },
+   {
+    "item": "F154:NBIS_converts",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F155:NBIS_none",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "RPO / contracted backlog",
+    "related_rows": [
+     "F150",
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, the amount of unsatisfied RPO was $37,490.6, of which 36% is expected to be recognized as revenue during the 24 months ending June 30, 2028, 40% between months 25 and 48, and the remainder recognized thereafter."
+     }
+    ],
+    "why_it_matters": "Nebius's total unsatisfied remaining performance obligations ($37.5bn) dwarf the deferred-revenue/prepayment figures in the rows and underpin the lease and financing commitments."
+   },
+   {
+    "topic": "NVIDIA equity funding",
+    "related_rows": [
+     "F154"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "On March 11, 2026 the Company entered into a securities purchase agreement with NVIDIA to issue Pre-Funded Warrants to purchase 21,065,936 Class A ordinary shares (“Pre-Funded Warrant Shares”) for aggregate gross proceeds of $2,000.0."
+     }
+    ],
+    "why_it_matters": "A $2.0bn strategic equity investment by NVIDIA is a major funding event for the AI cloud build-out that the paper's 'what they did next' row does not include."
+   },
+   {
+    "topic": "Power / energy purchase commitments",
+    "related_rows": [
+     "F152"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, expected future fixed or minimum guaranteed commitments under these agreements amounted to $81.7 in 2026, $541.8 in 2027, $542.0 in 2028, $540.5 in 2029, $535.8 in 2030, and $3,082.3 thereafter."
+     }
+    ],
+    "why_it_matters": "Roughly $5.3bn of fixed or minimum energy/power commitments is a large new off-balance-sheet obligation tied to data-center expansion."
+   },
+   {
+    "topic": "Customer concentration",
+    "related_rows": [
+     "F150"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Customer C accounted for 83% of accounts receivable, net as of December 31, 2025. Customer D accounted for 16% of accounts receivable, net as of June 30, 2026. Customer E accounted for 29% of accounts receivable, net as of June 30, 2026."
+     }
+    ],
+    "why_it_matters": "Highly concentrated counterparties (Customer C 24%, Customer D 21%, Customer E 14% of Q2 2026 revenue; 29% of receivables from one customer) are the source of the large prepayments/deferred revenue and a key credit risk for the financing story."
+   }
+  ]
+ },
+ "EQIX_periodic_2026-09-26_20": {
+  "items": [
+   {
+    "item": "F135:EQIX",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Approximately $ 15.0 billion of revenues, including deferred installation revenues, are expected to be recognized in future periods related to unsatisfied performance obligations as of June 30, 2026."
+     }
+    ],
+    "comment": "Row compares four companies (CoreWeave, Digital Realty, Nebius, Equinix); this filing is Equinix's 10-Q, so only the Equinix figure is checked. The only comparable contracted-future-revenue disclosure is total remaining performance obligations of $15.0bn as of 30 June 2026, which is defined broadly (includes contracts under one-year renewal periods plus lessor revenues, excludes xScale fees) and is not the same measure or period as the paper's $2.827bn at 31 Dec 2025. No $2.827bn figure and no 31 Dec 2025 RPO figure appear anywhere in this document.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 15.0
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "New $5.5bn revolving credit facility",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "On July 27, 2026, we entered into a $ 5.5 billion senior unsecured multicurrency revolving credit facility, which replaces our existing 2022 Revolving Facility."
+     }
+    ],
+    "why_it_matters": "Replaces the $4.0bn revolver with a larger facility, materially expanding committed liquidity for AI/data-center capex after the balance sheet date."
+   },
+   {
+    "topic": "atNorth joint purchase equity commitment",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "On February 26, 2026, we entered into an equity commitment letter with a subsidiary of Canadian Pension Plan Investment Board (\"CPPIB\") to contribute up to $ 963 million in exchange for approximately 40 % ownership of the subsidiary, in connection with the subsidiary's planned acquisition of atNorth, a Nordic high-density colocation and built-to-suit data center provider."
+     }
+    ],
+    "why_it_matters": "New off-balance-sheet-style commitment (up to $963m plus an undeterminable minimum lease commitment from atNorth by December 31, 2029) that adds AI/high-density capacity and partner capital."
+   },
+   {
+    "topic": "Unaccrued capex and purchase commitments",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "approximately $6.1 billion of unaccrued capital expenditure contractual commitments, primarily for IBX equipment not yet delivered and labor not yet provided in connection with the work necessary to complete construction and open IBX data center expansion projects prior to making them available to customers for installation, the majority of which is payable within the next 12 months"
+     }
+    ],
+    "why_it_matters": "Quantifies the funding need behind future capacity (total future purchase commitments of $8,239 million), with multi-year power commitments excluded because spend is indeterminable."
+   },
+   {
+    "topic": "JV credit-facility guarantee",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "we provided the lenders with a guarantee covering 20 % of all payments of principal and interest due and payable by the EMEA 2 Joint Venture under the credit facility, up to a limit of $ 229 million in total at the exchange rate in effect on June 30, 2026. As of June 30, 2026, the maximum potential amount of our future payments under this guarantee was approximately $ 48 million at the exchange rates in effect on that date."
+     }
+    ],
+    "why_it_matters": "Shows contingent exposure/guarantees supporting xScale joint-venture data center financing, a structure the paper's figures may not capture."
+   },
+   {
+    "topic": "Customer concentration",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Our largest customer accounted for approximately 2% of our recurring revenues for the three and six months ended June 30, 2026 and 3% for the three and six months ended June 30, 2025."
+     }
+    ],
+    "why_it_matters": "Equinix's contracted backlog is spread across many customers (no customer ≥ 10% of revenue or receivables), unlike the concentrated AI backlog of neocloud peers."
+   }
+  ]
+ },
+ "NVDA_transcript_2026-09-26_4": {
+  "items": [
+   {
+    "item": "F098:NVDA_rubin",
+    "found": true,
+    "unit": "$bn per GW",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Since Hopper, our revenue opportunity has grown from roughly $18 billion per gigawatt to $25 billion with Blackwell, to $40 billion with Vera Rubin, which now spans Vera CPU, Rubin GPU, NVLink, InfiniBand or Ethernet and Groq LPU announced earlier this week."
+     }
+    ],
+    "comment": "Vera Rubin revenue opportunity per gigawatt is $40bn; Jensen repeats 'For Grace Blackwell, we're at about $25 billion per gigawatt. And for Vera Rubin, it's about $40 billion per gigawatt.'",
+    "period_end": "2026-08-26",
+    "period_type": "",
+    "value": 40.0
+   },
+   {
+    "item": "F019:NVDA",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "With cloud industry backlog now greater than $2 trillion, CapEx by the top-five hyperscalers is expected to reach nearly $800 billion in 2026 and $1.3 trillion in 2027."
+     }
+    ],
+    "comment": "Kress states top-five hyperscaler capex expected to reach nearly $800bn in 2026; matches the paper row.",
+    "period_end": "",
+    "period_type": "",
+    "value": 800.0
+   },
+   {
+    "item": "F020:NVDA",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "With cloud industry backlog now greater than $2 trillion, CapEx by the top-five hyperscalers is expected to reach nearly $800 billion in 2026 and $1.3 trillion in 2027."
+     }
+    ],
+    "comment": "Same sentence gives the 2027 figure of $1.3 trillion.",
+    "period_end": "",
+    "period_type": "",
+    "value": 1300.0
+   },
+   {
+    "item": "F098:NVDA_hopper",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F098:NVDA_blackwell",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "$500bn third-party AI infrastructure financing platforms",
+    "related_rows": [
+     "F019",
+     "F020"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "we recently announced partnerships with six of the world's leading infrastructure capital providers; Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR, to establish financing platforms that will raise over $500 billion of third-party capital."
+     }
+    ],
+    "why_it_matters": "New off-balance-sheet capital pool directly funds the AI buildout behind hyperscaler/AI-lab capex forecasts."
+   },
+   {
+    "topic": "Neocloud revenue-sharing / take-or-pay guarantees",
+    "related_rows": [
+     "F098"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "NVIDIA provides a take-or-pay commitment on a portion of the facility's capacity, a minimum revenue guarantee that gives lenders the confidence to underwrite the project, and in exchange, we share in a portion of the neoclouds revenue earned above that floor."
+     }
+    ],
+    "why_it_matters": "New contingent obligation structure (NVIDIA minimum revenue guarantee) that supports neocloud capacity financing."
+   },
+   {
+    "topic": "OpenAI ~12 GW commitment and SoftBank Portsmouth site",
+    "related_rows": [
+     "F098"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "OpenAI's existing and planned commitments represent approximately 12 gigawatts of NVIDIA Compute."
+     }
+    ],
+    "why_it_matters": "Quantifies the largest single frontier-lab gigawatt commitment, converting the $40bn/GW opportunity into a specific pipeline."
+   },
+   {
+    "topic": "Selective credit enhancement for another AI lab",
+    "related_rows": [
+     "F098"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "For another frontier AI lab, we will provide selective credit enhancement for nearly 2 gigawatts of compute."
+     }
+    ],
+    "why_it_matters": "New credit support commitment that shifts AI-lab infrastructure risk partly onto NVIDIA's balance sheet."
+   }
+  ]
+ },
+ "NVDA_results_2026-09-26_1": {
+  "items": [
+   {
+    "item": "F003:NVDA",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Data Center | $89,023 | $75,246 | $41,096 | 18 | % | 117 | %"
+     }
+    ],
+    "comment": "Data Center market-platform revenue, $89,023M in the table = $89.023bn.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 89.023
+   },
+   {
+    "item": "F005:NVDA",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Hyperscale | 48,710 | 43,050 | 24,168 | 13 | % | 102 | %"
+     }
+    ],
+    "comment": "Hyperscale sub-line of Data Center, $48,710M = $48.71bn; note prior periods recast after reclassifying a company from ACIE to Hyperscale.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 48.71
+   },
+   {
+    "item": "F006:NVDA",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "AI Clouds, Industrial, & Enterprise | 40,313 | 32,196 | 16,928 | 25 | % | 138 | %"
+     }
+    ],
+    "comment": "ACIE revenue $40,313M = $40.313bn, up 138% y/y as stated in the text; prior periods recast for the Hyperscale reclassification.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 40.313
+   },
+   {
+    "item": "F006:NVDA_growth",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Nvidia guarantees SB Energy/OpenAI data center buildout",
+    "related_rows": [
+     "F003",
+     "F005",
+     "F006"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In August 2026, we entered into guarantees to provide credit support on the land, power, and shell buildout to secure approximately 4.25 gigawatts (GW) at SB Energy's PORTS-Pike Technology Campus in Ohio, which will exclusively host NVIDIA infrastructure under 20-year leases to OpenAI, subject to limited exceptions. Our guarantee obligations are capped at a total of $105 billion"
+     }
+    ],
+    "why_it_matters": "A $105bn contingent guarantee tied to OpenAI leases is a new, very large off-balance-sheet exposure to a single customer concentration."
+   },
+   {
+    "topic": "Total guarantee exposure",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Land, power, and shell guarantees for AI clouds | $3.5\nSB Energy Corp. guarantees\n105.0\nTotal | $108.5"
+     }
+    ],
+    "why_it_matters": "Quantifies maximum gross guarantee exposure including the new SB Energy guarantees ($108.5bn), relevant to customer-financing risk."
+   },
+   {
+    "topic": "Supply and capacity commitments jump vs prior quarter",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Our commitments increased from $119 billion last quarter to $279 billion, primarily related to the procurement of memory."
+     }
+    ],
+    "why_it_matters": "Large step-up in purchase commitments signals the scale of capex/inventory risk behind Data Center revenue growth."
+   },
+   {
+    "topic": "Customer payment terms extended, DSO up",
+    "related_rows": [
+     "F003",
+     "F005",
+     "F006"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Accounts receivable was $63.1 billion with 60 days sales outstanding (DSO), up from 45 days sequentially, due to extended payment terms on large, multi-quarter agreements with certain investment-grade customers."
+     }
+    ],
+    "why_it_matters": "Extended terms on large multi-quarter deals indicate rising customer financing exposure behind reported revenue."
+   },
+   {
+    "topic": "Debt issuance and AI cloud agreements",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We issued $25.0 billion of senior unsecured notes in the second quarter to be used for general corporate purposes."
+     }
+    ],
+    "why_it_matters": "New $25bn debt funding plus $36bn of AI cloud agreements changes the financing structure underpinning AI infrastructure demand."
+   }
+  ]
+ },
+ "NVDA_results_2026-09-26_2": {
+  "items": [
+   {
+    "item": "F003:NVDA",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Data Center revenue of $89.0 billion, up 117% from a year ago"
+     }
+    ],
+    "comment": "Document reports Data Center revenue of $89.0bn; paper value is $89.023bn, rounded to $89.0bn.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 89.0
+   },
+   {
+    "item": "F005:NVDA",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F006:NVDA",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F006:NVDA_growth",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "AI infrastructure financing platform",
+    "related_rows": [
+     "F003",
+     "F005",
+     "F006"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Announced strategic partnerships to establish independent compute financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to mobilize over $500 billion of third-party capital for the buildout of AI infrastructure over time, subject to definitive agreements."
+     }
+    ],
+    "why_it_matters": "A very large third-party capital mobilization for AI infrastructure, directly relevant to data-center demand and financing."
+   },
+   {
+    "topic": "China data center revenue excluded from outlook",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "NVIDIA is not assuming any Data Center compute revenue from China in its outlook."
+     }
+    ],
+    "why_it_matters": "The forward Data Center revenue outlook excludes China compute revenue, changing the revenue definition versus historical periods."
+   },
+   {
+    "topic": "Q3 FY27 revenue outlook",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Revenue is expected to be $108.0 billion, plus or minus 2%."
+     }
+    ],
+    "why_it_matters": "Provides next-quarter revenue guidance that contextualizes the Data Center revenue trajectory."
+   },
+   {
+    "topic": "New debt issuance",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Proceeds related to issuance of debt, net of costs | 24,896 | — | 24,896 | —"
+     }
+    ],
+    "why_it_matters": "Large debt issuance adds new financing for AI infrastructure and capital needs."
+   },
+   {
+    "topic": "SB Energy land and power deal",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Secured land, power and shell capacity through a partnership with SB Energy at the PORTS-Pike Technology Campus in Ohio to host NVIDIA compute."
+     }
+    ],
+    "why_it_matters": "Direct infrastructure commitment for hosting NVIDIA compute, indicating owned/leased capacity growth."
+   }
+  ]
+ },
+ "NVDA_periodic_2026-09-26_3": {
+  "items": [
+   {
+    "item": "F003:NVDA",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Revenue by Market Platform\nData Center | $89,023 | $41,096 | $164,269 | $80,208"
+     }
+    ],
+    "comment": "Data Center revenue by market platform, three months ended Jul 26, 2026, in millions; 89,023 = $89.023bn.",
+    "period_end": "2026-07-26",
+    "period_type": "3m",
+    "value": 89.023
+   },
+   {
+    "item": "F092:NVDA",
+    "found": false,
+    "comment": "The 10-Q does not disclose the up-to-$100bn OpenAI investment or a 10 GW letter of intent. It only discloses new SB Energy guarantees (capped at $105bn, ~4.25 GW of IT load) on behalf of an OpenAI affiliate, and 'equity investment commitments of $25 billion' in aggregate, neither of which is the $100bn OpenAI commitment."
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "SB Energy / OpenAI guarantee",
+    "related_rows": [
+     "F092"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In August 2026, we entered into guarantees, capped at a total of $ 105 billion, to provide credit support on a land, power, and shell buildout with affiliates of SB Energy Corp. (SB Energy) on behalf of a customer, an affiliate of OpenAI Group PBC (OpenAI), related to leases for approximately 4.25 gigawatts of IT load in the aggregate at SB Energy’s PORTS Technology Campus in Pike County, Ohio."
+     }
+    ],
+    "why_it_matters": "Substitutes a capped $105bn credit-support backstop tied to OpenAI leases for the paper's up-to-$100bn equity investment framing; a guarantee is a contingent obligation, not an investment."
+   },
+   {
+    "topic": "Supply and capacity commitments",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand."
+     }
+    ],
+    "why_it_matters": "Quantifies the demand backstop behind Data Center revenue and the scale of committed cash outflows."
+   },
+   {
+    "topic": "AI cloud agreements commitments",
+    "related_rows": [
+     "F003"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Our commitments, which are typically six years in duration, totaled $36 billion as of July 26, 2026, and decrease as capacity is used by third-party customers or by us for our research and development efforts."
+     }
+    ],
+    "why_it_matters": "New purchase-style commitment under which Nvidia buys AI cloud capacity if partners fail to sell it, a revenue-quality and financing exposure."
+   },
+   {
+    "topic": "Equity investments and commitments",
+    "related_rows": [
+     "F092"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "These include equity investments of $99 billion and equity investment commitments of $25 billion as of July 26, 2026."
+     }
+    ],
+    "why_it_matters": "Shows the size of the ecosystem investment book and remaining commitments, relevant to how any OpenAI-related investment would be funded."
+   }
+  ]
+ },
+ "MSFT_periodic_2026-09-26_6": {
+  "items": [
+   {
+    "item": "F058:MSFT",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, we had additional leases, primarily for datacenters, that had not yet commenced of $ 329.1 billion, with some arrangements subject to certain contractual conditions being met."
+     }
+    ],
+    "comment": "Note 13 - Leases: leases signed but not yet commenced, primarily datacenters, commencing FY2027-FY2033 with terms of 1 to 20 years. Matches the $329bn figure.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 329.1
+   },
+   {
+    "item": "F087:MSFT",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Revenue allocated to remaining performance obligations related to the commercial portion of revenue was $ 678 billion as of June 30, 2026, with a weighted average duration of approximately 2.3 years."
+     }
+    ],
+    "comment": "Commercial RPO $678bn and 2.3-year weighted average duration confirmed; the immediately following sentence says approximately 30% of both total company and commercial RPO revenue is expected to be recognized over the next 12 months. Total company RPO remains $684bn, not the $678bn commercial figure.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 678.0
+   },
+   {
+    "item": "F099:MSFT_rev",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "For fiscal year 2026, we recorded revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments, of $ 24.1 billion, and accounts receivable from OpenAI as of June 30, 2026 was $ 6.0 billion."
+     }
+    ],
+    "comment": "Revenue $24.1bn and receivable $6.0bn from OpenAI (ASC 850 related party) both disclosed. The 91-day DSO is not given anywhere in the document.",
+    "period_end": "",
+    "period_type": "",
+    "value": 24.1
+   },
+   {
+    "item": "F077:MSFT_min",
+    "found": true,
+    "unit": "years",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The estimated useful lives of our property and equipment are generally as follows: software developed or acquired for internal use, three years ; servers and network equipment, two to six years ; buildings and improvements, five to 15 years ; leasehold improvements, three to 15 years ; and furniture and equipment, one to 10 years ."
+     }
+    ],
+    "comment": "Note 1 - Accounting Policies, Property and Equipment: servers and network equipment depreciated over two to six years, unchanged.",
+    "period_end": "",
+    "period_type": "",
+    "value": 2.0
+   },
+   {
+    "item": "F077:MSFT_max",
+    "found": true,
+    "unit": "years",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The estimated useful lives of our property and equipment are generally as follows: software developed or acquired for internal use, three years ; servers and network equipment, two to six years ; buildings and improvements, five to 15 years ; leasehold improvements, three to 15 years ; and furniture and equipment, one to 10 years ."
+     }
+    ],
+    "comment": "Note 1 - Accounting Policies, Property and Equipment: servers and network equipment depreciated over two to six years, unchanged.",
+    "period_end": "",
+    "period_type": "",
+    "value": 6.0
+   },
+   {
+    "item": "F087:MSFT_duration",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F087:MSFT_12m",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F099:MSFT_recv",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Datacenter purchase commitments",
+    "related_rows": [
+     "F058"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Purchase commitments (d) 169,008 25,052 194,060"
+     }
+    ],
+    "why_it_matters": "In millions: $169.0bn due in FY2027 and $194.1bn total take-or-pay/open datacenter purchase obligations, an off-balance-sheet AI capacity commitment in addition to the $329.1bn of leases not yet commenced."
+   },
+   {
+    "topic": "OpenAI funding commitments",
+    "related_rows": [
+     "F099"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We have made total funding commitments of $ 13.0 billion related to our investment, of which $ 11.9 billion has been funded as of June 30, 2026."
+     }
+    ],
+    "why_it_matters": "Gives remaining committed capital to OpenAI ($1.1bn unfunded) and the equity-method basis (~25% as-converted) behind the $24.1bn revenue relationship."
+   },
+   {
+    "topic": "Datacenter construction commitments",
+    "related_rows": [
+     "F058"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, we have committed $ 34.6 billion for the construction of new buildings, building improvements, and leasehold improvements, primarily related to datacenters."
+     }
+    ],
+    "why_it_matters": "Quantifies contractual construction obligations on top of lease and purchase commitments, showing the scale of backstopped AI infrastructure spend."
+   },
+   {
+    "topic": "Server component prepayments and supplier restricted investments",
+    "related_rows": [
+     "F099"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026 and 2025, the current portion of other receivables related to activities to facilitate the purchase of server components was $ 27.8 billion and $ 8.2 billion, respectively, and are included in other current assets in our consolidated balance sheets."
+     }
+    ],
+    "why_it_matters": "Reveals $27.8bn of prepayments to secure server components (up from $8.2bn) plus $11.3bn of restricted investments under a supplier agreement, i.e. supplier-financing exposure not in the paper."
+   },
+   {
+    "topic": "OpenAI partnership extension",
+    "related_rows": [
+     "F099"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible."
+     }
+    ],
+    "why_it_matters": "Confirms the commercial/equity relationship with OpenAI was extended twice during FY2026, anchoring the related-party revenue, receivables and dilution gain disclosures."
+   }
+  ]
+ },
+ "MSFT_transcript_2026-09-26_7": {
+  "items": [
+   {
+    "item": "F032:MSFT",
+    "found": true,
+    "unit": "million",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "we now have over 30 million paid Microsoft 365 Copilot seats"
+     }
+    ],
+    "comment": "Document says over 30 million paid Microsoft 365 Copilot seats, consistent with passing 30 million.",
+    "period_end": "2026-07-29",
+    "period_type": "3m",
+    "value": 30.0
+   },
+   {
+    "item": "F087:MSFT",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Commercial remaining performance obligation grew 84% to $678 billion."
+     }
+    ],
+    "comment": "Document also states RPO duration of 2.3 years and roughly 30% recognized within the next 12 months.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 678.0
+   },
+   {
+    "item": "F089:MSFT",
+    "found": true,
+    "unit": "%",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Commercial remaining performance obligation grew 84% to $678 billion. All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies. And RPO increased 25% when excluding OpenAI."
+     }
+    ],
+    "comment": "Both 84% total RPO growth and 25% growth excluding OpenAI are stated.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 84.0
+   },
+   {
+    "item": "F031:MSFT",
+    "found": false,
+    "comment": "Document does not state the AI business annual run rate or 123% growth; Q4 FY2026 call has no update to that metric."
+   },
+   {
+    "item": "F031:MSFT_growth",
+    "found": false,
+    "comment": "Document does not state the AI business annual run rate or 123% growth; Q4 FY2026 call has no update to that metric."
+   },
+   {
+    "item": "F085:MSFT",
+    "related": [],
+    "comment": "Document gives Q4 FY2026 weighted average RPO duration of 2.3 years, not the 2.5 years cited from the Jan 2026 call."
+   },
+   {
+    "item": "F086:MSFT",
+    "related": [],
+    "comment": "The January quote about GPUs being sold for the entire useful life does not appear in the Q4 FY2026 transcript."
+   },
+   {
+    "item": "F090:MSFT",
+    "found": false,
+    "comment": "Document gives June 2026 RPO and ex-OpenAI growth but no Dec 2025 ~45% OpenAI share, $625bn balance, 110%, or 28% rest growth."
+   },
+   {
+    "item": "F087:MSFT_duration",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F087:MSFT_12m",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F089:MSFT_ex",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Useful life extension / lease classification",
+    "related_rows": [
+     "F086"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "The greater impact is on capital expenditures as more of our future datacenter leases will shift from finance leases to operating leases as a result of this update. Finance leases are included in capital expenditures while operating leases are not. Outside of this useful life impact, our calendar year 2026 CapEx investment expectations remain unchanged. However, the shift from finance to operating leases adjusts our expectation to approximately $175 billion."
+     }
+    ],
+    "why_it_matters": "Changes how datacenter capex is financed and reported; the $175bn expectation and lease shift affect AI infrastructure financing comparability."
+   },
+   {
+    "topic": "Q4 capex and short-lived assets",
+    "related_rows": [
+     "F086",
+     "F087"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Capital expenditures were $41 billion including the impact from higher component pricing as noted in our guide. Roughly two thirds of our capex was for short-lived assets, primarily CPUs and GPUs as customers increasingly build solutions that leverage both AI and non-AI infrastructure."
+     }
+    ],
+    "why_it_matters": "Reveals Q4 capex mix, with two-thirds in short-lived CPU/GPU assets, relevant to GPU useful-life and ROI assumptions."
+   },
+   {
+    "topic": "Cloud revenue customer concentration",
+    "related_rows": [
+     "F089",
+     "F090"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "And for the full year, our cloud revenue surpassed $214 billion, with nearly 90% from customers outside of frontier model companies."
+     }
+    ],
+    "why_it_matters": "Shows limited frontier-model customer concentration in Microsoft Cloud revenue, relevant to OpenAI RPO share rows."
+   },
+   {
+    "topic": "Commercial bookings ex OpenAI",
+    "related_rows": [
+     "F089",
+     "F090"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Commercial bookings grew 18% when excluding the impact from OpenAI driven by strong execution in our core annuity sales motions and reflecting broad customer demand across geographies and customer segments. Bookings increased 10% and 11% in constant currency when including Azure commitments from OpenAI."
+     }
+    ],
+    "why_it_matters": "Quantifies the OpenAI impact on bookings and core demand, relevant to RPO growth excluding OpenAI."
+   },
+   {
+    "topic": "AI datacenter capacity expansion",
+    "related_rows": [
+     "F031",
+     "F086"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "All up, we added another gigawatt of capacity this quarter and remain on track to roughly double our overall capacity in just two years."
+     }
+    ],
+    "why_it_matters": "New infrastructure commitment bears on AI run-rate capacity and GPU useful-life assumptions."
+   }
+  ]
+ },
+ "AMZN_results_2026-09-26_8": {
+  "items": [
+   {
+    "item": "F011:AMZN",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Free cash flow decreased to an outflow of $7.6 billion for the trailing twelve months, driven primarily by a year-over-year increase of $66.1 billion in purchases of property and equipment, net of proceeds from sales and incentives."
+     }
+    ],
+    "comment": "Matches paper; the supplemental table line 'Free cash flow -- TTM (1)' shows $(7,604) million for Q2 2026.",
+    "period_end": "2026-06-30",
+    "period_type": "ttm",
+    "value": -7.6
+   },
+   {
+    "item": "F034:AMZN",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Exceeded a $25 billion annual revenue run rate for AWS's AI business, growing triple-digit percentages year-over-year."
+     }
+    ],
+    "comment": "Document gives only a floor ('exceeded $25 billion'), consistent with the row's 'above $25bn'; the separate chips business run rate is also above $25 billion and the two overlap, so they cannot be added.",
+    "period_end": "2026-07-30",
+    "period_type": "3m",
+    "value": 25.0
+   },
+   {
+    "item": "F040:AMZN",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "AWS\nNet sales | $30,873 | $42,232 | $60,140 | $79,819"
+     }
+    ],
+    "comment": "Segment Information table, in millions: AWS net sales $42,232 million for the three months ended June 30, 2026 = $42.232bn.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 42.232
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Trainium multi-gigawatt commitments from Anthropic and OpenAI",
+    "related_rows": [
+     "F034"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Continued gaining momentum with Trainium, with the two leading AI labs in the world, Anthropic and OpenAI, making multi-year, multi-gigawatt commitments"
+     }
+    ],
+    "why_it_matters": "Names the anchor customers behind AWS's AI/chips run rates, indicating heavy customer concentration in AI infrastructure demand."
+   },
+   {
+    "topic": "Long-term debt issuance",
+    "related_rows": [
+     "F011"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Proceeds from long-term debt | — | 13,557 | 746 | 66,998 | 746 | 81,925"
+     }
+    ],
+    "why_it_matters": "Shows $81.9bn of long-term debt raised in the TTM (balance sheet long-term debt rose from $65.6bn to $128.9bn), the financing side of the AI capex build."
+   },
+   {
+    "topic": "AI-driven capex",
+    "related_rows": [
+     "F011"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Purchases of property and equipment, net of proceeds from sales and incentives -- TTM | $87,978 | $102,953 | $115,903 | $128,320 | $147,299 | $169,007 | 64 | %"
+     }
+    ],
+    "why_it_matters": "Net capex TTM of $169.0bn, up 64% y/y, is the direct driver of the free cash flow outflow and quantifies AI infrastructure spending."
+   },
+   {
+    "topic": "AWS Forward Deployed Engineering $1bn investment",
+    "related_rows": [
+     "F034",
+     "F040"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Announced an investment of $1 billion to create AWS Forward Deployed Engineering, a team of AI engineers embedded directly with customers to co-develop and deploy agentic AI solutions in days rather than months."
+     }
+    ],
+    "why_it_matters": "New $1bn AI services commitment not in the paper, bearing on AWS AI investment and revenue mix."
+   },
+   {
+    "topic": "Anthropic investment gains in net income",
+    "related_rows": [
+     "F011"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Second quarter 2026 net income includes non-operating pre-tax other income of $53.4 billion, primarily from our investments in Anthropic."
+     }
+    ],
+    "why_it_matters": "Shows $53.4bn of Q2 net income is non-operating investment gain, which distorts earnings-based leverage/coverage views of Amazon's AI build."
+   }
+  ]
+ },
+ "GOOGL_results_2026-09-26_11": {
+  "items": [
+   {
+    "item": "F041:GOOGL",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Google Cloud | 13,624 | 24,768"
+     }
+    ],
+    "comment": "Segment revenues table gives Google Cloud Q2 2026 revenue of $24,768 million = $24.768bn, matching the paper; the narrative rounds it to $24.8 billion.",
+    "period_end": "2026-06-30",
+    "period_type": "3m",
+    "value": 24.768
+   },
+   {
+    "item": "F036:GOOGL_tokens",
+    "found": true,
+    "unit": "billion",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Gemini models now process 22 billion API tokens per minute and the Gemini App has 950 million monthly active users."
+     }
+    ],
+    "comment": "Token and app-user figures match the paper exactly in the same sentence; the ~90% figure is disclosed as adoption of Gemini Enterprise: 'wide adoption of Gemini Enterprise, with nearly 90% of the Fortune 100 using it.'",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 22.0
+   },
+   {
+    "item": "F035:GOOGL",
+    "found": false,
+    "comment": "No AI revenue line is disclosed. AI is only described qualitatively as a driver within Google Cloud (enterprise AI Solutions / AI Infrastructure); no separate AI revenue figure appears anywhere in the release, so the 'no AI revenue line' claim still holds for Alphabet."
+   },
+   {
+    "item": "F036:GOOGL_users",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F036:GOOGL_f100",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Equity capital raise for AI infrastructure",
+    "related_rows": [
+     "F041"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In June 2026, we issued a combination of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute."
+     }
+    ],
+    "why_it_matters": "A $49.6bn equity raise explicitly earmarked for AI infrastructure/compute is a new financing commitment the paper does not capture."
+   },
+   {
+    "topic": "At-the-Market equity program authorization",
+    "related_rows": [
+     "F041"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Additionally, we entered into an equity distribution agreement with certain sales agents to sell up to $40.0 billion of our Class A stock and Class C stock from time to time through an At-the-Market Program (ATM Program)."
+     }
+    ],
+    "why_it_matters": "A further $40bn of potential equity issuance (primarily for employee equity tax obligations) is new funding capacity not in the paper."
+   },
+   {
+    "topic": "Senior unsecured notes issuance",
+    "related_rows": [
+     "F041"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In the second quarter of 2026, we issued senior unsecured notes for net proceeds of $20.3 billion, to be used for general corporate purposes."
+     }
+    ],
+    "why_it_matters": "$20.3bn of new debt raises Alphabet's long-term debt to $98,165 million, a new leverage/financing datapoint absent from the paper."
+   },
+   {
+    "topic": "Negative quarterly free cash flow",
+    "related_rows": [
+     "F041"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Free cash flow | $24,461 | $24,551 | $10,116 | $(5,855) | $53,273"
+     }
+    ],
+    "why_it_matters": "Q2 2026 free cash flow turned negative ($(5,855)m) despite record revenue, showing AI-infrastructure capex outrunning operating cash flow."
+   },
+   {
+    "topic": "Capex step-up",
+    "related_rows": [
+     "F041"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Purchases of property and equipment | (22,446) | (44,924) | (39,643) | (80,598)"
+     }
+    ],
+    "why_it_matters": "Quarterly capex doubled year over year to $44.9bn ($80.6bn year to date), the clearest measure of the scale of the AI infrastructure build."
+   }
+  ]
+ },
+ "GOOGL_periodic_2026-09-26_12": {
+  "items": [
+   {
+    "item": "F131:GOOGL",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Add: assets not yet in service | 78,592 | 122,814"
+     }
+    ],
+    "comment": "Same line item (assets not yet in service), in millions in the Note 7 property and equipment table: $122,814m = $122.814bn at 30 June 2026, up from $78.592bn at 31 December 2025.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 122.814
+   },
+   {
+    "item": "F063:GOOGL",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, we have entered into leases, primarily related to data centers, that have not yet commenced with future lease payments of $85.2 billion that are not yet recorded. These leases will commence between 2026 and 2031 with non-cancelable lease terms between one and 26 years."
+     }
+    ],
+    "comment": "Same item (leases not yet commenced, not yet recorded) as the $58.5bn at 31 Dec 2025; now $85.2bn. Document also notes a separate ~$5.8bn short-term lease commencing Q3 2026, which the paper's note flagged.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 85.2
+   },
+   {
+    "item": "F035:GOOGL",
+    "found": false,
+    "comment": "The 10-Q discloses no AI revenue line. Google Cloud revenues ($44.8bn for six months ended June 30, 2026) are described as including AI offerings, but they are cloud segment revenues, not an AI revenue figure, so the paper's 'no AI revenue line' claim stands for Alphabet."
+   },
+   {
+    "item": "F078:GOOGL",
+    "found": false,
+    "comment": "No server/technical-infrastructure useful life is given. The closest disclosures are weighted-average remaining lease terms (operating leases 8.4 years, finance leases 8.6 years) and definite-lived intangible assets amortized over periods generally ranging from one to 10 years; neither is the server useful life the row describes."
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Equity raise for AI infrastructure",
+    "related_rows": [
+     "F131"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "In June 2026, we issued a combination of Class A stock and Class C stock and mandatory convertible preferred stock for aggregate net proceeds of $49.6 billion, to be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute."
+     }
+    ],
+    "why_it_matters": "Shows Alphabet funding AI capex with $49.6bn of equity/preferred issuance rather than only operating cash flow, plus a new $40bn ATM program."
+   },
+   {
+    "topic": "Purchase and contractual commitments",
+    "related_rows": [
+     "F131"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, we had material purchase commitments and other contractual obligations totaling $811.0 billion, of which $200.7 billion was short-term."
+     }
+    ],
+    "why_it_matters": "Quantifies the scale of committed technical-infrastructure/inventory and energy obligations, largely through 2030, that sit alongside the assets not yet in service."
+   },
+   {
+    "topic": "Data center and energy backstops",
+    "related_rows": [
+     "F131"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We have also entered into an agreement to provide an estimated $24.1 billion of future backstops to support the build-out of data center and energy supply infrastructure, subject to finalization of terms with data center providers."
+     }
+    ],
+    "why_it_matters": "New contingent guarantee exposure for third-party data center/power build-out, in addition to $7.6bn of financial guarantees and $43.8bn of credit derivative notional already outstanding."
+   }
+  ]
+ },
+ "META_transcript_2026-09-26_14": {
+  "items": [
+   {
+    "item": "F045:META",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Our AI-powered Advantage+ end-to-end solutions continued to grow, reaching over $75 billion in annual revenue run-rate this quarter."
+     }
+    ],
+    "comment": "Matches the paper's claim; document states 'over $75 billion' annual revenue run-rate for Advantage+ end-to-end solutions.",
+    "period_end": "",
+    "period_type": "3m",
+    "value": 75.0
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "BlackRock 1GW data center venture",
+    "related_rows": [
+     "F045"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Yesterday, as part of our Meta Compute effort, we announced a new strategic venture with BlackRock to develop a new 1GW data center in El Paso, Texas."
+     }
+    ],
+    "why_it_matters": "New off-balance-sheet-style infrastructure partnership that adds AI compute capacity and a new financing structure."
+   },
+   {
+    "topic": "2026 capex guidance raised",
+    "related_rows": [
+     "F045"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We anticipate 2026 capital expenditures, including principal payments on finance leases, to be in the range of $130-145 billion, narrowed from our prior outlook of $125-145 billion."
+     }
+    ],
+    "why_it_matters": "Higher capex floor signals larger AI infrastructure commitments funding the products behind the Advantage+ run rate."
+   },
+   {
+    "topic": "Debt and cash position",
+    "related_rows": [
+     "F045"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "We ended the quarter with $90.3 billion in cash and marketable securities and $83.7 billion in debt."
+     }
+    ],
+    "why_it_matters": "Shows leverage being used to fund the AI infrastructure buildout."
+   }
+  ]
+ },
+ "ORCL_results_2026-09-26_15": {
+  "items": [
+   {
+    "item": "F042:ORCL",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Cloud infrastructure\n3,347\n4,079\n4,888\n5,787\n18,101\n7,388\n7,388"
+     }
+    ],
+    "comment": "Cloud infrastructure revenue for Q1 FY27 is $7,388 million, equal to $7.388bn.",
+    "period_end": "2026-08-31",
+    "period_type": "3m",
+    "value": 7.388
+   },
+   {
+    "item": "F035:ORCL",
+    "found": false,
+    "comment": "Document gives AI cloud bookings ('more than $30 billion of additional AI cloud contracts') but no AI revenue line. Oracle still does not publish an AI revenue figure."
+   },
+   {
+    "item": "F037:ORCL",
+    "found": false,
+    "comment": "Document does not state $75bn prepaid and customer-supplied hardware in AI deals. It reports customer prepayments with significant financing component for capital expenditures of $11.363bn in Q1 FY27 (and $4.592bn in Q4 FY26), not $75bn."
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "AI cloud contracts and RPO",
+    "related_rows": [
+     "F035",
+     "F037"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Oracle booked more than $30 billion of additional AI cloud contracts in Q1 increasing its RPO to $664 billion. Based on the structuring of those new contracts, the Company confirms there is no incremental impact on its plans to raise capital."
+     }
+    ],
+    "why_it_matters": "Shows AI bookings (not revenue) and that new AI contracts do not change capital-raising plans, relevant to AI revenue absence and AI deal financing."
+   },
+   {
+    "topic": "ATM equity financing",
+    "related_rows": [
+     "F037"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "During Q1 FY 2027, Oracle successfully completed the sale of $20 billion of common stock (before commissions) through an At-the-Market (ATM) equity program, as part of its previously disclosed capital investment program."
+     }
+    ],
+    "why_it_matters": "Adds a $20bn equity financing commitment for AI infrastructure, affecting capital structure and funding."
+   },
+   {
+    "topic": "Customer prepayments for capex",
+    "related_rows": [
+     "F037"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Increase in deferred revenues from customer prepayments with significant financing component\n11,363\n—"
+     }
+    ],
+    "why_it_matters": "Customer prepayments of $11.363bn in Q1 FY27 are a financing source for AI infrastructure capex, relevant to customer-supplied/prepaid hardware claims."
+   },
+   {
+    "topic": "Capital expenditures",
+    "related_rows": [
+     "F037",
+     "F042"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Capital expenditures\n(28,499\n)\n(8,502\n)"
+     }
+    ],
+    "why_it_matters": "Q1 FY27 capex of $28.499bn shows massive AI infrastructure spend, dwarfing prior year."
+   },
+   {
+    "topic": "GPU deliveries",
+    "related_rows": [
+     "F035",
+     "F042"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Since the end of Q4, Oracle also delivered more than 300,000 GPUs to its AI Cloud customers and almost triple the capacity delivered in Q4 FY26."
+     }
+    ],
+    "why_it_matters": "Quantifies AI infrastructure capacity expansion and supports cloud infrastructure revenue growth."
+   }
+  ]
+ },
+ "DLR_periodic_2026-09-26_19": {
+  "items": [
+   {
+    "item": "F135:DLR",
+    "found": true,
+    "unit": "$bn",
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Construction in progress and space held for development\n​\n9,770,384\n​\n​\n4,976,785"
+     }
+    ],
+    "comment": "Multi-company row; reporting only Digital Realty (the filer). The only ~$9.8bn figure in the document is Construction in progress and space held for development of $9,770,384 thousand = $9.770bn in the Investments in Properties note (Note 2), up from $4,976,785 thousand at December 31, 2025. CoreWeave, Nebius and Equinix are not covered by this document.",
+    "period_end": "2026-06-30",
+    "period_type": "instant",
+    "value": 9.77
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Customer concentration",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, our two largest customers accounted for approximately 11 % and 10 %, respectively, of our total revenue. No other individual customer makes up more than 10 % of our total revenue."
+     }
+    ],
+    "why_it_matters": "Quantifies hyperscaler/AI-customer concentration behind the leased capacity, a direct driver of development (construction in progress) commitments."
+   },
+   {
+    "topic": "Development pipeline scale",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "As of June 30, 2026, we had 1,402 megawatts of projects underway across multiple metropolitan areas around the world, representing an approximately 82% increase of capacity under development as compared to December 31, 2025. As of June 30, 2026, 54% of the 1,402 megawatts of projects underway was pre-leased."
+     }
+    ],
+    "why_it_matters": "Explains the near-doubling of construction in progress and the scale of future capex tied to AI demand."
+   },
+   {
+    "topic": "Construction commitments",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "At June 30, 2026, we had open commitments, including amounts reimbursable by customers of approximately $ 320.1 million, related to construction contracts of approximately $ 4.1 billion."
+     }
+    ],
+    "why_it_matters": "Off-balance-sheet contractual spend that will convert into capitalized construction in progress and requires financing."
+   },
+   {
+    "topic": "June 2026 JV buy-in",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Total consideration for our joint venture partners’ equity interests in the assets was approximately $3.5 billion, including $1.2 billion of cash and 12.3 million shares of Digital Realty common stock."
+     }
+    ],
+    "why_it_matters": "New $3.5bn commitment (cash plus equity) that materially increased investments in properties and carried an assumed $726 million construction loan."
+   },
+   {
+    "topic": "ATM equity capacity",
+    "related_rows": [
+     "F135"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "our Parent and our Operating Partnership entered into a new ATM Equity Offering SM Sales Agreement (the “2026 Sales Agreement”), pursuant to which, Digital Realty Trust, Inc. can issue and sell common stock having an aggregate offering price of up to $7.5 billion through various named agents from time to time"
+     }
+    ],
+    "why_it_matters": "New $7.5bn equity funding vehicle (with $6.3bn remaining at June 30, 2026) that funds the development and acquisition pipeline."
+   }
+  ]
+ },
+ "MSFT_results_2026-09-26_5": {
+  "items": [
+   {
+    "item": "F031:MSFT",
+    "found": false,
+    "comment": "The release gives no 'AI business' annual run rate figure at all. The closest disclosure is that Azure revenue surpassed $100 billion for the full fiscal year (growth of 43% for the quarter), which is a different measure from an AI business run rate, so no matching value can be reported."
+   },
+   {
+    "item": "F031:MSFT_growth",
+    "found": false,
+    "comment": "The release gives no 'AI business' annual run rate figure at all. The closest disclosure is that Azure revenue surpassed $100 billion for the full fiscal year (growth of 43% for the quarter), which is a different measure from an AI business run rate, so no matching value can be reported."
+   },
+   {
+    "item": "F039:MSFT",
+    "found": false,
+    "comment": "The release discloses only the growth rate for Azure and other cloud services revenue (43%, 43% in constant currency) and the Intelligent Cloud segment total of $39.306bn; it does not give an Azure revenue dollar figure for the quarter, so the restated $29.417bn cannot be confirmed from this document. No supplemental Azure revenue table is included."
+   }
+  ],
+  "new_facts": [
+   {
+    "topic": "Commercial RPO $678bn, up 84%",
+    "related_rows": [
+     "F031",
+     "F039"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Microsoft Cloud revenue was $59.3 billion and increased 27%, and commercial remaining performance obligation increased 84% to $678 billion."
+     }
+    ],
+    "why_it_matters": "Backlog for cloud/AI contracts nearly doubled year over year, the main forward indicator of booked AI infrastructure demand; note this is total commercial RPO, not commercial RPO excluding OpenAI."
+   },
+   {
+    "topic": "FY2026 capex $115.9bn",
+    "related_rows": [
+     "F039"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Additions to property and equipment (35,802) (17,079) (115,948) (64,551)"
+     }
+    ],
+    "why_it_matters": "Full-year capital spending of $115.9bn (vs $64.6bn prior year) is the clearest new figure on AI infrastructure outlays and financing needs behind the Azure revenue growth cited in F039."
+   },
+   {
+    "topic": "Azure passes $100bn annual revenue",
+    "related_rows": [
+     "F031",
+     "F039"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million paid seats, reflecting the confidence customers are placing in us to power their AI transformation."
+     }
+    ],
+    "why_it_matters": "A new annual disclosure framing the scale of Azure; 30 million paid Copilot seats is also a new AI monetization datapoint relevant to the AI run-rate row."
+   },
+   {
+    "topic": "Non-GAAP definition: OpenAI investment impact excluded",
+    "related_rows": [
+     "F031"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "Impact from investments in OpenAI. In fiscal year 2026, net income and diluted earnings per share were impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted earnings per share of $480 million and $0.07, respectively, in the fourth quarter, and $4,963 million and $0.67, respectively, for the full fiscal year."
+     }
+    ],
+    "why_it_matters": "A definitional change: reported GAAP net income now includes large OpenAI investment gains that are stripped out of non-GAAP, so GAAP-vs-non-GAAP comparisons for FY2026 are not like-for-like."
+   },
+   {
+    "topic": "$3.2bn Anthropic investment gain in the quarter",
+    "related_rows": [
+     "F031"
+    ],
+    "fragments": [
+     {
+      "role": "value",
+      "text": "These include a $3.2 billion gain from our investment in Anthropic and lower-than-expected expenses related to the Voluntary Retirement Program which were partially offset by severance expense and impairment charges in XBOX."
+     }
+    ],
+    "why_it_matters": "New non-operating item showing Microsoft's AI equity holdings now materially swing quarterly earnings, relevant to how AI-linked figures in the paper should be read."
+   }
+  ]
+ },
+ "AMZN_results_2026-09-26_9": {
+  "items": [
+   {
+    "item": "F011:AMZN",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F034:AMZN",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   },
+   {
+    "item": "F040:AMZN",
+    "found": false,
+    "comment": "not recorded: the old report dropped this miss because another document had the row"
+   }
+  ],
+  "new_facts": []
+ }
+}

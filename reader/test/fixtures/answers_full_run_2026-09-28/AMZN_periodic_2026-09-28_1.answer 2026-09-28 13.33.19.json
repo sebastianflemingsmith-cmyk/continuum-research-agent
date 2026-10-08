@@ -1,0 +1,299 @@
+{
+ "items": [
+  {
+   "item": "F061:AMZN",
+   "found": true,
+   "value": 137.214,
+   "value_as_printed": "137,214",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Leases not yet commenced",
+   "fragments": [
+    {
+     "role": "units",
+     "text": "The following summarizes our principal contractual commitments, excluding open orders for purchases that support normal operations and are generally cancellable, as of June 30, 2026 (in millions):"
+    },
+    {
+     "role": "column",
+     "text": "2026 | 2027 | 2028 | 2029 | 2030 | Thereafter | Total"
+    },
+    {
+     "role": "value",
+     "text": "Leases not yet commenced | 4,018 | 11,732 | 9,278 | 9,483 | 9,227 | 93,476 | 137,214"
+    }
+   ],
+   "comment": "Total column of the 'Leases not yet commenced' row in the June 30, 2026 commitments table (in millions, so 137.214bn)."
+  },
+  {
+   "item": "F062:AMZN",
+   "found": true,
+   "value": 130.065,
+   "value_as_printed": "130,065",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "Unconditional purchase obligations",
+   "fragments": [
+    {
+     "role": "units",
+     "text": "The following summarizes our principal contractual commitments, excluding open orders for purchases that support normal operations and are generally cancellable, as of June 30, 2026 (in millions):"
+    },
+    {
+     "role": "column",
+     "text": "2026 | 2027 | 2028 | 2029 | 2030 | Thereafter | Total"
+    },
+    {
+     "role": "value",
+     "text": "Unconditional purchase obligations (2) | 23,452 | 33,026 | 9,326 | 7,961 | 7,659 | 48,641 | 130,065"
+    }
+   ],
+   "comment": "Total column of the 'Unconditional purchase obligations' row in the June 30, 2026 commitments table (in millions, so 130.065bn)."
+  },
+  {
+   "item": "F079:AMZN_from",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "years",
+   "period_end": "2025-01-01",
+   "period_type": "policy",
+   "line_item": "useful lives of equipment",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "We review the useful lives of equipment on an ongoing basis."
+    },
+    {
+     "role": "evidence",
+     "text": "The increase in technology and infrastructure costs in Q2 2026 and for the six months ended June 30, 2026, compared to the comparable prior year periods, is primarily due to an increase in spending on infrastructure, including depreciation and amortization."
+    }
+   ],
+   "comment": "The 10-Q does not disclose the useful life of servers or any change in server useful lives effective January 1, 2025; the only useful-life language is the generic ongoing review of equipment lives."
+  },
+  {
+   "item": "F079:AMZN_to",
+   "found": false,
+   "value": null,
+   "value_as_printed": null,
+   "unit": "years",
+   "period_end": "2025-01-01",
+   "period_type": "policy",
+   "line_item": "useful lives of equipment",
+   "fragments": [
+    {
+     "role": "evidence",
+     "text": "We review the useful lives of equipment on an ongoing basis."
+    },
+    {
+     "role": "evidence",
+     "text": "Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other | 15,227 | 19,988 | 29,489 | 38,933 | 58,562 | 75,200"
+    }
+   ],
+   "comment": "No disclosure in this document of a shortened server life (or of any change in useful lives) effective January 1, 2025."
+  },
+  {
+   "item": "F103:AMZN_h1",
+   "found": true,
+   "value": 28.7,
+   "value_as_printed": "$ 28.7 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "6m",
+   "line_item": "invested in OpenAI's Series C Preferred Stock",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We invested $ 28.7 billion in OpenAI’s Series C Preferred Stock for the six months ended June 30, 2026, including $13.7 billion invested in Q2 2026."
+    },
+    {
+     "role": "context",
+     "text": "We account for our $ 28.7 billion investment in Series C Preferred Stock recorded on our consolidated balance sheet as of June 30, 2026, and the remaining Commitment Amount as a component of our equity investments in private companies not accounted for under the equity-method"
+    }
+   ],
+   "comment": "Six-month 2026 investment in OpenAI Series C Preferred Stock; the same $28.7 billion carrying value is stated in Note 2."
+  },
+  {
+   "item": "F103:AMZN_q2",
+   "found": true,
+   "value": 13.7,
+   "value_as_printed": "$13.7 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "invested in OpenAI Series C Preferred Stock in Q2 2026",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "We invested $ 28.7 billion in OpenAI’s Series C Preferred Stock for the six months ended June 30, 2026, including $13.7 billion invested in Q2 2026."
+    },
+    {
+     "role": "context",
+     "text": "In Q2 2026, we invested $ 13.7 billion of the Commitment Amount in Series C Preferred Stock."
+    }
+   ],
+   "comment": "Q2 2026 portion of the OpenAI Series C investment."
+  },
+  {
+   "item": "F103:AMZN_after",
+   "found": true,
+   "value": 21.3,
+   "value_as_printed": "$ 21.3 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "event",
+   "line_item": "remaining Commitment Amount funded subsequent to June 30, 2026",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Subsequent to June 30, 2026, we invested the remaining $ 21.3 billion Commitment Amount in shares of Series C Preferred Stock of OpenAI."
+    },
+    {
+     "role": "context",
+     "text": "Subsequent to June 30, 2026, we funded"
+    }
+   ],
+   "comment": "Post-quarter funding of the remaining OpenAI Series C commitment of $21.3 billion (part of the $35.0 billion Commitment Amount)."
+  },
+  {
+   "item": "F108:AMZN_g",
+   "found": true,
+   "value": 5.0,
+   "value_as_printed": "$ 5.0 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "Anthropic Series G nonvoting preferred stock",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In Q2 2026, we invested $ 5.0 billion in Anthropic Series G nonvoting preferred stock."
+    },
+    {
+     "role": "context",
+     "text": "In Q2 2026, we also invested $ 10.0 billion in Anthropic nonvoting preferred stock."
+    }
+   ],
+   "comment": "Series G investment in Q2 2026; MD&A states $10.0 billion total Anthropic nonvoting preferred stock in Q2 2026 (Series G plus Series H)."
+  },
+  {
+   "item": "F108:AMZN_h",
+   "found": true,
+   "value": 5.0,
+   "value_as_printed": "$ 5.0 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "3m",
+   "line_item": "Anthropic Series H nonvoting preferred stock",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Under this financing arrangement, in Q2 2026, we exercised our option to participate in subsequent Anthropic equity financings by investing $ 5.0 billion in Anthropic Series H nonvoting preferred stock, which reduced the amount available under the facility to $ 15.0 billion."
+    },
+    {
+     "role": "context",
+     "text": "In Q2 2026, we also invested $ 10.0 billion in Anthropic nonvoting preferred stock."
+    }
+   ],
+   "comment": "Series H investment in Q2 2026, made under the Anthropic financing arrangement."
+  },
+  {
+   "item": "F108:AMZN_left",
+   "found": true,
+   "value": 15.0,
+   "value_as_printed": "$ 15.0 billion",
+   "unit": "$bn",
+   "period_end": "2026-06-30",
+   "period_type": "instant",
+   "line_item": "amount available under the Anthropic financing facility",
+   "fragments": [
+    {
+     "role": "value",
+     "text": "Under this financing arrangement, in Q2 2026, we exercised our option to participate in subsequent Anthropic equity financings by investing $ 5.0 billion in Anthropic Series H nonvoting preferred stock, which reduced the amount available under the facility to $ 15.0 billion."
+    },
+    {
+     "role": "context",
+     "text": "Additionally, we entered into a financing arrangement to make available to Anthropic an aggregate facility not to exceed $ 20.0 billion that will expire 30 months after an Anthropic liquidity event, including an initial public offering (“IPO”)."
+    }
+   ],
+   "comment": "Remaining availability under the Anthropic facility after the Series H draw (facility not to exceed $20.0 billion)."
+  }
+ ],
+ "new_facts": [
+  {
+   "topic": "AWS–OpenAI commercial commitment expansion",
+   "related_rows": [
+    "F103"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In Q1 2026, AWS and OpenAI Group PBC (“OpenAI”) announced an expansion of the existing $ 38.0 billion multi-year commitment and commercial arrangement with OpenAI by $ 100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips."
+    }
+   ],
+   "why_it_matters": "Quantifies the AWS revenue commitment that sits alongside Amazon's OpenAI preferred-stock investment tracked in these items."
+  },
+  {
+   "topic": "AWS–Anthropic commercial commitment expansion",
+   "related_rows": [
+    "F108"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In Q2 2026, AWS and Anthropic announced an expansion of the strategic collaboration and existing multi-year commitment by more than $ 100.0 billion over 10.0 years, which includes contractual obligations related to the performance of AWS chips."
+    }
+   ],
+   "why_it_matters": "Shows the commercial counterpart to the Anthropic preferred-stock investments and facility draw."
+  },
+  {
+   "topic": "Globalstar acquisition agreement",
+   "related_rows": [
+    "F061",
+    "F062"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "On April 13, 2026, Amazon entered into a definitive merger agreement to acquire Globalstar, Inc. (“Globalstar”), a Delaware corporation, for a mix of cash and stock consideration."
+    },
+    {
+     "role": "value",
+     "text": "As of the date of the merger agreement, the acquisition implied a value for Globalstar of approximately $ 10.9 billion, including its debt."
+    }
+   ],
+   "why_it_matters": "A pending cash-and-stock acquisition that is a claim on liquidity and is not reflected in the commitments table totals."
+  },
+  {
+   "topic": "New debt capacity and post-quarter issuance",
+   "related_rows": [
+    "F062"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "In June 2026, we entered into a $ 17.5 billion unsecured delayed draw term loan with a syndicate of lenders (“Term Loan”), which matures three years from the date of borrowing and bears interest at the SOFR specified in the Term Loan plus a margin ranging from 0.625 % to 0.875 % based on our credit ratings."
+    },
+    {
+     "role": "value",
+     "text": "Subsequent to June 30, 2026, we issued $ 25.0 billion of U.S. Dollar-denominated Notes for general corporate purposes with maturities between 2029 and 2066, including $ 750 million of floating rate Notes due in 2029 based on the compounded SOFR plus 0.58 %."
+    }
+   ],
+   "why_it_matters": "Undrawn term-loan capacity plus a large post-quarter bond issuance funds AI infrastructure spend beyond the balance-sheet date."
+  },
+  {
+   "topic": "Contracted but unrecognized AWS commitments",
+   "related_rows": [
+    "F103",
+    "F108"
+   ],
+   "fragments": [
+    {
+     "role": "value",
+     "text": "For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $ 496 billion as of June 30, 2026. The weighted-average remaining life of our long-term contracts is 6.4 years."
+    }
+   ],
+   "why_it_matters": "Sizes the future AWS revenue backlog and its duration, which underwrites the customer-linked AI infrastructure investments in these items."
+  }
+ ]
+}
