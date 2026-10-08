@@ -51,7 +51,9 @@ def scan(name, data):
         for reason, pattern in PATTERNS.items():
             if pattern.search(text):
                 problems.append((label, reason))
-        domains = {match.group(1).lower() for match in EMAIL.finditer(text)}
+        # GitHub's generated PR test merges use this exact non-personal identity.
+        domains = {match.group(1).lower() for match in EMAIL.finditer(text)
+                   if match.group(0).lower() != "noreply@github.com"}
         allowed = set(SAFE_DOMAINS)
         if "/documents/" in name and name.endswith(".txt"):
             allowed |= SOURCE_DOMAINS

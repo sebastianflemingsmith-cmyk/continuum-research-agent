@@ -115,6 +115,11 @@ class OfflineBoundary(unittest.TestCase):
 
 
 class PublicationScanner(unittest.TestCase):
+    def test_github_merge_bot_is_allowed_but_personal_addresses_are_not(self):
+        self.assertEqual(security_check.scan("git-commit", b"noreply@github.com"), [])
+        for address in (b"person" + b"@" + b"github.com", b"person" + b"@" + b"gmail.com"):
+            self.assertTrue(security_check.scan("git-commit", address))
+
     def test_detects_credential_without_printing_value(self):
         token = "sk-" + "a" * 32
         findings = security_check.scan("example.json", token.encode())
