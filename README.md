@@ -2,7 +2,7 @@
 
 A source-checking pipeline for *The AI Lose Lose Race*: it compares a research paper’s figures with company filings, validates the evidence, records approval decisions and builds the data behind a public review table.
 
-**[See the live review](https://continuum-reseach.netlify.app/reports/the-ai-lose-lose-race/review/)** · **[Follow one figure through the code](docs/worked-example.md)** · **[Architecture](docs/architecture.md)**
+**[See the live review](https://continuum-research.netlify.app/reports/the-ai-lose-lose-race/review/)** · **[Follow one figure through the code](docs/worked-example.md)** · **[Architecture](docs/architecture.md)**
 
 ![The review table, with source evidence beside a selected figure](docs/review.png)
 
